@@ -1,20 +1,29 @@
 {
-  "name": "ivis-fs22-internetnutzung",
-  "version": "1.0.0",
-  "description": "Webpage that describes the impact of the Covid-19 Pandemic on the internet usage of swiss people",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.fhnw.ch/elias.mjoen/ivis-fs22-internetnutzung.git"
-  },
-  "keywords": [
-    "data",
-    "visualization",
-    "d3.js"
-  ],
-  "author": "elias mjoen & joshua schaerer",
-  "license": "ISC"
+	"name": "ivis-fs22-internetnutzung",
+	"version": "1.0.0",
+	"description": "Webpage that describes the impact of the Covid-19 Pandemic on the internet usage of swiss people",
+	"main": "index.js",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.fhnw.ch/elias.mjoen/ivis-fs22-internetnutzung.git"
+	},
+	"keywords": [
+		"data",
+		"visualization",
+		"d3.js"
+	],
+	"author": "elias mjoen & joshua schaerer",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel": "^2.4.1"
+	},
+	"dependencies": {
+		"d3": "^7.4.2"
+	}
 }
