@@ -4,11 +4,6 @@
 	"description": "Webpage that describes the impact of the Covid-19 Pandemic on the internet usage of swiss people",
 	"main": "index.js",
 	"source": "src/index.html",
-	"scripts": {
-		"start": "parcel",
-		"build": "parcel build",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://gitlab.fhnw.ch/elias.mjoen/ivis-fs22-internetnutzung.git"
