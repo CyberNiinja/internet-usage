@@ -3,6 +3,10 @@
 
 :root {
 	--body-font: 'Noto Sans', sans-serif;
+	--primary: #ffffff;
+	--secondary: #bbbbbb;
+	--bg-primary: #000000;
+	--bg-secondary: #333333;
 }
 
 html {
@@ -13,6 +17,19 @@ body {
 	font-family: var(--body-font);
 }
 
-.chart1 {
+.internet-access {
+}
+
+.internet-access .container {
+}
+
+.chart {
+}
+
+#chart1 {
 	max-width: 1000px;
+	display: none;
+}
+
+#chart2 {
 }

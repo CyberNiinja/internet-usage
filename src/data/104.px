@@ -9,107 +9,107 @@ SHOWDECIMALS=0;
 MATRIX="px-x-1604000000_104";
 SUBJECT-CODE="16";
 SUBJECT-AREA="16 - Kultur, Medien, Informationsgesellschaft, Sport";
-SUBJECT-AREA[fr]="16 - Culture, médias, société de l'information, sport";
+SUBJECT-AREA[fr]="16 - Culture, mÃ©dias, sociÃ©tÃ© de l'information, sport";
 DESCRIPTION="Einzelpersonen und E-Commerce und E-Banking";
-DESCRIPTION[fr]="Usages privés d'internet: e-commerce et e-banking";
+DESCRIPTION[fr]="Usages privÃ©s d'internet: e-commerce et e-banking";
 TITLE="Einzelpersonen und E-Commerce und E-Banking";
-TITLE[fr]="Usages privés d'internet: e-commerce et e-banking";
+TITLE[fr]="Usages privÃ©s d'internet: e-commerce et e-banking";
 DESCRIPTIONDEFAULT=YES;
 CONTENTS="Einzelpersonen und E-Commerce und E-Banking";
-CONTENTS[fr]="Usages privés d'internet: e-commerce et e-banking";
+CONTENTS[fr]="Usages privÃ©s d'internet: e-commerce et e-banking";
 UNITS="Person";
 UNITS[fr]="Personne";
 STUB="E-commerce und E-banking","Geschlecht","Altersklasse","Bildungsstand";
-STUB[fr]="Commerce électronique et services bancaires en ligne","Sexe","Classe d'âge","Niveau de formation";
+STUB[fr]="Commerce Ã©lectronique et services bancaires en ligne","Sexe","Classe d'Ã¢ge","Niveau de formation";
 HEADING="Jahr","Absolut / relativ","Resultat";
-HEADING[fr]="Année","Absolu / relatif","Résultat";
-VALUES("E-commerce und E-banking")="Einkäufe im Internet in den letzten drei Monaten",
-" Einkäufe im Internet in den letzten zwölf Monaten",
-" Mindestens einmal im Leben einen Einkauf im Internet getätigt",
-" Mehr als 5 Bestellungen/Einkäufe in den letzten 3 Monaten, ja/nein (ab 2017)",
-" Verkäufe im Internet in den letzten drei Monaten"," E-Banking in den letzten drei Monaten",
-" Erwerb/Veräusserung von Wertpapieren (in den letzten zwölf Monaten, ab 2017)",
-" Abschluss/Erneuerung von Versicherungspolicen (in den letzten zwölf Monaten, ab 2017)",
-" Hypothekarkredit oder ähnliches aufnehmen (in den letzten zwölf Monaten, ab 2017)",
-" Mindestens einer der drei online-Finanzdienste benutzt (in den letzten zwölf Monaten, ab 2017)",
-" Kein Problem oder Schwierigkeit bei online-Einkäufen"," Zahlungsart: Kredit- oder Debitkarte",
+HEADING[fr]="AnnÃ©e","Absolu / relatif","RÃ©sultat";
+VALUES("E-commerce und E-banking")="EinkÃ¤ufe im Internet in den letzten drei Monaten",
+" EinkÃ¤ufe im Internet in den letzten zwÃ¶lf Monaten",
+" Mindestens einmal im Leben einen Einkauf im Internet getÃ¤tigt",
+" Mehr als 5 Bestellungen/EinkÃ¤ufe in den letzten 3 Monaten, ja/nein (ab 2017)",
+" VerkÃ¤ufe im Internet in den letzten drei Monaten"," E-Banking in den letzten drei Monaten",
+" Erwerb/VerÃ¤usserung von Wertpapieren (in den letzten zwÃ¶lf Monaten, ab 2017)",
+" Abschluss/Erneuerung von Versicherungspolicen (in den letzten zwÃ¶lf Monaten, ab 2017)",
+" Hypothekarkredit oder Ã¤hnliches aufnehmen (in den letzten zwÃ¶lf Monaten, ab 2017)",
+" Mindestens einer der drei online-Finanzdienste benutzt (in den letzten zwÃ¶lf Monaten, ab 2017)",
+" Kein Problem oder Schwierigkeit bei online-EinkÃ¤ufen"," Zahlungsart: Kredit- oder Debitkarte",
 " Zahlungsart: Online-Prepaid-Konto"," Zahlungsart: E-Banking"," Zahlungsart: nicht per Internet",
 " Zahlungsart: Smartphone App, z.B. Twint (ab 2019)",
-"Zahlungsart: Bitcoin oder andere Kryptowährung (ab 2021)",
-" In den letzten zwölf Monaten im Internet gekauft: Nahrungsmittel, Getränke, Blumen, Parfum usw. (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Filme oder Musik (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Bücher, Zeitschriften, Zeitungen (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Kleider, Sportausrüstung (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Software, Computer-Updates oder Videospiele (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Hardware, IT-Geräte usw. (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: elektronische und audiovisuelle Geräte (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Hotelaufenthalte, Ferienunterkünfte (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft oder reserviert: Transportmittel (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Tickets für Veranstaltungen, Vorführungen (bis 2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Wett- oder Lotteriescheine aller Art (2017-2019)",
-" In den letzten zwölf Monaten im Internet gekauft: Haushaltsartikel, z.B. Möbel, Spielwarenartikel usw. (2017-2019)",
+"Zahlungsart: Bitcoin oder andere KryptowÃ¤hrung (ab 2021)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Nahrungsmittel, GetrÃ¤nke, Blumen, Parfum usw. (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Filme oder Musik (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: BÃ¼cher, Zeitschriften, Zeitungen (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Kleider, SportausrÃ¼stung (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Software, Computer-Updates oder Videospiele (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Hardware, IT-GerÃ¤te usw. (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: elektronische und audiovisuelle GerÃ¤te (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Hotelaufenthalte, FerienunterkÃ¼nfte (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft oder reserviert: Transportmittel (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Tickets fÃ¼r Veranstaltungen, VorfÃ¼hrungen (bis 2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Wett- oder Lotteriescheine aller Art (2017-2019)",
+" In den letzten zwÃ¶lf Monaten im Internet gekauft: Haushaltsartikel, z.B. MÃ¶bel, Spielwarenartikel usw. (2017-2019)",
 " Online-Lieferungen: Filme (bis 2019)"," Online-Lieferungen: Musik (bis 2019)",
-" Online-Lieferungen: Bücher, E-Books (2017-2019)",
+" Online-Lieferungen: BÃ¼cher, E-Books (2017-2019)",
 " Online-Lieferungen: Zeitschriften oder Zeitungen (2017-2019)",
 " Online-Lieferungen: Software, Apps oder Updates, inklusive Videospiele (bis 2019)",
-" Online-Lieferungen: Reservationen für Transportmittel (bis 2019)",
-" Online-Lieferungen: Tickets für Veranstaltungen oder Vorstellungen (bis 2019)";
-VALUES[fr]("Commerce électronique et services bancaires en ligne")=
+" Online-Lieferungen: Reservationen fÃ¼r Transportmittel (bis 2019)",
+" Online-Lieferungen: Tickets fÃ¼r Veranstaltungen oder Vorstellungen (bis 2019)";
+VALUES[fr]("Commerce Ã©lectronique et services bancaires en ligne")=
 "Achat en ligne au cours des 3 derniers mois"," Achat en ligne au cours des 12 derniers mois",
 " Achat en ligne au moins une fois dans sa vie",
-" Plus de 5 commandes/achats au cours des 3 derniers mois, oui/non (dès 2017)",
+" Plus de 5 commandes/achats au cours des 3 derniers mois, oui/non (dÃ¨s 2017)",
 " Vente en ligne au cours des 3 derniers mois"," E-banking au cours des 3 derniers mois",
-" Achat/vente de titres (au cours des 12 derniers mois, dès 2017)",
-" Achat/renouvellement polices assurance (au cours des 12 derniers mois, dès 2017)",
-" Contracter un crédit hypothécaire ou autre (au cours des 12 derniers mois, dès 2017)",
-" Avoir utilisé au moins un des trois services financiers en ligne (au cours des 12 derniers mois, dès 2017)",
-" Aucun problème ou difficulté rencontré lors d'achats en ligne",
-" Paiement des achats en ligne par : carte de crédit ou de débit",
-" Paiement des achats en ligne par : compte de prépaiement",
+" Achat/vente de titres (au cours des 12 derniers mois, dÃ¨s 2017)",
+" Achat/renouvellement polices assurance (au cours des 12 derniers mois, dÃ¨s 2017)",
+" Contracter un crÃ©dit hypothÃ©caire ou autre (au cours des 12 derniers mois, dÃ¨s 2017)",
+" Avoir utilisÃ© au moins un des trois services financiers en ligne (au cours des 12 derniers mois, dÃ¨s 2017)",
+" Aucun problÃ¨me ou difficultÃ© rencontrÃ© lors d'achats en ligne",
+" Paiement des achats en ligne par : carte de crÃ©dit ou de dÃ©bit",
+" Paiement des achats en ligne par : compte de prÃ©paiement",
 " Paiement des achats en ligne par : ebanking"," Paiement des achats en ligne pas par internet",
-" Paiement des achats en ligne par : application sur smartphone, p.ex. Twint (dès 2019)",
-"Paiement des achats en ligne par : bitcoin ou autre cryptomonnaie (dès 2021)",
+" Paiement des achats en ligne par : application sur smartphone, p.ex. Twint (dÃ¨s 2019)",
+"Paiement des achats en ligne par : bitcoin ou autre cryptomonnaie (dÃ¨s 2021)",
 " Achat de produits alimentaires, boissons, fleurs, parfums (au cours des 12 derniers mois) (jusqu'en 2019)",
 " Achat de films ou musique (au cours des 12 derniers mois) (jusqu'en 2019)",
 " Achat de livres, magazines, journaux (au cours des 12 derniers mois) (jusqu'en 2019)",
-" Achat de vêtements, équipements de sport (au cours des 12 derniers mois) (jusqu'en 2019)",
-" Achat de logiciels, mises à jour ou jeux vidéo (au cours des 12 derniers mois) (jusqu'en 2019)",
-" Achat de hardware, périphériques, etc. (au cours des 12 derniers mois) (jusqu'en 2019)",
-" Achat d'équipements électroniques et audiovisuels (au cours des 12 derniers mois) (jusqu'en 2019)",
-" Achat de séjours à l'hôtel, logements de vacances (au cours des 12 derniers mois) (jusqu'en 2019)",
-" Achat de billets de transports ou réservations (au cours des 12 derniers mois) (jusqu'en 2019)",
+" Achat de vÃªtements, Ã©quipements de sport (au cours des 12 derniers mois) (jusqu'en 2019)",
+" Achat de logiciels, mises Ã  jour ou jeux vidÃ©o (au cours des 12 derniers mois) (jusqu'en 2019)",
+" Achat de hardware, pÃ©riphÃ©riques, etc. (au cours des 12 derniers mois) (jusqu'en 2019)",
+" Achat d'Ã©quipements Ã©lectroniques et audiovisuels (au cours des 12 derniers mois) (jusqu'en 2019)",
+" Achat de sÃ©jours Ã  l'hÃ´tel, logements de vacances (au cours des 12 derniers mois) (jusqu'en 2019)",
+" Achat de billets de transports ou rÃ©servations (au cours des 12 derniers mois) (jusqu'en 2019)",
 " Achat de billets pour manifestations, spectacles (au cours des 12 derniers mois) (jusqu'en 2019)",
 " Effectuer des paris ou loteries tous types (au cours des 12 derniers mois) (2017-2019)",
-" Achat de matériel pour le ménage, meubles, jouets, etc. (au cours des 12 derniers mois) (2017-2019)",
+" Achat de matÃ©riel pour le mÃ©nage, meubles, jouets, etc. (au cours des 12 derniers mois) (2017-2019)",
 " Livraisons en ligne : films (jusqu'en 2019)"," Livraisons en ligne : musique (jusqu'en 2019)",
 " Livraisons en ligne : livres, e-books (2017-2019)",
 " Livraisons en ligne : magazines ou journaux (2017-2019)",
-" Livraisons en ligne : logiciels ou mises à jour pour jeux vidéos ou ordinateurs (jusqu'en 2019)",
-" Livraisons en ligne : réservations de transports (jusqu'en 2019)",
+" Livraisons en ligne : logiciels ou mises Ã  jour pour jeux vidÃ©os ou ordinateurs (jusqu'en 2019)",
+" Livraisons en ligne : rÃ©servations de transports (jusqu'en 2019)",
 " Livraisons en ligne : billets pour des manifestations ou spectacles (jusqu'en 2019)";
 VALUES("Geschlecht")="Geschlecht - Total","Mann","Frau";
 VALUES[fr]("Sexe")="Sexe - total","Homme","Femme";
 VALUES("Altersklasse")="Altersklasse - Total","15 bis 29 Jahre","30 bis 59 Jahre",
-"60 Jahre und älter";
-VALUES[fr]("Classe d'âge")="Classe d'âge - total","15 à 29 ans","30 à 59 ans","60 ans et plus";
+"60 Jahre und Ã¤lter";
+VALUES[fr]("Classe d'Ã¢ge")="Classe d'Ã¢ge - total","15 Ã  29 ans","30 Ã  59 ans","60 ans et plus";
 VALUES("Bildungsstand")="Bildungsstand - Total",
-"Ohne nachobligatorische Ausbildung (25 Jahre und älter)","Sekundarstufe II (25 Jahre und älter)",
-"Tertiärstufe (25 Jahre und älter)","Unter 25 Jahren";
+"Ohne nachobligatorische Ausbildung (25 Jahre und Ã¤lter)","Sekundarstufe II (25 Jahre und Ã¤lter)",
+"TertiÃ¤rstufe (25 Jahre und Ã¤lter)","Unter 25 Jahren";
 VALUES[fr]("Niveau de formation")="Niveau de formation - total",
 "Sans formation post-obligatoire (25 ans et plus)","Niveau secondaire II (25 ans et plus)",
 "Niveau tertiaire (25 ans et plus)","Moins de 25 ans";
 VALUES("Jahr")="2021","2019","2017","2014";
-VALUES[fr]("Année")="2021","2019","2017","2014";
-VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der Gesamtbevölkerung)";
+VALUES[fr]("AnnÃ©e")="2021","2019","2017","2014";
+VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der GesamtbevÃ¶lkerung)";
 VALUES[fr]("Absolu / relatif")="Nombre de personnes","Part (en % de la population totale)";
 VALUES("Resultat")="Wert","Konfidenzintervall +/-";
-VALUES[fr]("Résultat")="Valeur","Intervalle de confiance +/-";
+VALUES[fr]("RÃ©sultat")="Valeur","Intervalle de confiance +/-";
 CODES("E-commerce und E-banking")="IUBUYCH","IBUY12CH","IBUYONCH","BF5CH","IUSELLCH","IUBKCH",
 "BFIN_SHCH","BFIN_INCH","BFIN_CRCH","BFANYCH","BARRYCH","IPCCCH","IPPPCCH","IPEBTCH","IPIXCH",
 "IPTWICH","IPBTCCH","BFOODCH","BFILMCH2","BBOOKNLCH","BCLOTCH","BSOFTCH","BHARDCH","BEEQUCH",
 "BHOLACCH","BOTACH","BTICKCH","BBEFCH","BFURNCH","PFILMSCH","PMUSICSCH","BEBOOKCH","BMGNWOCH",
 "BSOFTOCH","BTRANSCH","BMANIFCH";
-CODES[fr]("Commerce électronique et services bancaires en ligne")="IUBUYCH","IBUY12CH","IBUYONCH",
+CODES[fr]("Commerce Ã©lectronique et services bancaires en ligne")="IUBUYCH","IBUY12CH","IBUYONCH",
 "BF5CH","IUSELLCH","IUBKCH","BFIN_SHCH","BFIN_INCH","BFIN_CRCH","BFANYCH","BARRYCH","IPCCCH",
 "IPPPCCH","IPEBTCH","IPIXCH","IPTWICH","IPBTCCH","BFOODCH","BFILMCH2","BBOOKNLCH","BCLOTCH",
 "BSOFTCH","BHARDCH","BEEQUCH","BHOLACCH","BOTACH","BTICKCH","BBEFCH","BFURNCH","PFILMSCH",
@@ -117,67 +117,67 @@ CODES[fr]("Commerce électronique et services bancaires en ligne")="IUBUYCH","IBU
 CODES("Geschlecht")="0","1","2";
 CODES[fr]("Sexe")="0","1","2";
 CODES("Altersklasse")="0","1","2","3";
-CODES[fr]("Classe d'âge")="0","1","2","3";
+CODES[fr]("Classe d'Ã¢ge")="0","1","2","3";
 CODES("Bildungsstand")="0","1","2","3","4";
 CODES[fr]("Niveau de formation")="0","1","2","3","4";
 CODES("Jahr")="2021","2019","2017","2014";
-CODES[fr]("Année")="2021","2019","2017","2014";
+CODES[fr]("AnnÃ©e")="2021","2019","2017","2014";
 ELIMINATION("Geschlecht")="Geschlecht - Total";
 ELIMINATION[fr]("Sexe")="Sexe - total";
 ELIMINATION("Altersklasse")="Altersklasse - Total";
-ELIMINATION[fr]("Classe d'âge")="Classe d'âge - total";
+ELIMINATION[fr]("Classe d'Ã¢ge")="Classe d'Ã¢ge - total";
 ELIMINATION("Bildungsstand")="Bildungsstand - Total";
 ELIMINATION[fr]("Niveau de formation")="Niveau de formation - total";
-PRECISION("Absolut / relativ","Anteil (in % der Gesamtbevölkerung)")=1;
+PRECISION("Absolut / relativ","Anteil (in % der GesamtbevÃ¶lkerung)")=1;
 PRECISION[fr]("Absolu / relatif","Part (en % de la population totale)")=1;
 LAST-UPDATED="20211215 08:30";
 CONTACT="Sektion Wirtschaftsstruktur und -analysen, +41 58 463 67 26, E-Mail: info.wsa@bfs.admin.ch";
-CONTACT[fr]="Section Structure et analyses économiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
+CONTACT[fr]="Section Structure et analyses Ã©conomiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
 REFPERIOD="2021,2019,2017,2014";
 REFPERIOD[fr]="2021,2019,2017,2014";
-DATABASE="BFS - STAT-TAB / Bundesamt für Statistik, 2010 Neuchâtel / Schweiz / © Bundesamt für Statistik";
-DATABASE[fr]="OFS - STAT-TAB / Office fédéral de la statistique, 2010 Neuchâtel / Suisse / © Office fédéral de la statistique";
-SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - © BFS";
-SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - © OFS";
+DATABASE="BFS - STAT-TAB / Bundesamt fÃ¼r Statistik, 2010 NeuchÃ¢tel / Schweiz / Â© Bundesamt fÃ¼r Statistik";
+DATABASE[fr]="OFS - STAT-TAB / Office fÃ©dÃ©ral de la statistique, 2010 NeuchÃ¢tel / Suisse / Â© Office fÃ©dÃ©ral de la statistique";
+SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© BFS";
+SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© OFS";
 SURVEY="Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur Internetnut"
 "zung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Er"
-"nährung und zur Internetnutzung (OMN2014)";
-SURVEY[fr]="Omnibus 2021: Enquête sur l'utilisation d'internet (OMN2021), Omnibus 2019: Enquête sur "
-"l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), O"
-"mnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
+"nÃ¤hrung und zur Internetnutzung (OMN2014)";
+SURVEY[fr]="Omnibus 2021: EnquÃªte sur l'utilisation d'internet (OMN2021), Omnibus 2019: EnquÃªte sur "
+"l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), O"
+"mnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
 LINK="https://www.bfs.admin.ch/asset/de/px-x-1604000000_104";
 LINK[fr]="https://www.bfs.admin.ch/asset/fr/px-x-1604000000_104";
-NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewählt werden, um die Resultate richtig interpretieren zu können.#Die "
-"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht überschneiden.";
-NOTEX[fr]="<B>Résultat</B>:#Données indiquées avec un intervalle de confiance. L'intervalle de confiance (±) indique la précision du résultat dans le cas d'une enquête par échantillon, et doit toujours être sélectionné pour pouvoir interpréter "
-"correctement les résultats.#Les différences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
-NOTE="<B>Metainformation:</B>#Letzte Änderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur "
-"Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Ernährung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfällt weil statistisch nicht sicher genug (n<20 oder "
-"VK>30%)#'*' : Zahl entfällt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom Bundesamt für "
-"Statistik durchgeführt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgeführt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestützter telefonischer "
+NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (Â±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewÃ¤hlt werden, um die Resultate richtig interpretieren zu kÃ¶nnen.#Die "
+"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht Ã¼berschneiden.";
+NOTEX[fr]="<B>RÃ©sultat</B>:#DonnÃ©es indiquÃ©es avec un intervalle de confiance. L'intervalle de confiance (Â±) indique la prÃ©cision du rÃ©sultat dans le cas d'une enquÃªte par Ã©chantillon, et doit toujours Ãªtre sÃ©lectionnÃ© pour pouvoir interprÃ©ter "
+"correctement les rÃ©sultats.#Les diffÃ©rences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
+NOTE="<B>Metainformation:</B>#Letzte Ã„nderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur "
+"Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur ErnÃ¤hrung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfÃ¤llt weil statistisch nicht sicher genug (n<20 oder "
+"VK>30%)#'*' : Zahl entfÃ¤llt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom Bundesamt fÃ¼r "
+"Statistik durchgefÃ¼hrt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgefÃ¼hrt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestÃ¼tzter telefonischer "
 "Interviews (CATI) erhoben. Seit 2017 beruht die Erhebung auf einer Mixed-Mode-Methode, d.h. die Interviews erfolgten zum Teil via Online-Fragebogen (CAWI) und zum Teil per Telefon (CATI).#Die Stichprobe ist nach Grossregionen (NUTS 2) geschichtet, wobei "
-"die Zielpopulation jeder Grossregion anteilmässig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der übrigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die Erhebung wurde in "
-"den Monaten April, Mai und Juni durchgeführt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewählt. Die Teilnahme ist freiwillig. Seit 2017 ist die Grundgesamtheit "
-"die ständige Wohnbevölkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die Referenzbevölkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich für die Altersklasse der Personen ab 75 Jahren "
-"sind sie nicht möglich.##Weiterfürende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: Erhebung zur Internetnutzung</"
+"die Zielpopulation jeder Grossregion anteilmÃ¤ssig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der Ã¼brigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die Erhebung wurde in "
+"den Monaten April, Mai und Juni durchgefÃ¼hrt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewÃ¤hlt. Die Teilnahme ist freiwillig. Seit 2017 ist die Grundgesamtheit "
+"die stÃ¤ndige WohnbevÃ¶lkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die ReferenzbevÃ¶lkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich fÃ¼r die Altersklasse der Personen ab 75 Jahren "
+"sind sie nicht mÃ¶glich.##WeiterfÃ¼rende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: Erhebung zur Internetnutzung</"
 "A>#";
-NOTE[fr]="<B>Métainformation:</B>#Dernières modifications: nouvelles données 2021#Etat de la banque de données: décembre 2021#Période de référence: premier trimestre#Référence spatiale: Suisse#Source des données: Omnibus 2021: Enquête sur l'utilisation "
-"d'internet (OMN2021), Omnibus 2019: Enquête sur l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), Omnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)##<B>Signes utilisés</B>#"
-"'( )' : Chiffre non indiqué par manque de fiabilité statistique (n<20 ou CV>30%)#'*' : Chiffre non indiqué car évident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevé##<B>Méthodologie</B>#Les données proviennent des enquêtes Omnibus "
-"TIC 2014, 2017, 2019 et 2021 réalisées par l'Office fédéral de la statistique. Ce sont des enquêtes par échantillonnage auprès d'environ 3000 ménages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte était "
-"les interviews téléphoniques assistées par ordinateur (CATI). Dès 2017, les interviews ont été réalisés soit en ligne (CAWI) soit par téléphone (CATI).#L'échantillon est stratifié par grande région (NUTS 2), avec des tailles proportionnelles à la "
-"population cible de chaque grande région, excepté pour la plus petite, le Tessin, dont la taille était fixée égale à la plus petite des autres grandes régions, la Suisse centrale. La date d'exécution de l'enquête est d'avril à juin et la périodicité de "
-"l'enquête est bisannuelle. Les personnes sont sélectionnées aléatoirement dans le registre d'échantillonnage de l'OFS et la participation est facultative. Dès 2017, l'univers de base est la population résidante permanente des ménages privés âgée de 15 à "
-"88 ans. La comparaison avec les années précédentes, pour lesquelles la population de référence était celle des personnes âgées de 15 ans et plus reste valable, sauf pour la classe d'âge des personnes de 75 ans et plus.##Plus d'informations sur l'enquête :"
-" #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: Enquête sur l'utilisation d'internet</A>#";
-VALUENOTE("E-commerce und E-banking"," E-Banking in den letzten drei Monaten")="Beim E-Banking greifen die Nutzerinnen und Nutzer auf ihr Bank- oder Postkonto zu, um beispielsweise Rechnungen zu begleichen oder einen Kontoauszug zu erhalten, auch über das "
+NOTE[fr]="<B>MÃ©tainformation:</B>#DerniÃ¨res modifications: nouvelles donnÃ©es 2021#Etat de la banque de donnÃ©es: dÃ©cembre 2021#PÃ©riode de rÃ©fÃ©rence: premier trimestre#RÃ©fÃ©rence spatiale: Suisse#Source des donnÃ©es: Omnibus 2021: EnquÃªte sur l'utilisation "
+"d'internet (OMN2021), Omnibus 2019: EnquÃªte sur l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), Omnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)##<B>Signes utilisÃ©s</B>#"
+"'( )' : Chiffre non indiquÃ© par manque de fiabilitÃ© statistique (n<20 ou CV>30%)#'*' : Chiffre non indiquÃ© car Ã©vident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevÃ©##<B>MÃ©thodologie</B>#Les donnÃ©es proviennent des enquÃªtes Omnibus "
+"TIC 2014, 2017, 2019 et 2021 rÃ©alisÃ©es par l'Office fÃ©dÃ©ral de la statistique. Ce sont des enquÃªtes par Ã©chantillonnage auprÃ¨s d'environ 3000 mÃ©nages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte Ã©tait "
+"les interviews tÃ©lÃ©phoniques assistÃ©es par ordinateur (CATI). DÃ¨s 2017, les interviews ont Ã©tÃ© rÃ©alisÃ©s soit en ligne (CAWI) soit par tÃ©lÃ©phone (CATI).#L'Ã©chantillon est stratifiÃ© par grande rÃ©gion (NUTS 2), avec des tailles proportionnelles Ã  la "
+"population cible de chaque grande rÃ©gion, exceptÃ© pour la plus petite, le Tessin, dont la taille Ã©tait fixÃ©e Ã©gale Ã  la plus petite des autres grandes rÃ©gions, la Suisse centrale. La date d'exÃ©cution de l'enquÃªte est d'avril Ã  juin et la pÃ©riodicitÃ© de "
+"l'enquÃªte est bisannuelle. Les personnes sont sÃ©lectionnÃ©es alÃ©atoirement dans le registre d'Ã©chantillonnage de l'OFS et la participation est facultative. DÃ¨s 2017, l'univers de base est la population rÃ©sidante permanente des mÃ©nages privÃ©s Ã¢gÃ©e de 15 Ã  "
+"88 ans. La comparaison avec les annÃ©es prÃ©cÃ©dentes, pour lesquelles la population de rÃ©fÃ©rence Ã©tait celle des personnes Ã¢gÃ©es de 15 ans et plus reste valable, sauf pour la classe d'Ã¢ge des personnes de 75 ans et plus.##Plus d'informations sur l'enquÃªte :"
+" #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: EnquÃªte sur l'utilisation d'internet</A>#";
+VALUENOTE("E-commerce und E-banking"," E-Banking in den letzten drei Monaten")="Beim E-Banking greifen die Nutzerinnen und Nutzer auf ihr Bank- oder Postkonto zu, um beispielsweise Rechnungen zu begleichen oder einen Kontoauszug zu erhalten, auch Ã¼ber das "
 "mobile E-Banking.";
-VALUENOTE[fr]("Commerce électronique et services bancaires en ligne"," E-banking au cours des 3 derniers mois")="Les personnes qui font du e-banking sont celles qui accèdent à leur compte bancaire ou postal pour faire leurs paiements, obtenir un relevé de "
+VALUENOTE[fr]("Commerce Ã©lectronique et services bancaires en ligne"," E-banking au cours des 3 derniers mois")="Les personnes qui font du e-banking sont celles qui accÃ¨dent Ã  leur compte bancaire ou postal pour faire leurs paiements, obtenir un relevÃ© de "
 "compte, etc. y compris ebanking mobile.";
-VALUENOTE("E-commerce und E-banking"," Kein Problem oder Schwierigkeit bei online-Einkäufen")="Bruch der Zeitreihe im Jahr 2021 aufgrund der Änderung des Bezugszeitraums für getätigte Käufe, der ab 2021 3 Monate beträgt, während er in den vorherigen "
+VALUENOTE("E-commerce und E-banking"," Kein Problem oder Schwierigkeit bei online-EinkÃ¤ufen")="Bruch der Zeitreihe im Jahr 2021 aufgrund der Ã„nderung des Bezugszeitraums fÃ¼r getÃ¤tigte KÃ¤ufe, der ab 2021 3 Monate betrÃ¤gt, wÃ¤hrend er in den vorherigen "
 "Erhebungen 12 Monate betragen hatte.";
-VALUENOTE[fr]("Commerce électronique et services bancaires en ligne"," Aucun problème ou difficulté rencontré lors d'achats en ligne")="Rupture de série temporelle en 2021 en raison du changement de la période de référence des achats effectués, qui est de "
-"3 mois dès 2021, alors qu'elle était de 12 mois pour les enquêtes précédentes.";
+VALUENOTE[fr]("Commerce Ã©lectronique et services bancaires en ligne"," Aucun problÃ¨me ou difficultÃ© rencontrÃ© lors d'achats en ligne")="Rupture de sÃ©rie temporelle en 2021 en raison du changement de la pÃ©riode de rÃ©fÃ©rence des achats effectuÃ©s, qui est de "
+"3 mois dÃ¨s 2021, alors qu'elle Ã©tait de 12 mois pour les enquÃªtes prÃ©cÃ©dentes.";
 DATASYMBOL1="-";
 DATASYMBOL1[fr]="-";
 DATASYMBOL4="*";

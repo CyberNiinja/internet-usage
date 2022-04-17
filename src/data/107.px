@@ -9,114 +9,114 @@ SHOWDECIMALS=0;
 MATRIX="px-x-1604000000_107";
 SUBJECT-CODE="16";
 SUBJECT-AREA="16 - Kultur, Medien, Informationsgesellschaft, Sport";
-SUBJECT-AREA[fr]="16 - Culture, médias, société de l'information, sport";
+SUBJECT-AREA[fr]="16 - Culture, mÃ©dias, sociÃ©tÃ© de l'information, sport";
 DESCRIPTION="Einzelpersonen und E-Commerce: gekaufte Produkte (ab 2021)";
-DESCRIPTION[fr]="Usages privés d'internet: e-commerce, produits achetés (dès 2021)";
+DESCRIPTION[fr]="Usages privÃ©s d'internet: e-commerce, produits achetÃ©s (dÃ¨s 2021)";
 TITLE="Einzelpersonen und E-Commerce: gekaufte Produkte (ab 2021)";
-TITLE[fr]="Usages privés d'internet: e-commerce, produits achetés (dès 2021)";
+TITLE[fr]="Usages privÃ©s d'internet: e-commerce, produits achetÃ©s (dÃ¨s 2021)";
 DESCRIPTIONDEFAULT=YES;
 CONTENTS="Einzelpersonen und E-Commerce: gekaufte Produkte (ab 2021)";
-CONTENTS[fr]="Usages privés d'internet: e-commerce, produits achetés (dès 2021)";
+CONTENTS[fr]="Usages privÃ©s d'internet: e-commerce, produits achetÃ©s (dÃ¨s 2021)";
 UNITS="Person";
 UNITS[fr]="Personne";
 STUB="E-commerce: gekaufte Produkte","Geschlecht","Altersklasse","Bildungsstand";
-STUB[fr]="Commerce électronique: produits achetés","Sexe","Classe d'âge","Niveau de formation";
+STUB[fr]="Commerce Ã©lectronique: produits achetÃ©s","Sexe","Classe d'Ã¢ge","Niveau de formation";
 HEADING="Jahr","Absolut / relativ","Resultat";
-HEADING[fr]="Année","Absolu / relatif","Résultat";
-VALUES("E-commerce: gekaufte Produkte")="Einkäufe im Internet in den letzten drei Monaten",
-"Mehr als 10 Bestellungen/Einkäufe in den letzten 3 Monaten",
-" Online-Kauf von physischen Gütern: Kleidung (inkl. Sportbekleidung), Schuhe oder Accessoires (z.B. Taschen, Schmuck)",
-" Online-Kauf von physischen Gütern: Sportartikel (ohne Sportbekleidung)",
-" Online-Kauf von physischen Gütern: Spielwaren oder Babysachen (z.B. Krippen, Schoppen, Kinderwagen)",
-" Online-Kauf von physischen Gütern: Möbel, Haushaltsartikel (Teppiche, Vorhänge) oder Gartenartikel (Werkzeuge, Pflanzen)",
-" Online-Kauf von physischen Gütern: Musik auf einem Datenträger (CD, Vinyl Platten usw.)",
-" Online-Kauf von physischen Gütern: Filme oder Serien auf einem Datenträger (DVD, Blu-ray usw.)",
-" Online-Kauf von physischen Gütern: Bücher, Zeitschriften oder Zeitungen (gedruckt)",
-" Online-Kauf von physischen Gütern: Computer, Tablets, Mobiltelefone oder Accessoires",
-" Online-Kauf von physischen Gütern: Geräte der Unterhaltungselektronik (z.B. Fernseher) oder Haushaltgeräte (z.B. Waschmaschinen, usw.)",
-" Online-Kauf von physischen Gütern: Medikamente oder Nahrungsergänzungsmittel wie Vitamine",
-" Online-Kauf von physischen Gütern: Lieferungen von Restaurants, Pizzerien, Fastfood Restaurants oder anderen Caterern",
-" Online-Kauf von physischen Gütern: Lebensmittel oder Getränke von Geschäften oder Lieferanten von Mahlzeitenkits",
-" Online-Kauf von physischen Gütern: Kosmetik, Schönheits oder Wellnessprodukte",
-" Online-Kauf von physischen Gütern: Reinigungs oder Hygieneprodukte (z.B. Zahnbürsten, Waschmittel, Lappen)",
-" Online-Kauf von physischen Gütern: Fahrräder, Motorräder, Autos oder andere Fahrzeuge oder Fahrzeugteile",
-" Online-Kauf von physischen Gütern: Kauf von Waren von Privatpersonen auf einer Website, Anwendung oder Plattform",
+HEADING[fr]="AnnÃ©e","Absolu / relatif","RÃ©sultat";
+VALUES("E-commerce: gekaufte Produkte")="EinkÃ¤ufe im Internet in den letzten drei Monaten",
+"Mehr als 10 Bestellungen/EinkÃ¤ufe in den letzten 3 Monaten",
+" Online-Kauf von physischen GÃ¼tern: Kleidung (inkl. Sportbekleidung), Schuhe oder Accessoires (z.B. Taschen, Schmuck)",
+" Online-Kauf von physischen GÃ¼tern: Sportartikel (ohne Sportbekleidung)",
+" Online-Kauf von physischen GÃ¼tern: Spielwaren oder Babysachen (z.B. Krippen, Schoppen, Kinderwagen)",
+" Online-Kauf von physischen GÃ¼tern: MÃ¶bel, Haushaltsartikel (Teppiche, VorhÃ¤nge) oder Gartenartikel (Werkzeuge, Pflanzen)",
+" Online-Kauf von physischen GÃ¼tern: Musik auf einem DatentrÃ¤ger (CD, Vinyl Platten usw.)",
+" Online-Kauf von physischen GÃ¼tern: Filme oder Serien auf einem DatentrÃ¤ger (DVD, Blu-ray usw.)",
+" Online-Kauf von physischen GÃ¼tern: BÃ¼cher, Zeitschriften oder Zeitungen (gedruckt)",
+" Online-Kauf von physischen GÃ¼tern: Computer, Tablets, Mobiltelefone oder Accessoires",
+" Online-Kauf von physischen GÃ¼tern: GerÃ¤te der Unterhaltungselektronik (z.B. Fernseher) oder HaushaltgerÃ¤te (z.B. Waschmaschinen, usw.)",
+" Online-Kauf von physischen GÃ¼tern: Medikamente oder NahrungsergÃ¤nzungsmittel wie Vitamine",
+" Online-Kauf von physischen GÃ¼tern: Lieferungen von Restaurants, Pizzerien, Fastfood Restaurants oder anderen Caterern",
+" Online-Kauf von physischen GÃ¼tern: Lebensmittel oder GetrÃ¤nke von GeschÃ¤ften oder Lieferanten von Mahlzeitenkits",
+" Online-Kauf von physischen GÃ¼tern: Kosmetik, SchÃ¶nheits oder Wellnessprodukte",
+" Online-Kauf von physischen GÃ¼tern: Reinigungs oder Hygieneprodukte (z.B. ZahnbÃ¼rsten, Waschmittel, Lappen)",
+" Online-Kauf von physischen GÃ¼tern: FahrrÃ¤der, MotorrÃ¤der, Autos oder andere Fahrzeuge oder Fahrzeugteile",
+" Online-Kauf von physischen GÃ¼tern: Kauf von Waren von Privatpersonen auf einer Website, Anwendung oder Plattform",
 " Online-Kauf von Inhalten: Musik als Stream oder Download",
 " Online-Kauf von Inhalten: Filme oder Serien als Stream oder Download",
-" Online-Kauf von Inhalten: elektronische Bücher, Online-Zeitschriften oder -Zeitungen",
-" Online-Kauf von Inhalten: Spiele im Internet oder als Download für Smartphones, Tablets, Computer oder Spielkonsolen",
-" Online-Kauf von Inhalten: Software für Computer oder andere Geräte als Download, inkl. Updates",
-" Online-Kauf von Inhalten: Apps für Gesundheit oder Fitness (ohne Gratis-Apps)",
+" Online-Kauf von Inhalten: elektronische BÃ¼cher, Online-Zeitschriften oder -Zeitungen",
+" Online-Kauf von Inhalten: Spiele im Internet oder als Download fÃ¼r Smartphones, Tablets, Computer oder Spielkonsolen",
+" Online-Kauf von Inhalten: Software fÃ¼r Computer oder andere GerÃ¤te als Download, inkl. Updates",
+" Online-Kauf von Inhalten: Apps fÃ¼r Gesundheit oder Fitness (ohne Gratis-Apps)",
 " Online-Kauf von Inhalten: weitere Apps (ohne Gratis-Apps)",
-" Online-Kauf von Eintrittskarten: Tickets für Sportveranstaltungen",
-" Online-Kauf von Eintrittskarten: Tickets für kulturelle oder andere Veranstaltungen (Kino, Konzerte, Messen, Ausstellungen usw.)",
+" Online-Kauf von Eintrittskarten: Tickets fÃ¼r Sportveranstaltungen",
+" Online-Kauf von Eintrittskarten: Tickets fÃ¼r kulturelle oder andere Veranstaltungen (Kino, Konzerte, Messen, Ausstellungen usw.)",
 " Online-Kauf von Dienstleistungen: Internet- oder Mobilfunkabonnemente",
-" Online-Kauf von Dienstleistungen: Abonnemente für Strom, Wasser, Heizung, Abfallentsorgung oder ähnliche Dienstleistungen",
-" Online-Kauf von Hauswirtschaftliche Dienstleistungen: z.B. Kinderbetreuung, Reparaturarbeiten, Gärtnerei",
+" Online-Kauf von Dienstleistungen: Abonnemente fÃ¼r Strom, Wasser, Heizung, Abfallentsorgung oder Ã¤hnliche Dienstleistungen",
+" Online-Kauf von Hauswirtschaftliche Dienstleistungen: z.B. Kinderbetreuung, Reparaturarbeiten, GÃ¤rtnerei",
 " Online-Kauf von Haushaltsdienstleistungen von Privatpersonen auf einer Website, Anwendung oder Plattform",
 " Online-Kauf von Transportleistungen bei einem Verkehrsunternehmen, z. B. Bahn-, Flugzeug-, Bustickets; Taxi. (SBB, UBER, etc.)",
 " Online-Kauf von Transportdienstleistungen von einer Privatperson (z. B. blabla car, etc.)",
-" Online-Kauf von Beherbergungsleistungen von Unternehmen, wie Hotels oder Reisebüros",
+" Online-Kauf von Beherbergungsleistungen von Unternehmen, wie Hotels oder ReisebÃ¼ros",
 " Online-Kauf von Unterkunftsdienstleistungen von einer Privatperson (z. B. Airbnb usw.)";
-VALUES[fr]("Commerce électronique: produits achetés")=
+VALUES[fr]("Commerce Ã©lectronique: produits achetÃ©s")=
 "Achat en ligne au cours des 3 derniers mois",
 "Plus de 10 commandes/achats au cours des 3 derniers mois",
-" Achat en ligne de biens physiques: vêtements (y compris vêtements de sport), chaussures ou accessoires (p.ex., sacs, bijoux)",
-" Achat en ligne de biens physiques: articles de sport (à l'exclusion des vêtements de sport)",
-" Achat en ligne de biens physiques: jouets pour enfants ou articles pour bébés (p.ex. couches, biberons, poussettes)",
+" Achat en ligne de biens physiques: vÃªtements (y compris vÃªtements de sport), chaussures ou accessoires (p.ex., sacs, bijoux)",
+" Achat en ligne de biens physiques: articles de sport (Ã  l'exclusion des vÃªtements de sport)",
+" Achat en ligne de biens physiques: jouets pour enfants ou articles pour bÃ©bÃ©s (p.ex. couches, biberons, poussettes)",
 " Achat en ligne de biens physiques: meubles, accessoires de maison (p.ex., tapis ou rideaux) ou produits de jardinage (p.ex. outils, plantes)",
 " Achat en ligne de biens physiques: musique sous forme de CD, de vinyls, etc.",
-" Achat en ligne de biens physiques: films ou séries sous forme de DVD, Blu-ray, etc.",
-" Achat en ligne de biens physiques: livres, magazines ou journaux imprimés",
-" Achat en ligne de biens physiques: ordinateurs, tablettes, téléphones mobiles ou accessoires",
-" Achat en ligne de biens physiques: électronique grand public (par ex. téléviseurs) ou appareils ménagers (p.ex. machines à laver)",
-" Achat en ligne de biens physiques: médicaments ou compléments alimentaires (p.ex. vitamines)",
-" Achat en ligne de biens physiques: livraisons de restaurants, de chaînes de restauration rapide ou d'autres services de restauration, traiteurs, etc.",
+" Achat en ligne de biens physiques: films ou sÃ©ries sous forme de DVD, Blu-ray, etc.",
+" Achat en ligne de biens physiques: livres, magazines ou journaux imprimÃ©s",
+" Achat en ligne de biens physiques: ordinateurs, tablettes, tÃ©lÃ©phones mobiles ou accessoires",
+" Achat en ligne de biens physiques: Ã©lectronique grand public (par ex. tÃ©lÃ©viseurs) ou appareils mÃ©nagers (p.ex. machines Ã  laver)",
+" Achat en ligne de biens physiques: mÃ©dicaments ou complÃ©ments alimentaires (p.ex. vitamines)",
+" Achat en ligne de biens physiques: livraisons de restaurants, de chaÃ®nes de restauration rapide ou d'autres services de restauration, traiteurs, etc.",
 " Achat en ligne de biens physiques: nourriture ou boissons provenant de magasins ou de fournisseurs de kits repas",
-" Achat en ligne de biens physiques: produits cosmétiques, de beauté ou de bien-être",
-" Achat en ligne de biens physiques: produits de nettoyage ou d'hygiène personnelle (p.ex., brosses à dents, mouchoirs, détergents, chiffons de nettoya",
-" Achat en ligne de biens physiques: vélos, motos, voitures ou autres véhicules ou leurs pièces détachées",
-" Achat en ligne de biens physiques: achat d'un des biens mentionnés à des particuliers via un site web ou une application (p.ex. Ricardo, eBay, Facebo",
-" Achat en ligne de contenus: musique en tant que service de streaming ou de téléchargement",
-" Achat en ligne de contenus:films ou séries en tant que service de streaming ou de téléchargement",
-" Achat en ligne de contenus: livres électroniques, magazines ou journaux en ligne",
-" Achat en ligne de contenus: jeux en ligne ou à télécharger pour smartphones, tablettes, ordinateurs ou consoles",
-" Achat en ligne de contenus: logiciels pour ordinateurs ou autres à télécharger, y compris les mises à jour",
-" Achat en ligne de contenus: applications liées à la santé ou à la forme physique (à l'exclusion des applications gratuites)",
-" Achat en ligne de contenus: autres applications (par ex. apprentissage des langues, voyages, météo) (à l'exclusion des applications gratuites)",
-" Achat en ligne de billets d'entrée: billets d'événements sportifs",
-" Achat en ligne de billets d'entrée: billets pour des événements culturels ou autres (cinéma, concerts, foires, etc.)",
-" Achat en ligne de services: abonnements Internet ou de téléphonie mobile",
-" Achat en ligne de services: abonnements à la fourniture d'électricité, d'eau ou de chauffage, à l'élimination des déchets ou à des services similaire",
-" Achat en ligne de services ménagers: p. ex. nettoyage, garde d'enfants, travaux de réparation, jardinage",
-" Achat en ligne de services ménagers auprès de particuliers sur un site web ou une application (p.ex. Facebook Marketplace, batmaid, etc.)",
-" Achat en ligne de services de transport auprès d'une entreprise de transport, p.ex. billets de train, avion, bus, taxi. (CFF, UBER, etc.)",
-" Achat en ligne de services de transport auprès d'une personne privée (p.ex. blabla car, etc.)",
-" Achat en ligne de services d'hébergement auprès d'entreprises, telles que les hôtels ou les agences de voyage",
-" Achat en ligne de services d'hébergement auprès d'une personne privée (p.ex., Airbnb, etc.)";
+" Achat en ligne de biens physiques: produits cosmÃ©tiques, de beautÃ© ou de bien-Ãªtre",
+" Achat en ligne de biens physiques: produits de nettoyage ou d'hygiÃ¨ne personnelle (p.ex., brosses Ã  dents, mouchoirs, dÃ©tergents, chiffons de nettoya",
+" Achat en ligne de biens physiques: vÃ©los, motos, voitures ou autres vÃ©hicules ou leurs piÃ¨ces dÃ©tachÃ©es",
+" Achat en ligne de biens physiques: achat d'un des biens mentionnÃ©s Ã  des particuliers via un site web ou une application (p.ex. Ricardo, eBay, Facebo",
+" Achat en ligne de contenus: musique en tant que service de streaming ou de tÃ©lÃ©chargement",
+" Achat en ligne de contenus:films ou sÃ©ries en tant que service de streaming ou de tÃ©lÃ©chargement",
+" Achat en ligne de contenus: livres Ã©lectroniques, magazines ou journaux en ligne",
+" Achat en ligne de contenus: jeux en ligne ou Ã  tÃ©lÃ©charger pour smartphones, tablettes, ordinateurs ou consoles",
+" Achat en ligne de contenus: logiciels pour ordinateurs ou autres Ã  tÃ©lÃ©charger, y compris les mises Ã  jour",
+" Achat en ligne de contenus: applications liÃ©es Ã  la santÃ© ou Ã  la forme physique (Ã  l'exclusion des applications gratuites)",
+" Achat en ligne de contenus: autres applications (par ex. apprentissage des langues, voyages, mÃ©tÃ©o) (Ã  l'exclusion des applications gratuites)",
+" Achat en ligne de billets d'entrÃ©e: billets d'Ã©vÃ©nements sportifs",
+" Achat en ligne de billets d'entrÃ©e: billets pour des Ã©vÃ©nements culturels ou autres (cinÃ©ma, concerts, foires, etc.)",
+" Achat en ligne de services: abonnements Internet ou de tÃ©lÃ©phonie mobile",
+" Achat en ligne de services: abonnements Ã  la fourniture d'Ã©lectricitÃ©, d'eau ou de chauffage, Ã  l'Ã©limination des dÃ©chets ou Ã  des services similaire",
+" Achat en ligne de services mÃ©nagers: p. ex. nettoyage, garde d'enfants, travaux de rÃ©paration, jardinage",
+" Achat en ligne de services mÃ©nagers auprÃ¨s de particuliers sur un site web ou une application (p.ex. Facebook Marketplace, batmaid, etc.)",
+" Achat en ligne de services de transport auprÃ¨s d'une entreprise de transport, p.ex. billets de train, avion, bus, taxi. (CFF, UBER, etc.)",
+" Achat en ligne de services de transport auprÃ¨s d'une personne privÃ©e (p.ex. blabla car, etc.)",
+" Achat en ligne de services d'hÃ©bergement auprÃ¨s d'entreprises, telles que les hÃ´tels ou les agences de voyage",
+" Achat en ligne de services d'hÃ©bergement auprÃ¨s d'une personne privÃ©e (p.ex., Airbnb, etc.)";
 VALUES("Geschlecht")="Geschlecht - Total","Mann","Frau";
 VALUES[fr]("Sexe")="Sexe - total","Homme","Femme";
 VALUES("Altersklasse")="Altersklasse - Total","15 bis 29 Jahre","30 bis 59 Jahre",
-"60 Jahre und älter";
-VALUES[fr]("Classe d'âge")="Classe d'âge - total","15 à 29 ans","30 à 59 ans","60 ans et plus";
+"60 Jahre und Ã¤lter";
+VALUES[fr]("Classe d'Ã¢ge")="Classe d'Ã¢ge - total","15 Ã  29 ans","30 Ã  59 ans","60 ans et plus";
 VALUES("Bildungsstand")="Bildungsstand - Total",
-"Ohne nachobligatorische Ausbildung (25 Jahre und älter)","Sekundarstufe II (25 Jahre und älter)",
-"Tertiärstufe (25 Jahre und älter)","Unter 25 Jahren";
+"Ohne nachobligatorische Ausbildung (25 Jahre und Ã¤lter)","Sekundarstufe II (25 Jahre und Ã¤lter)",
+"TertiÃ¤rstufe (25 Jahre und Ã¤lter)","Unter 25 Jahren";
 VALUES[fr]("Niveau de formation")="Niveau de formation - total",
 "Sans formation post-obligatoire (25 ans et plus)","Niveau secondaire II (25 ans et plus)",
 "Niveau tertiaire (25 ans et plus)","Moins de 25 ans";
 VALUES("Jahr")="2021";
-VALUES[fr]("Année")="2021";
-VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der Gesamtbevölkerung)";
+VALUES[fr]("AnnÃ©e")="2021";
+VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der GesamtbevÃ¶lkerung)";
 VALUES[fr]("Absolu / relatif")="Nombre de personnes","Part (en % de la population totale)";
 VALUES("Resultat")="Wert","Konfidenzintervall +/-";
-VALUES[fr]("Résultat")="Valeur","Intervalle de confiance +/-";
+VALUES[fr]("RÃ©sultat")="Valeur","Intervalle de confiance +/-";
 CODES("E-commerce: gekaufte Produkte")="IBUY_CH","BF10CH","BCLOT1CH","BSPGCH","BCGCH","BFURN1CH",
 "BMUSGCH","BFLMGCH","BBOOKNLGCH","BHARD1CH","BEEQU1CH","BMED1CH","BFDRCH","BFDSCH","BCBWCH",
 "BCPHCH","BBMCCH","BPG_PPCH","BMUSSCH","BFLMSCH","BBOOKNLSCH","BGAMESCH","BSOFTSCH","BHLFTSCH",
 "BAPPCH","BSTICKCH","BCTICKCH","BSIMCCH","BSUTILCH","BHHSCH","BHHS_PPCH","BTPS_ECH","BTPS_PPCH",
 "BRA_ECH","BRA_PPCH";
-CODES[fr]("Commerce électronique: produits achetés")="IBUY_CH","BF10CH","BCLOT1CH","BSPGCH",
+CODES[fr]("Commerce Ã©lectronique: produits achetÃ©s")="IBUY_CH","BF10CH","BCLOT1CH","BSPGCH",
 "BCGCH","BFURN1CH","BMUSGCH","BFLMGCH","BBOOKNLGCH","BHARD1CH","BEEQU1CH","BMED1CH","BFDRCH",
 "BFDSCH","BCBWCH","BCPHCH","BBMCCH","BPG_PPCH","BMUSSCH","BFLMSCH","BBOOKNLSCH","BGAMESCH",
 "BSOFTSCH","BHLFTSCH","BAPPCH","BSTICKCH","BCTICKCH","BSIMCCH","BSUTILCH","BHHSCH","BHHS_PPCH",
@@ -124,57 +124,57 @@ CODES[fr]("Commerce électronique: produits achetés")="IBUY_CH","BF10CH","BCLOT1C
 CODES("Geschlecht")="0","1","2";
 CODES[fr]("Sexe")="0","1","2";
 CODES("Altersklasse")="0","1","2","3";
-CODES[fr]("Classe d'âge")="0","1","2","3";
+CODES[fr]("Classe d'Ã¢ge")="0","1","2","3";
 CODES("Bildungsstand")="0","1","2","3","4";
 CODES[fr]("Niveau de formation")="0","1","2","3","4";
 CODES("Jahr")="2021";
-CODES[fr]("Année")="2021";
+CODES[fr]("AnnÃ©e")="2021";
 ELIMINATION("Geschlecht")="Geschlecht - Total";
 ELIMINATION[fr]("Sexe")="Sexe - total";
 ELIMINATION("Altersklasse")="Altersklasse - Total";
-ELIMINATION[fr]("Classe d'âge")="Classe d'âge - total";
+ELIMINATION[fr]("Classe d'Ã¢ge")="Classe d'Ã¢ge - total";
 ELIMINATION("Bildungsstand")="Bildungsstand - Total";
 ELIMINATION[fr]("Niveau de formation")="Niveau de formation - total";
-PRECISION("Absolut / relativ","Anteil (in % der Gesamtbevölkerung)")=1;
+PRECISION("Absolut / relativ","Anteil (in % der GesamtbevÃ¶lkerung)")=1;
 PRECISION[fr]("Absolu / relatif","Part (en % de la population totale)")=1;
 LAST-UPDATED="20211215 08:30";
 CONTACT="Sektion Wirtschaftsstruktur und -analysen, +41 58 463 67 26, E-Mail: info.wsa@bfs.admin.ch";
-CONTACT[fr]="Section Structure et analyses économiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
+CONTACT[fr]="Section Structure et analyses Ã©conomiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
 REFPERIOD="2021";
 REFPERIOD[fr]="2021";
-DATABASE="BFS - STAT-TAB / Bundesamt für Statistik, 2010 Neuchâtel / Schweiz / © Bundesamt für Statistik";
-DATABASE[fr]="OFS - STAT-TAB / Office fédéral de la statistique, 2010 Neuchâtel / Suisse / © Office fédéral de la statistique";
-SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - © BFS";
-SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - © OFS";
+DATABASE="BFS - STAT-TAB / Bundesamt fÃ¼r Statistik, 2010 NeuchÃ¢tel / Schweiz / Â© Bundesamt fÃ¼r Statistik";
+DATABASE[fr]="OFS - STAT-TAB / Office fÃ©dÃ©ral de la statistique, 2010 NeuchÃ¢tel / Suisse / Â© Office fÃ©dÃ©ral de la statistique";
+SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© BFS";
+SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© OFS";
 SURVEY="Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur Internetnut"
 "zung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Er"
-"nährung und zur Internetnutzung (OMN2014)";
-SURVEY[fr]="Omnibus 2021: Enquête sur l'utilisation d'internet (OMN2021), Omnibus 2019: Enquête sur "
-"l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), O"
-"mnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
+"nÃ¤hrung und zur Internetnutzung (OMN2014)";
+SURVEY[fr]="Omnibus 2021: EnquÃªte sur l'utilisation d'internet (OMN2021), Omnibus 2019: EnquÃªte sur "
+"l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), O"
+"mnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
 LINK="https://www.bfs.admin.ch/asset/de/px-x-1604000000_107";
 LINK[fr]="https://www.bfs.admin.ch/asset/fr/px-x-1604000000_107";
-NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewählt werden, um die Resultate richtig interpretieren zu können.#Die "
-"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht überschneiden.";
-NOTEX[fr]="<B>Résultat</B>:#Données indiquées avec un intervalle de confiance. L'intervalle de confiance (±) indique la précision du résultat dans le cas d'une enquête par échantillon, et doit toujours être sélectionné pour pouvoir interpréter "
-"correctement les résultats.#Les différences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
-NOTE="<B>Metainformation:</B>#Letzte Änderungen: Neuer Datenwürfel#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021)##<B>Verwendete Zeichen</B>#'( )' : "
-"Zahl entfällt weil statistisch nicht sicher genug (n<20 oder VK>30%)#' * ' : Zahl entfällt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus der Omnibus-"
-"Erhebung IKT 2021, die vom Bundesamt für Statistik durchgeführt wird. Die Omnibus-Erhebungen IKT sind Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgeführt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten "
-"mittels computergestützter telefonischer Interviews (CATI) erhoben. Seit 2017 beruht die Erhebung auf einer Mixed-Mode-Methode, d.h. die Interviews erfolgten zum Teil via Online-Fragebogen (CAWI) und zum Teil per Telefon (CATI).#Die Stichprobe ist nach "
-"Grossregionen (NUTS 2) geschichtet, wobei die Zielpopulation jeder Grossregion anteilmässig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der übrigen Grossregionen, der Zentralschweiz, "
-"festgelegt wurde. Die Erhebung wurde in den Monaten April, Mai und Juni durchgeführt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewählt. Die Teilnahme ist "
-"freiwillig. Seit 2017 ist die Grundgesamtheit die ständige Wohnbevölkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die Referenzbevölkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich "
-"für die Altersklasse der Personen ab 75 Jahren sind sie nicht möglich.##Weiterfürende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_"
+NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (Â±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewÃ¤hlt werden, um die Resultate richtig interpretieren zu kÃ¶nnen.#Die "
+"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht Ã¼berschneiden.";
+NOTEX[fr]="<B>RÃ©sultat</B>:#DonnÃ©es indiquÃ©es avec un intervalle de confiance. L'intervalle de confiance (Â±) indique la prÃ©cision du rÃ©sultat dans le cas d'une enquÃªte par Ã©chantillon, et doit toujours Ãªtre sÃ©lectionnÃ© pour pouvoir interprÃ©ter "
+"correctement les rÃ©sultats.#Les diffÃ©rences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
+NOTE="<B>Metainformation:</B>#Letzte Ã„nderungen: Neuer DatenwÃ¼rfel#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021)##<B>Verwendete Zeichen</B>#'( )' : "
+"Zahl entfÃ¤llt weil statistisch nicht sicher genug (n<20 oder VK>30%)#' * ' : Zahl entfÃ¤llt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus der Omnibus-"
+"Erhebung IKT 2021, die vom Bundesamt fÃ¼r Statistik durchgefÃ¼hrt wird. Die Omnibus-Erhebungen IKT sind Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgefÃ¼hrt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten "
+"mittels computergestÃ¼tzter telefonischer Interviews (CATI) erhoben. Seit 2017 beruht die Erhebung auf einer Mixed-Mode-Methode, d.h. die Interviews erfolgten zum Teil via Online-Fragebogen (CAWI) und zum Teil per Telefon (CATI).#Die Stichprobe ist nach "
+"Grossregionen (NUTS 2) geschichtet, wobei die Zielpopulation jeder Grossregion anteilmÃ¤ssig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der Ã¼brigen Grossregionen, der Zentralschweiz, "
+"festgelegt wurde. Die Erhebung wurde in den Monaten April, Mai und Juni durchgefÃ¼hrt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewÃ¤hlt. Die Teilnahme ist "
+"freiwillig. Seit 2017 ist die Grundgesamtheit die stÃ¤ndige WohnbevÃ¶lkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die ReferenzbevÃ¶lkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich "
+"fÃ¼r die Altersklasse der Personen ab 75 Jahren sind sie nicht mÃ¶glich.##WeiterfÃ¼rende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_"
 "blank> Omnibus 2021: Erhebung zur Internetnutzung</A>#";
-NOTE[fr]="<B>Métainformation:</B>#Dernières modifications: nouveau cube de données#Etat de la banque de données: décembre 2021#Période de référence: premier trimestre#Référence spatiale: Suisse#Source des données: Omnibus 2021 (OMN2021): enquête sur "
-"l'utilisation d'internet##<B>Signes utilisés</B>#'( )' : Chiffre non indiqué par manque de fiabilité statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiqué car évident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevé##"
-"<B>Méthodologie</B>#Les données proviennent de l'enquête Omnibus TIC 2021 réalisée par l'Office fédéral de la statistique. Les enquêtses Omnibus TIC sont des enquêtes par échantillonnage auprès d'environ 3000 ménages/personnes (2993 en 2014, 2924 en 2017,"
-" 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte était les interviews téléphoniques assistées par ordinateur (CATI). Dès 2017, les interviews ont été réalisés soit en ligne (CAWI) soit par téléphone (CATI).#L'échantillon est stratifié par grande "
-"région (NUTS 2), avec des tailles proportionnelles à la population cible de chaque grande région, excepté pour la plus petite, le Tessin, dont la taille était fixée égale à la plus petite des autres grandes régions, la Suisse centrale. La date "
-"d'exécution de l'enquête est d'avril à juin et la périodicité de l'enquête est bisannuelle. Les personnes sont sélectionnées aléatoirement dans le registre d'échantillonnage de l'OFS et la participation est facultative. Dès 2017, l'univers de base est la "
-"population résidante permanente des ménages privés âgée de 15 à 88 ans. La comparaison avec les années précédentes, pour lesquelles la population de référence était celle des personnes âgées de 15 ans et plus reste valable, sauf pour la classe d'âge des "
-"personnes de 75 ans et plus.##Plus d'informations sur l'enquête : #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: Enquête sur l'utilisation "
+NOTE[fr]="<B>MÃ©tainformation:</B>#DerniÃ¨res modifications: nouveau cube de donnÃ©es#Etat de la banque de donnÃ©es: dÃ©cembre 2021#PÃ©riode de rÃ©fÃ©rence: premier trimestre#RÃ©fÃ©rence spatiale: Suisse#Source des donnÃ©es: Omnibus 2021 (OMN2021): enquÃªte sur "
+"l'utilisation d'internet##<B>Signes utilisÃ©s</B>#'( )' : Chiffre non indiquÃ© par manque de fiabilitÃ© statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiquÃ© car Ã©vident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevÃ©##"
+"<B>MÃ©thodologie</B>#Les donnÃ©es proviennent de l'enquÃªte Omnibus TIC 2021 rÃ©alisÃ©e par l'Office fÃ©dÃ©ral de la statistique. Les enquÃªtses Omnibus TIC sont des enquÃªtes par Ã©chantillonnage auprÃ¨s d'environ 3000 mÃ©nages/personnes (2993 en 2014, 2924 en 2017,"
+" 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte Ã©tait les interviews tÃ©lÃ©phoniques assistÃ©es par ordinateur (CATI). DÃ¨s 2017, les interviews ont Ã©tÃ© rÃ©alisÃ©s soit en ligne (CAWI) soit par tÃ©lÃ©phone (CATI).#L'Ã©chantillon est stratifiÃ© par grande "
+"rÃ©gion (NUTS 2), avec des tailles proportionnelles Ã  la population cible de chaque grande rÃ©gion, exceptÃ© pour la plus petite, le Tessin, dont la taille Ã©tait fixÃ©e Ã©gale Ã  la plus petite des autres grandes rÃ©gions, la Suisse centrale. La date "
+"d'exÃ©cution de l'enquÃªte est d'avril Ã  juin et la pÃ©riodicitÃ© de l'enquÃªte est bisannuelle. Les personnes sont sÃ©lectionnÃ©es alÃ©atoirement dans le registre d'Ã©chantillonnage de l'OFS et la participation est facultative. DÃ¨s 2017, l'univers de base est la "
+"population rÃ©sidante permanente des mÃ©nages privÃ©s Ã¢gÃ©e de 15 Ã  88 ans. La comparaison avec les annÃ©es prÃ©cÃ©dentes, pour lesquelles la population de rÃ©fÃ©rence Ã©tait celle des personnes Ã¢gÃ©es de 15 ans et plus reste valable, sauf pour la classe d'Ã¢ge des "
+"personnes de 75 ans et plus.##Plus d'informations sur l'enquÃªte : #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: EnquÃªte sur l'utilisation "
 "d'internet</A>#";
 DATASYMBOL1="-";
 DATASYMBOL1[fr]="-";

@@ -9,134 +9,134 @@ SHOWDECIMALS=0;
 MATRIX="px-x-1604000000_101";
 SUBJECT-CODE="16";
 SUBJECT-AREA="16 - Kultur, Medien, Informationsgesellschaft, Sport";
-SUBJECT-AREA[fr]="16 - Culture, médias, société de l'information, sport";
+SUBJECT-AREA[fr]="16 - Culture, mÃ©dias, sociÃ©tÃ© de l'information, sport";
 DESCRIPTION="Internetzugang der Haushalte";
-DESCRIPTION[fr]="Accès des ménages à internet";
+DESCRIPTION[fr]="AccÃ¨s des mÃ©nages Ã  internet";
 TITLE="Internetzugang der Haushalte";
-TITLE[fr]="Accès des ménages à internet";
+TITLE[fr]="AccÃ¨s des mÃ©nages Ã  internet";
 DESCRIPTIONDEFAULT=YES;
 CONTENTS="Internetzugang der Haushalte";
-CONTENTS[fr]="Accès des ménages à internet";
+CONTENTS[fr]="AccÃ¨s des mÃ©nages Ã  internet";
 UNITS="Haushalt";
-UNITS[fr]="Ménage";
-STUB="Internetzugang","Sprachgebiet","Haushaltsgrösse","Subjektive finanzielle Situation des Haushalts";
-STUB[fr]="Accès à internet","Région linguistique","Taille du ménage","Situation financière subjective du ménage";
+UNITS[fr]="MÃ©nage";
+STUB="Internetzugang","Sprachgebiet","HaushaltsgrÃ¶sse","Subjektive finanzielle Situation des Haushalts";
+STUB[fr]="AccÃ¨s Ã  internet","RÃ©gion linguistique","Taille du mÃ©nage","Situation financiÃ¨re subjective du mÃ©nage";
 HEADING="Jahr","Absolut / relativ","Resultat";
-HEADING[fr]="Année","Absolu / relatif","Résultat";
+HEADING[fr]="AnnÃ©e","Absolu / relatif","RÃ©sultat";
 VALUES("Internetzugang")="Haushalte mit Internetzugang","Haushalte mit festem Breitbandanschluss",
 "Haushalte mit mobilem Breitbandanschluss","Haushalte mit Breitbandanschluss (bis 2017)",
-"Zugang mit einem stationären Computer, Desktop (bis 2019)","Zugang mit einem Laptop (bis 2019)",
+"Zugang mit einem stationÃ¤ren Computer, Desktop (bis 2019)","Zugang mit einem Laptop (bis 2019)",
 "Zugang mit einem Tablet (bis 2019)","Zugang mit einem Handy, Smartphone (bis 2019)",
 "Zugang mit einem ans Internetangeschlossenen Fernseher (bis 2019)",
-"Zugang mit einem stationärne Spielkonsole (bis 2019)",
-"Zugang mit anderen mobilen Geräten oder ans Internet angeschlossenen Objekten (bis 2019)",
+"Zugang mit einem stationÃ¤rne Spielkonsole (bis 2019)",
+"Zugang mit anderen mobilen GerÃ¤ten oder ans Internet angeschlossenen Objekten (bis 2019)",
 "Zugang mit eimem Laptop oder einem Tablet (bis 2019)";
-VALUES[fr]("Accès à internet")="Accès à internet","Connexion fixe à haut débit",
-"Connexion mobile à haut débit","Accès à internet à haut débit (jusqu'en 2017)",
-"Accès avec un ordinateur fixe (jusqu'en 2019)","Accès avec un ordinateur portable (jusqu'en 2019)",
-"Accès avec une tablette (jusqu'en 2019)","Accès avec un téléphone mobile (jusqu'en 2019)",
-"Accès avec une télévision connectée (jusqu'en 2019)",
-"Accès avec une console de jeu fixe (jusqu'en 2019)",
-"Accès avec un autre appareil mobile ou un objet connecté (jusqu'en 2019)",
-"Accès avec un ordinateur portable ou tablette (jusqu'en 2019)";
-VALUES("Sprachgebiet")="Schweiz","Deutsche Schweiz","Französische Schweiz","Italienische Schweiz";
-VALUES[fr]("Région linguistique")="Suisse","Suisse alémanique","Suisse romande","Suisse italienne";
-VALUES("Haushaltsgrösse")="Haushaltsgrösse - Total","1-Personenhaushalt","2-Personenhaushalt",
+VALUES[fr]("AccÃ¨s Ã  internet")="AccÃ¨s Ã  internet","Connexion fixe Ã  haut dÃ©bit",
+"Connexion mobile Ã  haut dÃ©bit","AccÃ¨s Ã  internet Ã  haut dÃ©bit (jusqu'en 2017)",
+"AccÃ¨s avec un ordinateur fixe (jusqu'en 2019)","AccÃ¨s avec un ordinateur portable (jusqu'en 2019)",
+"AccÃ¨s avec une tablette (jusqu'en 2019)","AccÃ¨s avec un tÃ©lÃ©phone mobile (jusqu'en 2019)",
+"AccÃ¨s avec une tÃ©lÃ©vision connectÃ©e (jusqu'en 2019)",
+"AccÃ¨s avec une console de jeu fixe (jusqu'en 2019)",
+"AccÃ¨s avec un autre appareil mobile ou un objet connectÃ© (jusqu'en 2019)",
+"AccÃ¨s avec un ordinateur portable ou tablette (jusqu'en 2019)";
+VALUES("Sprachgebiet")="Schweiz","Deutsche Schweiz","FranzÃ¶sische Schweiz","Italienische Schweiz";
+VALUES[fr]("RÃ©gion linguistique")="Suisse","Suisse alÃ©manique","Suisse romande","Suisse italienne";
+VALUES("HaushaltsgrÃ¶sse")="HaushaltsgrÃ¶sse - Total","1-Personenhaushalt","2-Personenhaushalt",
 "3-Personenhaushalt","4+-Personenhaushalt";
-VALUES[fr]("Taille du ménage")="Taille du ménage - total","Ménage de 1 personne",
-"Ménage de 2 personnes","Ménage de 3 personnes","Ménage de 4 personnes et plus";
+VALUES[fr]("Taille du mÃ©nage")="Taille du mÃ©nage - total","MÃ©nage de 1 personne",
+"MÃ©nage de 2 personnes","MÃ©nage de 3 personnes","MÃ©nage de 4 personnes et plus";
 VALUES("Subjektive finanzielle Situation des Haushalts")="Finanzielle Situation  - Total",
 "Finanzielle Situation sehr einfach","Finanzielle Situation eher einfach",
 "Finanzielle Situation eher schwierig","Finanzielle Situation sehr schwierig";
-VALUES[fr]("Situation financière subjective du ménage")="Situation financière - total",
-"Situation financière très facile","Situation financière plutôt facile",
-"Situation financière plutôt difficile","Situation financière très difficile";
+VALUES[fr]("Situation financiÃ¨re subjective du mÃ©nage")="Situation financiÃ¨re - total",
+"Situation financiÃ¨re trÃ¨s facile","Situation financiÃ¨re plutÃ´t facile",
+"Situation financiÃ¨re plutÃ´t difficile","Situation financiÃ¨re trÃ¨s difficile";
 VALUES("Jahr")="2021","2019","2017","2014";
-VALUES[fr]("Année")="2021","2019","2017","2014";
+VALUES[fr]("AnnÃ©e")="2021","2019","2017","2014";
 VALUES("Absolut / relativ")="Anzahl Haushalte","Anteil (in % aller Haushalte)";
-VALUES[fr]("Absolu / relatif")="Nombre de ménages","Part (en % de l'ensemble des ménages)";
+VALUES[fr]("Absolu / relatif")="Nombre de mÃ©nages","Part (en % de l'ensemble des mÃ©nages)";
 VALUES("Resultat")="Wert","Konfidenzintervall +/-";
-VALUES[fr]("Résultat")="Valeur","Intervalle de confiance +/-";
+VALUES[fr]("RÃ©sultat")="Valeur","Intervalle de confiance +/-";
 CODES("Internetzugang")="IACCCH","BBFIXCH","BBMOBCH","H_BROADCH","IDKPCCH","IAPORTCH","IATABLCH",
 "IAOTHMCH","ITV2CH","IGAMECH","IAOTHCH","IPORTCH";
-CODES[fr]("Accès à internet")="IACCCH","BBFIXCH","BBMOBCH","H_BROADCH","IDKPCCH","IAPORTCH",
+CODES[fr]("AccÃ¨s Ã  internet")="IACCCH","BBFIXCH","BBMOBCH","H_BROADCH","IDKPCCH","IAPORTCH",
 "IATABLCH","IAOTHMCH","ITV2CH","IGAMECH","IAOTHCH","IPORTCH";
 CODES("Sprachgebiet")="0","1","2","3";
-CODES[fr]("Région linguistique")="0","1","2","3";
-CODES("Haushaltsgrösse")="0","1","2","3","4";
-CODES[fr]("Taille du ménage")="0","1","2","3","4";
+CODES[fr]("RÃ©gion linguistique")="0","1","2","3";
+CODES("HaushaltsgrÃ¶sse")="0","1","2","3","4";
+CODES[fr]("Taille du mÃ©nage")="0","1","2","3","4";
 CODES("Subjektive finanzielle Situation des Haushalts")="0","1","2","3","4";
-CODES[fr]("Situation financière subjective du ménage")="0","1","2","3","4";
+CODES[fr]("Situation financiÃ¨re subjective du mÃ©nage")="0","1","2","3","4";
 CODES("Jahr")="2021","2019","2017","2014";
-CODES[fr]("Année")="2021","2019","2017","2014";
+CODES[fr]("AnnÃ©e")="2021","2019","2017","2014";
 ELIMINATION("Sprachgebiet")="Schweiz";
-ELIMINATION[fr]("Région linguistique")="Suisse";
-ELIMINATION("Haushaltsgrösse")="Haushaltsgrösse - Total";
-ELIMINATION[fr]("Taille du ménage")="Taille du ménage - total";
+ELIMINATION[fr]("RÃ©gion linguistique")="Suisse";
+ELIMINATION("HaushaltsgrÃ¶sse")="HaushaltsgrÃ¶sse - Total";
+ELIMINATION[fr]("Taille du mÃ©nage")="Taille du mÃ©nage - total";
 ELIMINATION("Subjektive finanzielle Situation des Haushalts")="Finanzielle Situation  - Total";
-ELIMINATION[fr]("Situation financière subjective du ménage")="Situation financière - total";
+ELIMINATION[fr]("Situation financiÃ¨re subjective du mÃ©nage")="Situation financiÃ¨re - total";
 PRECISION("Absolut / relativ","Anteil (in % aller Haushalte)")=1;
-PRECISION[fr]("Absolu / relatif","Part (en % de l'ensemble des ménages)")=1;
+PRECISION[fr]("Absolu / relatif","Part (en % de l'ensemble des mÃ©nages)")=1;
 LAST-UPDATED="20211215 08:30";
 CONTACT="Sektion Wirtschaftsstruktur und -analysen, +41 58 463 67 26, E-Mail: info.wsa@bfs.admin.ch";
-CONTACT[fr]="Section Structure et analyses économiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
+CONTACT[fr]="Section Structure et analyses Ã©conomiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
 REFPERIOD="2021,2019,2017,2014";
 REFPERIOD[fr]="2021,2019,2017,2014";
-DATABASE="BFS - STAT-TAB / Bundesamt für Statistik, 2010 Neuchâtel / Schweiz / © Bundesamt für Statistik";
-DATABASE[fr]="OFS - STAT-TAB / Office fédéral de la statistique, 2010 Neuchâtel / Suisse / © Office fédéral de la statistique";
-SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - © BFS";
-SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - © OFS";
+DATABASE="BFS - STAT-TAB / Bundesamt fÃ¼r Statistik, 2010 NeuchÃ¢tel / Schweiz / Â© Bundesamt fÃ¼r Statistik";
+DATABASE[fr]="OFS - STAT-TAB / Office fÃ©dÃ©ral de la statistique, 2010 NeuchÃ¢tel / Suisse / Â© Office fÃ©dÃ©ral de la statistique";
+SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© BFS";
+SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© OFS";
 SURVEY="Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur Internetnut"
 "zung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Er"
-"nährung und zur Internetnutzung (OMN2014)";
-SURVEY[fr]="Omnibus 2021: Enquête sur l'utilisation d'internet (OMN2021), Omnibus 2019: Enquête sur "
-"l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), O"
-"mnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
+"nÃ¤hrung und zur Internetnutzung (OMN2014)";
+SURVEY[fr]="Omnibus 2021: EnquÃªte sur l'utilisation d'internet (OMN2021), Omnibus 2019: EnquÃªte sur "
+"l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), O"
+"mnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
 LINK="https://www.bfs.admin.ch/asset/de/px-x-1604000000_101";
 LINK[fr]="https://www.bfs.admin.ch/asset/fr/px-x-1604000000_101";
-NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewählt werden, um die Resultate richtig interpretieren zu können.#Die "
-"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht überschneiden.";
-NOTEX[fr]="<B>Résultat</B>:#Données indiquées avec un intervalle de confiance. L'intervalle de confiance (±) indique la précision du résultat dans le cas d'une enquête par échantillon, et doit toujours être sélectionné pour pouvoir interpréter "
-"correctement les résultats.#Les différences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
-NOTE="<B>Metainformation:</B>#Letzte Änderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Sprachregionen (VZ 2000)#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus "
-"2019: Erhebung zur Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Ernährung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfällt weil statistisch nicht sicher "
-"genug (n<20 oder VK>30%)#' * ' : Zahl entfällt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom "
-"Bundesamt für Statistik durchgeführt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgeführt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestützter "
+NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (Â±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewÃ¤hlt werden, um die Resultate richtig interpretieren zu kÃ¶nnen.#Die "
+"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht Ã¼berschneiden.";
+NOTEX[fr]="<B>RÃ©sultat</B>:#DonnÃ©es indiquÃ©es avec un intervalle de confiance. L'intervalle de confiance (Â±) indique la prÃ©cision du rÃ©sultat dans le cas d'une enquÃªte par Ã©chantillon, et doit toujours Ãªtre sÃ©lectionnÃ© pour pouvoir interprÃ©ter "
+"correctement les rÃ©sultats.#Les diffÃ©rences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
+NOTE="<B>Metainformation:</B>#Letzte Ã„nderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Sprachregionen (VZ 2000)#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus "
+"2019: Erhebung zur Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur ErnÃ¤hrung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfÃ¤llt weil statistisch nicht sicher "
+"genug (n<20 oder VK>30%)#' * ' : Zahl entfÃ¤llt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom "
+"Bundesamt fÃ¼r Statistik durchgefÃ¼hrt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgefÃ¼hrt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestÃ¼tzter "
 "telefonischer Interviews (CATI) erhoben. Seit 2017 beruht die Erhebung auf einer Mixed-Mode-Methode, d.h. die Interviews erfolgten zum Teil via Online-Fragebogen (CAWI) und zum Teil per Telefon (CATI).#Die Stichprobe ist nach Grossregionen (NUTS 2) "
-"geschichtet, wobei die Zielpopulation jeder Grossregion anteilmässig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der übrigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die "
-"Erhebung wurde in den Monaten April, Mai und Juni durchgeführt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewählt. Die Teilnahme ist freiwillig. Seit 2017 ist "
-"die Grundgesamtheit die ständige Wohnbevölkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die Referenzbevölkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich für die Altersklasse der "
-"Personen ab 75 Jahren sind sie nicht möglich.##Weiterfürende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: "
+"geschichtet, wobei die Zielpopulation jeder Grossregion anteilmÃ¤ssig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der Ã¼brigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die "
+"Erhebung wurde in den Monaten April, Mai und Juni durchgefÃ¼hrt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewÃ¤hlt. Die Teilnahme ist freiwillig. Seit 2017 ist "
+"die Grundgesamtheit die stÃ¤ndige WohnbevÃ¶lkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die ReferenzbevÃ¶lkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich fÃ¼r die Altersklasse der "
+"Personen ab 75 Jahren sind sie nicht mÃ¶glich.##WeiterfÃ¼rende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: "
 "Erhebung zur Internetnutzung</A>#";
-NOTE[fr]="<B>Métainformation:</B>#Dernières modifications: nouvelles données 2021#Etat de la banque de données: décembre 2021#Période de référence: premier trimestre#Référence spatiale: Régions linguistiques (RP 2000)#Source des données: Omnibus 2021: "
-"Enquête sur l'utilisation d'internet (OMN2021), Omnibus 2019: Enquête sur l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), Omnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)#"
-"#<B>Signes utilisés</B>#'( )' : Chiffre non indiqué par manque de fiabilité statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiqué car évident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevé##<B>Méthodologie</B>#Les données "
-"proviennent des enquêtes Omnibus TIC 2014, 2017, 2019 et 2021 réalisées par l'Office fédéral de la statistique. Ce sont des enquêtes par échantillonnage auprès d'environ 3000 ménages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En "
-"2014 le mode de collecte était les interviews téléphoniques assistées par ordinateur (CATI). Dès 2017, les interviews ont été réalisés soit en ligne (CAWI) soit par téléphone (CATI).#L'échantillon est stratifié par grande région (NUTS 2), avec des "
-"tailles proportionnelles à la population cible de chaque grande région, excepté pour la plus petite, le Tessin, dont la taille était fixée égale à la plus petite des autres grandes régions, la Suisse centrale. La date d'exécution de l'enquête est d'avril "
-"à juin et la périodicité de l'enquête est bisannuelle. Les personnes sont sélectionnées aléatoirement dans le registre d'échantillonnage de l'OFS et la participation est facultative. Dès 2017, l'univers de base est la population résidante permanente des "
-"ménages privés âgée de 15 à 88 ans. La comparaison avec les années précédentes, pour lesquelles la population de référence était celle des personnes âgées de 15 ans et plus reste valable, sauf pour la classe d'âge des personnes de 75 ans et plus.##Plus "
-"d'informations sur l'enquête : #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: Enquête sur l'utilisation d'internet</A>#";
-NOTE("Subjektive finanzielle Situation des Haushalts")="Wie die Zielperson die finanzielle Situation ihres Haushalts selber einschätzt. Die Frage- und Bewertungsskala hat sich seit 2019 geändert, ein Vergleich mit den Vorjahren ist nicht mehr möglich.";
-NOTE[fr]("Situation financière subjective du ménage")="Il s'agit d'un jugement subjectif de la personne cible sur la situation financière de son ménage. La formulation de la question et l'échelle d'évaluation a changé en 2019, les comparaisons avec les "
-"années précédentes ne sont plus possibles.";
-VALUENOTE("Internetzugang","Haushalte mit Internetzugang")="Zu den Haushalten mit Internetzugang zählen jene Haushalte, die die Möglichkeit haben, daheim das Internet zu nutzen, egal mit welchem Gerät (z.B. mit einem Desktop-Computer, einem Laptop, einem "
+NOTE[fr]="<B>MÃ©tainformation:</B>#DerniÃ¨res modifications: nouvelles donnÃ©es 2021#Etat de la banque de donnÃ©es: dÃ©cembre 2021#PÃ©riode de rÃ©fÃ©rence: premier trimestre#RÃ©fÃ©rence spatiale: RÃ©gions linguistiques (RP 2000)#Source des donnÃ©es: Omnibus 2021: "
+"EnquÃªte sur l'utilisation d'internet (OMN2021), Omnibus 2019: EnquÃªte sur l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), Omnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)#"
+"#<B>Signes utilisÃ©s</B>#'( )' : Chiffre non indiquÃ© par manque de fiabilitÃ© statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiquÃ© car Ã©vident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevÃ©##<B>MÃ©thodologie</B>#Les donnÃ©es "
+"proviennent des enquÃªtes Omnibus TIC 2014, 2017, 2019 et 2021 rÃ©alisÃ©es par l'Office fÃ©dÃ©ral de la statistique. Ce sont des enquÃªtes par Ã©chantillonnage auprÃ¨s d'environ 3000 mÃ©nages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En "
+"2014 le mode de collecte Ã©tait les interviews tÃ©lÃ©phoniques assistÃ©es par ordinateur (CATI). DÃ¨s 2017, les interviews ont Ã©tÃ© rÃ©alisÃ©s soit en ligne (CAWI) soit par tÃ©lÃ©phone (CATI).#L'Ã©chantillon est stratifiÃ© par grande rÃ©gion (NUTS 2), avec des "
+"tailles proportionnelles Ã  la population cible de chaque grande rÃ©gion, exceptÃ© pour la plus petite, le Tessin, dont la taille Ã©tait fixÃ©e Ã©gale Ã  la plus petite des autres grandes rÃ©gions, la Suisse centrale. La date d'exÃ©cution de l'enquÃªte est d'avril "
+"Ã  juin et la pÃ©riodicitÃ© de l'enquÃªte est bisannuelle. Les personnes sont sÃ©lectionnÃ©es alÃ©atoirement dans le registre d'Ã©chantillonnage de l'OFS et la participation est facultative. DÃ¨s 2017, l'univers de base est la population rÃ©sidante permanente des "
+"mÃ©nages privÃ©s Ã¢gÃ©e de 15 Ã  88 ans. La comparaison avec les annÃ©es prÃ©cÃ©dentes, pour lesquelles la population de rÃ©fÃ©rence Ã©tait celle des personnes Ã¢gÃ©es de 15 ans et plus reste valable, sauf pour la classe d'Ã¢ge des personnes de 75 ans et plus.##Plus "
+"d'informations sur l'enquÃªte : #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: EnquÃªte sur l'utilisation d'internet</A>#";
+NOTE("Subjektive finanzielle Situation des Haushalts")="Wie die Zielperson die finanzielle Situation ihres Haushalts selber einschÃ¤tzt. Die Frage- und Bewertungsskala hat sich seit 2019 geÃ¤ndert, ein Vergleich mit den Vorjahren ist nicht mehr mÃ¶glich.";
+NOTE[fr]("Situation financiÃ¨re subjective du mÃ©nage")="Il s'agit d'un jugement subjectif de la personne cible sur la situation financiÃ¨re de son mÃ©nage. La formulation de la question et l'Ã©chelle d'Ã©valuation a changÃ© en 2019, les comparaisons avec les "
+"annÃ©es prÃ©cÃ©dentes ne sont plus possibles.";
+VALUENOTE("Internetzugang","Haushalte mit Internetzugang")="Zu den Haushalten mit Internetzugang zÃ¤hlen jene Haushalte, die die MÃ¶glichkeit haben, daheim das Internet zu nutzen, egal mit welchem GerÃ¤t (z.B. mit einem Desktop-Computer, einem Laptop, einem "
 "Tablet oder einem Handy).";
-VALUENOTE[fr]("Accès à internet","Accès à internet")="Les ménages qui disposent d'un accès à Internet sont ceux qui ont la possibilité d'accéder à Internet à domicile, quel que soit le type d'appareil, comme par exemple avec un ordinateur fixe ou portable,"
-" une tablette, ou un téléphone mobile.";
-VALUENOTE("Internetzugang","Haushalte mit festem Breitbandanschluss")="Haushalte mit Breitbandanschluss auf Festnetzbasis nutzen das Internet mit einer der folgenden Verbindungen:#- Kabel-TV-Anschluss #- ADSL-Anschluss (über die Telefonleitung)#- andere "
-"Technologien wie Glasfaser oder Satellitenanschluss#- WLAN via Anschluss im Gebäude oder in der Nachbarschaft";
-VALUENOTE[fr]("Accès à internet","Connexion fixe à haut débit")="Les ménages qui disposent d'une connexion fixe à haut débit sont ceux qui accèdent à Internet à domicile par le biais d'une connexion :#- raccordée au téléréseau par le câble TV, #- ou "
-"raccordée au réseau téléphonique fixe à haut débit (ADSL),#- ou raccordée à un autre type de technologie fixe par exemple par fibre-optique ou satellite,#- ou qui accèdent à Internet à domicile par le biais d'une connexion WIFI/WLAN installée dans "
-"l'immeuble ou à proximité.";
-VALUENOTE("Internetzugang","Haushalte mit mobilem Breitbandanschluss")="Haushalte mit mobilem Breitbandanschluss können das Internet daheim über das Mobiltelefonnetz nutzen. Mobile Breitbandanschlüsse erfordern ein Mobiltelefonnetz der dritten, vierten "
-"oder fünften Generation.";
-VALUENOTE[fr]("Accès à internet","Connexion mobile à haut débit")="Les ménages qui disposent d'une connexion mobile à haut débit sont ceux qui ont la possibilité d'accéder à Internet à domicile par le réseau de téléphonie mobile. Les connexions mobiles à "
-"haut débit consistent dans la connexion à Internet par le réseau de téléphonie mobile de 3ème, 4ème ou 5ème génération.";
-VALUENOTE("Internetzugang","Haushalte mit Breitbandanschluss (bis 2017)")="2014 verfügten noch nicht alle Haushalte über einen Breitbandanschluss (mehr als 256 Kb/s). Ab 2017 übertrafen sämtliche Internetverbindungen in den Haushalten diese Limite und "
-"gewährten somit eine hohe Netzwerkgeschwindigkeit.";
-VALUENOTE[fr]("Accès à internet","Accès à internet à haut débit (jusqu'en 2017)")="En 2014, tous les ménages n'avaient pas encore de connexion dite à haut débit, c'est-à-dire d'une vitesse supérieure à 256 Kb/s. Dès 2017, toutes les connexions des ménages "
-"sont plus rapides que cette limite et sont donc à haut débit.";
+VALUENOTE[fr]("AccÃ¨s Ã  internet","AccÃ¨s Ã  internet")="Les mÃ©nages qui disposent d'un accÃ¨s Ã  Internet sont ceux qui ont la possibilitÃ© d'accÃ©der Ã  Internet Ã  domicile, quel que soit le type d'appareil, comme par exemple avec un ordinateur fixe ou portable,"
+" une tablette, ou un tÃ©lÃ©phone mobile.";
+VALUENOTE("Internetzugang","Haushalte mit festem Breitbandanschluss")="Haushalte mit Breitbandanschluss auf Festnetzbasis nutzen das Internet mit einer der folgenden Verbindungen:#- Kabel-TV-Anschluss #- ADSL-Anschluss (Ã¼ber die Telefonleitung)#- andere "
+"Technologien wie Glasfaser oder Satellitenanschluss#- WLAN via Anschluss im GebÃ¤ude oder in der Nachbarschaft";
+VALUENOTE[fr]("AccÃ¨s Ã  internet","Connexion fixe Ã  haut dÃ©bit")="Les mÃ©nages qui disposent d'une connexion fixe Ã  haut dÃ©bit sont ceux qui accÃ¨dent Ã  Internet Ã  domicile par le biais d'une connexion :#- raccordÃ©e au tÃ©lÃ©rÃ©seau par le cÃ¢ble TV, #- ou "
+"raccordÃ©e au rÃ©seau tÃ©lÃ©phonique fixe Ã  haut dÃ©bit (ADSL),#- ou raccordÃ©e Ã  un autre type de technologie fixe par exemple par fibre-optique ou satellite,#- ou qui accÃ¨dent Ã  Internet Ã  domicile par le biais d'une connexion WIFI/WLAN installÃ©e dans "
+"l'immeuble ou Ã  proximitÃ©.";
+VALUENOTE("Internetzugang","Haushalte mit mobilem Breitbandanschluss")="Haushalte mit mobilem Breitbandanschluss kÃ¶nnen das Internet daheim Ã¼ber das Mobiltelefonnetz nutzen. Mobile BreitbandanschlÃ¼sse erfordern ein Mobiltelefonnetz der dritten, vierten "
+"oder fÃ¼nften Generation.";
+VALUENOTE[fr]("AccÃ¨s Ã  internet","Connexion mobile Ã  haut dÃ©bit")="Les mÃ©nages qui disposent d'une connexion mobile Ã  haut dÃ©bit sont ceux qui ont la possibilitÃ© d'accÃ©der Ã  Internet Ã  domicile par le rÃ©seau de tÃ©lÃ©phonie mobile. Les connexions mobiles Ã  "
+"haut dÃ©bit consistent dans la connexion Ã  Internet par le rÃ©seau de tÃ©lÃ©phonie mobile de 3Ã¨me, 4Ã¨me ou 5Ã¨me gÃ©nÃ©ration.";
+VALUENOTE("Internetzugang","Haushalte mit Breitbandanschluss (bis 2017)")="2014 verfÃ¼gten noch nicht alle Haushalte Ã¼ber einen Breitbandanschluss (mehr als 256 Kb/s). Ab 2017 Ã¼bertrafen sÃ¤mtliche Internetverbindungen in den Haushalten diese Limite und "
+"gewÃ¤hrten somit eine hohe Netzwerkgeschwindigkeit.";
+VALUENOTE[fr]("AccÃ¨s Ã  internet","AccÃ¨s Ã  internet Ã  haut dÃ©bit (jusqu'en 2017)")="En 2014, tous les mÃ©nages n'avaient pas encore de connexion dite Ã  haut dÃ©bit, c'est-Ã -dire d'une vitesse supÃ©rieure Ã  256 Kb/s. DÃ¨s 2017, toutes les connexions des mÃ©nages "
+"sont plus rapides que cette limite et sont donc Ã  haut dÃ©bit.";
 DATASYMBOL1="-";
 DATASYMBOL1[fr]="-";
 DATASYMBOL4="*";

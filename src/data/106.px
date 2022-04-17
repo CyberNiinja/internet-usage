@@ -9,104 +9,104 @@ SHOWDECIMALS=0;
 MATRIX="px-x-1604000000_106";
 SUBJECT-CODE="16";
 SUBJECT-AREA="16 - Kultur, Medien, Informationsgesellschaft, Sport";
-SUBJECT-AREA[fr]="16 - Culture, médias, société de l'information, sport";
-DESCRIPTION="Internetnutzungsmodalitäten und Kompetenzen";
-DESCRIPTION[fr]="Modalités d'utilisation d'internet et compétences";
-TITLE="Internetnutzungsmodalitäten und Kompetenzen";
-TITLE[fr]="Modalités d'utilisation d'internet et compétences";
+SUBJECT-AREA[fr]="16 - Culture, mÃ©dias, sociÃ©tÃ© de l'information, sport";
+DESCRIPTION="InternetnutzungsmodalitÃ¤ten und Kompetenzen";
+DESCRIPTION[fr]="ModalitÃ©s d'utilisation d'internet et compÃ©tences";
+TITLE="InternetnutzungsmodalitÃ¤ten und Kompetenzen";
+TITLE[fr]="ModalitÃ©s d'utilisation d'internet et compÃ©tences";
 DESCRIPTIONDEFAULT=YES;
-CONTENTS="Internetnutzungsmodalitäten und Kompetenzen";
-CONTENTS[fr]="Modalités d'utilisation d'internet et compétences";
+CONTENTS="InternetnutzungsmodalitÃ¤ten und Kompetenzen";
+CONTENTS[fr]="ModalitÃ©s d'utilisation d'internet et compÃ©tences";
 UNITS="Person";
 UNITS[fr]="Personne";
-STUB="Internetnutzungsmodalitäten und Kompetenzen","Geschlecht","Altersklasse","Bildungsstand";
-STUB[fr]="Modalités d'utilisation d'internet et compétences","Sexe","Classe d'âge","Niveau de formation";
+STUB="InternetnutzungsmodalitÃ¤ten und Kompetenzen","Geschlecht","Altersklasse","Bildungsstand";
+STUB[fr]="ModalitÃ©s d'utilisation d'internet et compÃ©tences","Sexe","Classe d'Ã¢ge","Niveau de formation";
 HEADING="Jahr","Absolut / relativ","Resultat";
-HEADING[fr]="Année","Absolu / relatif","Résultat";
-VALUES("Internetnutzungsmodalitäten und Kompetenzen")=
-"Internetnutzung in den letzten drei Monaten"," Tägliche oder fast tägliche Internetnutzung",
-" Internetnutzung fünf Stunden oder mehr pro Woche",
+HEADING[fr]="AnnÃ©e","Absolu / relatif","RÃ©sultat";
+VALUES("InternetnutzungsmodalitÃ¤ten und Kompetenzen")=
+"Internetnutzung in den letzten drei Monaten"," TÃ¤gliche oder fast tÃ¤gliche Internetnutzung",
+" Internetnutzung fÃ¼nf Stunden oder mehr pro Woche",
 " Internetnutzung mehr als zwanzig Stunden pro Woche (ab 2017)",
-" Internetnutzung weniger als fünf Stunden pro Woche (ab 2017)",
+" Internetnutzung weniger als fÃ¼nf Stunden pro Woche (ab 2017)",
 "Internetnutzung fern von Zuhause oder vom Arbeitsort (bis 2019)",
-"Mobiltelefon für den Internetzugang fern von Zuhause oder vom Arbeitsort (bis 2019)",
-"Laptop oder Tablet für den Internetzugang fern von Zuhause oder vom Arbeitsort (bis 2019)",
-"Laptop für den Internetzugang fern von Zuhause oder vom Arbeitsort (bis 2019)",
-"Tablet für den Internetzugang fern von Zuhause oder vom Arbeitsort (bis 2019)",
-" Verwendetes Gerät: Desktop-Computer (ab 2021)"," Verwendetes Gerät: Laptop (ab 2021)",
-" Verwendetes Gerät: Tablet (ab 2021)"," Verwendetes Gerät: Mobiltelefon/Smartphone (ab 2021)",
-" Verwendetes Gerät: Sonstiges (Smart TV, Spielkonsole, Lautsprecher, E-Reader, smartWatch, usw.) (ab 2021)",
-" Anzahl der verwendeten Geräte (ab 2021)","Hohe Internetkompetenzen (2014)",
-" Erweiterte digitale Kompetenzen (ab 2017)"," Internetnutzung mehrmals täglich (ab 2019)",
+"Mobiltelefon fÃ¼r den Internetzugang fern von Zuhause oder vom Arbeitsort (bis 2019)",
+"Laptop oder Tablet fÃ¼r den Internetzugang fern von Zuhause oder vom Arbeitsort (bis 2019)",
+"Laptop fÃ¼r den Internetzugang fern von Zuhause oder vom Arbeitsort (bis 2019)",
+"Tablet fÃ¼r den Internetzugang fern von Zuhause oder vom Arbeitsort (bis 2019)",
+" Verwendetes GerÃ¤t: Desktop-Computer (ab 2021)"," Verwendetes GerÃ¤t: Laptop (ab 2021)",
+" Verwendetes GerÃ¤t: Tablet (ab 2021)"," Verwendetes GerÃ¤t: Mobiltelefon/Smartphone (ab 2021)",
+" Verwendetes GerÃ¤t: Sonstiges (Smart TV, Spielkonsole, Lautsprecher, E-Reader, smartWatch, usw.) (ab 2021)",
+" Anzahl der verwendeten GerÃ¤te (ab 2021)","Hohe Internetkompetenzen (2014)",
+" Erweiterte digitale Kompetenzen (ab 2017)"," Internetnutzung mehrmals tÃ¤glich (ab 2019)",
 "Das Internet im privaten oder anonymen Modus browsen (2019)",
-"Daten zwischen Geräten übertragen (2017-2019)"," Software oder Apps installieren (ab 2017)",
-"Parameter einer Software ändern, inklusive Betriebssystem  (2017-2019)",
-" Einstellungen einer Software, einer App oder eines Geräts ändern (ab 2021)",
+"Daten zwischen GerÃ¤ten Ã¼bertragen (2017-2019)"," Software oder Apps installieren (ab 2017)",
+"Parameter einer Software Ã¤ndern, inklusive Betriebssystem  (2017-2019)",
+" Einstellungen einer Software, einer App oder eines GerÃ¤ts Ã¤ndern (ab 2021)",
 " Dateien oder Ordner (Verzeichnisse) kopieren oder verschieben (ab 2017)",
 " Ein Textverarbeitungsprogramm verwenden (ab 2017)",
-"Präsentationen mit Text, Bildern, Tabellen etc. erstellen (2017-2019)",
+"PrÃ¤sentationen mit Text, Bildern, Tabellen etc. erstellen (2017-2019)",
 " Dateien mit verschiedenen Elementen wie Text, Bilder, Animationen, etc. erstellen (ab 2021)",
 " Ein Tabellenkalkulationsprogramm, z.B. Excel verwenden (ab 2017)",
 " Bilder, Videos oder Audiodateien bearbeiten (ab 2017)",
 " In einer Programmiersprache Code schreiben (ab 2017)",
 " Fortgeschrittene Funktionen eines Tabellenkalkulationsprogramms verwenden (ab 2017)",
 " Falsche oder zweifelhafte Informationen oder Inhalte auf Informationsseiten oder in den sozialen Netzwerken gesehen zu haben (ab 2021)",
-" Die Richtigkeit von Informationen/Inhalten von Informationsseiten oder sozialen Netzwerken überprüfen (ab 2021)";
-VALUES[fr]("Modalités d'utilisation d'internet et compétences")=
+" Die Richtigkeit von Informationen/Inhalten von Informationsseiten oder sozialen Netzwerken Ã¼berprÃ¼fen (ab 2021)";
+VALUES[fr]("ModalitÃ©s d'utilisation d'internet et compÃ©tences")=
 "Utiliser internet au cours des 3 derniers mois"," Utiliser internet chaque jour ou presque",
 " Utiliser internet 5 heures ou plus par semaine",
-" Utiliser internet 20 heures ou plus par semaine (dès 2017)",
-" Utiliser internet moins de 5 heures par semaine (dès 2017)",
+" Utiliser internet 20 heures ou plus par semaine (dÃ¨s 2017)",
+" Utiliser internet moins de 5 heures par semaine (dÃ¨s 2017)",
 "Utiliser internet hors de la maison ou du lieu de travail (jusqu'en 2019)",
-"Utiliser un téléphone portable pour se connecter hors de la maison ou du lieu de travail (jusqu'en 2019)",
+"Utiliser un tÃ©lÃ©phone portable pour se connecter hors de la maison ou du lieu de travail (jusqu'en 2019)",
 "Utiliser un ordinateur portable ou une tablette pour se connecter hors de la maison ou du lieu de travail (jusqu'en 2019)",
 "Utiliser un ordinateur portable pour se connecter hors de la maison ou du lieu de travail (jusqu'en 2019)",
 "Utiliser une tablette pour se connecter hors de la maison ou du lieu de travail (jusqu'en 2019)",
-" Appareil utilisé : Ordinateur fixe (dès 2021)",
-" Appareil utilisé : Ordinateur portable (dès 2021)"," Appareil utilisé : Tablette (dès 2021)",
-" Appareil utilisé : Téléphone mobile/smartphone (dès 2021)",
-" Appareil utilisé : Autres (Smart TV, console de jeu, haut-parleur, liseuse, smartWatch, etc.) (dès 2021)",
-" Nombre d'appareils utilisés pour se connecter (dès 2021)",
-"Avoir des compétences internet élevées (2014)",
-" Avoir des compétences numériques développées (dès 2017)",
-" Utiliser internet plusieurs fois par jour (dès 2019)",
-"Surfer en mode de navigation privée (2019)","Transférer des fichiers entre appareils (2017-2019)",
-" Installer des logiciels ou des applications (dès 2017)",
-"Changer les paramètres d'un logiciel, y.c. système d'exploitation (2017-2019)",
-" Changer les paramètres d'un logiciel, d'une application ou d'un appareil (dès 2021)",
-" Copier ou déplacer des fichierds/dossiers (dès 2017)",
-" Utiliser un traitement de texte (dès 2017)",
-"Créer des présentations intégrant textes, images, tableaux, etc. (2017-2019)",
-" Créer des fichiers intégrant plusieurs éléments, p. ex. texte, images, animations, etc. (dès 2021)",
-" Utiliser des feuilles de calcul (excel) (dès 2017)",
-" Editer des photos, des vidéos ou des fichiers audio (dès 2017)",
-" Ecrire du code, langage de programmation (php, java, etc.) (dès 2017)",
-" Utiliser des fonctions avancées des feuilles de calcul (dès 2017)",
-" Avoir vu des informations ou un contenu faux ou douteux sur un site de news ou un réseau social (dès 2021)",
-" Contrôler la véracité de l'information/contenu de sites d'information ou de réseaux sociaux (dès 2021)";
+" Appareil utilisÃ© : Ordinateur fixe (dÃ¨s 2021)",
+" Appareil utilisÃ© : Ordinateur portable (dÃ¨s 2021)"," Appareil utilisÃ© : Tablette (dÃ¨s 2021)",
+" Appareil utilisÃ© : TÃ©lÃ©phone mobile/smartphone (dÃ¨s 2021)",
+" Appareil utilisÃ© : Autres (Smart TV, console de jeu, haut-parleur, liseuse, smartWatch, etc.) (dÃ¨s 2021)",
+" Nombre d'appareils utilisÃ©s pour se connecter (dÃ¨s 2021)",
+"Avoir des compÃ©tences internet Ã©levÃ©es (2014)",
+" Avoir des compÃ©tences numÃ©riques dÃ©veloppÃ©es (dÃ¨s 2017)",
+" Utiliser internet plusieurs fois par jour (dÃ¨s 2019)",
+"Surfer en mode de navigation privÃ©e (2019)","TransfÃ©rer des fichiers entre appareils (2017-2019)",
+" Installer des logiciels ou des applications (dÃ¨s 2017)",
+"Changer les paramÃ¨tres d'un logiciel, y.c. systÃ¨me d'exploitation (2017-2019)",
+" Changer les paramÃ¨tres d'un logiciel, d'une application ou d'un appareil (dÃ¨s 2021)",
+" Copier ou dÃ©placer des fichierds/dossiers (dÃ¨s 2017)",
+" Utiliser un traitement de texte (dÃ¨s 2017)",
+"CrÃ©er des prÃ©sentations intÃ©grant textes, images, tableaux, etc. (2017-2019)",
+" CrÃ©er des fichiers intÃ©grant plusieurs Ã©lÃ©ments, p. ex. texte, images, animations, etc. (dÃ¨s 2021)",
+" Utiliser des feuilles de calcul (excel) (dÃ¨s 2017)",
+" Editer des photos, des vidÃ©os ou des fichiers audio (dÃ¨s 2017)",
+" Ecrire du code, langage de programmation (php, java, etc.) (dÃ¨s 2017)",
+" Utiliser des fonctions avancÃ©es des feuilles de calcul (dÃ¨s 2017)",
+" Avoir vu des informations ou un contenu faux ou douteux sur un site de news ou un rÃ©seau social (dÃ¨s 2021)",
+" ContrÃ´ler la vÃ©racitÃ© de l'information/contenu de sites d'information ou de rÃ©seaux sociaux (dÃ¨s 2021)";
 VALUES("Geschlecht")="Geschlecht - Total","Mann","Frau";
 VALUES[fr]("Sexe")="Sexe - total","Homme","Femme";
 VALUES("Altersklasse")="Altersklasse - Total","15 bis 29 Jahre","30 bis 59 Jahre",
-"60 Jahre und älter";
-VALUES[fr]("Classe d'âge")="Classe d'âge - total","15 à 29 ans","30 à 59 ans","60 ans et plus";
+"60 Jahre und Ã¤lter";
+VALUES[fr]("Classe d'Ã¢ge")="Classe d'Ã¢ge - total","15 Ã  29 ans","30 Ã  59 ans","60 ans et plus";
 VALUES("Bildungsstand")="Bildungsstand - Total",
-"Ohne nachobligatorische Ausbildung (25 Jahre und älter)","Sekundarstufe II (25 Jahre und älter)",
-"Tertiärstufe (25 Jahre und älter)","Unter 25 Jahren";
+"Ohne nachobligatorische Ausbildung (25 Jahre und Ã¤lter)","Sekundarstufe II (25 Jahre und Ã¤lter)",
+"TertiÃ¤rstufe (25 Jahre und Ã¤lter)","Unter 25 Jahren";
 VALUES[fr]("Niveau de formation")="Niveau de formation - total",
 "Sans formation post-obligatoire (25 ans et plus)","Niveau secondaire II (25 ans et plus)",
 "Niveau tertiaire (25 ans et plus)","Moins de 25 ans";
 VALUES("Jahr")="2021","2019","2017","2014";
-VALUES[fr]("Année")="2021","2019","2017","2014";
-VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der Gesamtbevölkerung)";
+VALUES[fr]("AnnÃ©e")="2021","2019","2017","2014";
+VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der GesamtbevÃ¶lkerung)";
 VALUES[fr]("Absolu / relatif")="Nombre de personnes","Part (en % de la population totale)";
 VALUES("Resultat")="Wert","Konfidenzintervall +/-";
-VALUES[fr]("Résultat")="Valeur","Intervalle de confiance +/-";
-CODES("Internetnutzungsmodalitäten und Kompetenzen")="IU3CH","IFUCH","IDURFORTCH","IDUR3FCH",
+VALUES[fr]("RÃ©sultat")="Valeur","Intervalle de confiance +/-";
+CODES("InternetnutzungsmodalitÃ¤ten und Kompetenzen")="IU3CH","IFUCH","IDURFORTCH","IDUR3FCH",
 "IDURFAIBCH","IUMOBCH","IUMPCH","IUMCCH","IUPORTCH","IUTABCH","IUOFIXCH","IUOPORCH","IUTBLTCH",
 "IUSMARTCH","IUOTHCH","NBAP4CH","SKILLS2","DSK","IFQCH","CNAVPCH","CXFERCH","CINSAPPCH","CCONFCH",
 "CCONF1CH","CXFER1CH","CWRDCH","CPRES1CH","CPRES2CH","CXLSCH","CEPVACH","CPRG1CH","CXLSADVCH",
 "UDICH","TICCH";
-CODES[fr]("Modalités d'utilisation d'internet et compétences")="IU3CH","IFUCH","IDURFORTCH",
+CODES[fr]("ModalitÃ©s d'utilisation d'internet et compÃ©tences")="IU3CH","IFUCH","IDURFORTCH",
 "IDUR3FCH","IDURFAIBCH","IUMOBCH","IUMPCH","IUMCCH","IUPORTCH","IUTABCH","IUOFIXCH","IUOPORCH",
 "IUTBLTCH","IUSMARTCH","IUOTHCH","NBAP4CH","SKILLS2","DSK","IFQCH","CNAVPCH","CXFERCH","CINSAPPCH",
 "CCONFCH","CCONF1CH","CXFER1CH","CWRDCH","CPRES1CH","CPRES2CH","CXLSCH","CEPVACH","CPRG1CH",
@@ -114,76 +114,76 @@ CODES[fr]("Modalités d'utilisation d'internet et compétences")="IU3CH","IFUCH","
 CODES("Geschlecht")="0","1","2";
 CODES[fr]("Sexe")="0","1","2";
 CODES("Altersklasse")="0","1","2","3";
-CODES[fr]("Classe d'âge")="0","1","2","3";
+CODES[fr]("Classe d'Ã¢ge")="0","1","2","3";
 CODES("Bildungsstand")="0","1","2","3","4";
 CODES[fr]("Niveau de formation")="0","1","2","3","4";
 CODES("Jahr")="2021","2019","2017","2014";
-CODES[fr]("Année")="2021","2019","2017","2014";
+CODES[fr]("AnnÃ©e")="2021","2019","2017","2014";
 ELIMINATION("Geschlecht")="Geschlecht - Total";
 ELIMINATION[fr]("Sexe")="Sexe - total";
 ELIMINATION("Altersklasse")="Altersklasse - Total";
-ELIMINATION[fr]("Classe d'âge")="Classe d'âge - total";
+ELIMINATION[fr]("Classe d'Ã¢ge")="Classe d'Ã¢ge - total";
 ELIMINATION("Bildungsstand")="Bildungsstand - Total";
 ELIMINATION[fr]("Niveau de formation")="Niveau de formation - total";
-PRECISION("Absolut / relativ","Anteil (in % der Gesamtbevölkerung)")=1;
+PRECISION("Absolut / relativ","Anteil (in % der GesamtbevÃ¶lkerung)")=1;
 PRECISION[fr]("Absolu / relatif","Part (en % de la population totale)")=1;
 LAST-UPDATED="20211215 08:30";
 CONTACT="Sektion Wirtschaftsstruktur und -analysen, +41 58 463 67 26, E-Mail: info.wsa@bfs.admin.ch";
-CONTACT[fr]="Section Structure et analyses économiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
+CONTACT[fr]="Section Structure et analyses Ã©conomiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
 REFPERIOD="2021,2019,2017,2014";
 REFPERIOD[fr]="2021,2019,2017,2014";
-DATABASE="BFS - STAT-TAB / Bundesamt für Statistik, 2010 Neuchâtel / Schweiz / © Bundesamt für Statistik";
-DATABASE[fr]="OFS - STAT-TAB / Office fédéral de la statistique, 2010 Neuchâtel / Suisse / © Office fédéral de la statistique";
-SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - © BFS";
-SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - © OFS";
+DATABASE="BFS - STAT-TAB / Bundesamt fÃ¼r Statistik, 2010 NeuchÃ¢tel / Schweiz / Â© Bundesamt fÃ¼r Statistik";
+DATABASE[fr]="OFS - STAT-TAB / Office fÃ©dÃ©ral de la statistique, 2010 NeuchÃ¢tel / Suisse / Â© Office fÃ©dÃ©ral de la statistique";
+SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© BFS";
+SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© OFS";
 SURVEY="Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur Internetnut"
 "zung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Er"
-"nährung und zur Internetnutzung (OMN2014)";
-SURVEY[fr]="Omnibus 2021: Enquête sur l'utilisation d'internet (OMN2021), Omnibus 2019: Enquête sur "
-"l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), O"
-"mnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
+"nÃ¤hrung und zur Internetnutzung (OMN2014)";
+SURVEY[fr]="Omnibus 2021: EnquÃªte sur l'utilisation d'internet (OMN2021), Omnibus 2019: EnquÃªte sur "
+"l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), O"
+"mnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
 LINK="https://www.bfs.admin.ch/asset/de/px-x-1604000000_106";
 LINK[fr]="https://www.bfs.admin.ch/asset/fr/px-x-1604000000_106";
-NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewählt werden, um die Resultate richtig interpretieren zu können.#Die "
-"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht überschneiden.";
-NOTEX[fr]="<B>Résultat</B>:#Données indiquées avec un intervalle de confiance. L'intervalle de confiance (±) indique la précision du résultat dans le cas d'une enquête par échantillon, et doit toujours être sélectionné pour pouvoir interpréter "
-"correctement les résultats.#Les différences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
-NOTE="<B>Metainformation:</B>#Letzte Änderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur "
-"Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Ernährung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfällt weil statistisch nicht sicher genug (n<20 oder "
-"VK>30%)#' * ' : Zahl entfällt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom Bundesamt für "
-"Statistik durchgeführt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgeführt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestützter telefonischer "
+NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (Â±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewÃ¤hlt werden, um die Resultate richtig interpretieren zu kÃ¶nnen.#Die "
+"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht Ã¼berschneiden.";
+NOTEX[fr]="<B>RÃ©sultat</B>:#DonnÃ©es indiquÃ©es avec un intervalle de confiance. L'intervalle de confiance (Â±) indique la prÃ©cision du rÃ©sultat dans le cas d'une enquÃªte par Ã©chantillon, et doit toujours Ãªtre sÃ©lectionnÃ© pour pouvoir interprÃ©ter "
+"correctement les rÃ©sultats.#Les diffÃ©rences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
+NOTE="<B>Metainformation:</B>#Letzte Ã„nderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur "
+"Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur ErnÃ¤hrung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfÃ¤llt weil statistisch nicht sicher genug (n<20 oder "
+"VK>30%)#' * ' : Zahl entfÃ¤llt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom Bundesamt fÃ¼r "
+"Statistik durchgefÃ¼hrt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgefÃ¼hrt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestÃ¼tzter telefonischer "
 "Interviews (CATI) erhoben. Seit 2017 beruht die Erhebung auf einer Mixed-Mode-Methode, d.h. die Interviews erfolgten zum Teil via Online-Fragebogen (CAWI) und zum Teil per Telefon (CATI).#Die Stichprobe ist nach Grossregionen (NUTS 2) geschichtet, wobei "
-"die Zielpopulation jeder Grossregion anteilmässig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der übrigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die Erhebung wurde in "
-"den Monaten April, Mai und Juni durchgeführt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewählt. Die Teilnahme ist freiwillig. Seit 2017 ist die Grundgesamtheit "
-"die ständige Wohnbevölkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die Referenzbevölkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich für die Altersklasse der Personen ab 75 Jahren "
-"sind sie nicht möglich.##Weiterführende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: Erhebung zur "
+"die Zielpopulation jeder Grossregion anteilmÃ¤ssig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der Ã¼brigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die Erhebung wurde in "
+"den Monaten April, Mai und Juni durchgefÃ¼hrt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewÃ¤hlt. Die Teilnahme ist freiwillig. Seit 2017 ist die Grundgesamtheit "
+"die stÃ¤ndige WohnbevÃ¶lkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die ReferenzbevÃ¶lkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich fÃ¼r die Altersklasse der Personen ab 75 Jahren "
+"sind sie nicht mÃ¶glich.##WeiterfÃ¼hrende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: Erhebung zur "
 "Internetnutzung</A>#";
-NOTE[fr]="<B>Métainformation:</B>#Dernières modifications: nouvelles données 2021#Etat de la banque de données: décembre 2021#Période de référence: premier trimestre#Référence spatiale: Suisse#Source des données: Omnibus 2021: Enquête sur l'utilisation "
-"d'Internet (OMN2021), Omnibus 2019: Enquête sur l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), Omnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)##<B>Signes utilisés</B>#"
-"'( )' : Chiffre non indiqué par manque de fiabilité statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiqué car évident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevé##<B>Méthodologie</B>#Les données proviennent des enquêtes Omnibus "
-"TIC 2014, 2017, 2019 et 2021 réalisées par l'Office fédéral de la statistique. Ce sont des enquêtes par échantillonnage auprès d'environ 3000 ménages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte était "
-"les interviews téléphoniques assistées par ordinateur (CATI). Dès 2017, les interviews ont été réalisés soit en ligne (CAWI) soit par téléphone (CATI).#L'échantillon est stratifié par grande région (NUTS 2), avec des tailles proportionnelles à la "
-"population cible de chaque grande région, excepté pour la plus petite, le Tessin, dont la taille était fixée égale à la plus petite des autres grandes régions, la Suisse centrale. La date d'exécution de l'enquête est d'avril à juin et la périodicité de "
-"l'enquête est bisannuelle. Les personnes sont sélectionnées aléatoirement dans le registre d'échantillonnage de l'OFS et la participation est facultative. Dès 2017, l'univers de base est la population résidante permanente des ménages privés âgée de 15 à "
-"88 ans. La comparaison avec les années précédentes, pour lesquelles la population de référence était celle des personnes âgées de 15 ans et plus reste valable, sauf pour la classe d'âge des personnes de 75 ans et plus.##Plus d'informations sur l'enquête :"
-" #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: Enquête sur l'utilisation d'internet</A>#";
-VALUENOTE("Internetnutzungsmodalitäten und Kompetenzen","Hohe Internetkompetenzen (2014)")="Beim Index der «hohen Internetkompetenzen» wird der Anteil jener Personen gemessen, die mindestens fünf der folgenden sechs Aktivitäten durchgeführt haben:#1. "
-"Nutzung einer Suchmaschine#2. Versand von E-Mails mit angehängten Dateien#3. Chatten oder Verfassen von Nachrichten in sozialen Netzwerken, Blogs usw.#4. Telefonieren oder Videokonferenzen veranstalten#5. Nutzung Peer-to-Peer-Netzwerken zum Herunterladen "
+NOTE[fr]="<B>MÃ©tainformation:</B>#DerniÃ¨res modifications: nouvelles donnÃ©es 2021#Etat de la banque de donnÃ©es: dÃ©cembre 2021#PÃ©riode de rÃ©fÃ©rence: premier trimestre#RÃ©fÃ©rence spatiale: Suisse#Source des donnÃ©es: Omnibus 2021: EnquÃªte sur l'utilisation "
+"d'Internet (OMN2021), Omnibus 2019: EnquÃªte sur l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), Omnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)##<B>Signes utilisÃ©s</B>#"
+"'( )' : Chiffre non indiquÃ© par manque de fiabilitÃ© statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiquÃ© car Ã©vident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevÃ©##<B>MÃ©thodologie</B>#Les donnÃ©es proviennent des enquÃªtes Omnibus "
+"TIC 2014, 2017, 2019 et 2021 rÃ©alisÃ©es par l'Office fÃ©dÃ©ral de la statistique. Ce sont des enquÃªtes par Ã©chantillonnage auprÃ¨s d'environ 3000 mÃ©nages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte Ã©tait "
+"les interviews tÃ©lÃ©phoniques assistÃ©es par ordinateur (CATI). DÃ¨s 2017, les interviews ont Ã©tÃ© rÃ©alisÃ©s soit en ligne (CAWI) soit par tÃ©lÃ©phone (CATI).#L'Ã©chantillon est stratifiÃ© par grande rÃ©gion (NUTS 2), avec des tailles proportionnelles Ã  la "
+"population cible de chaque grande rÃ©gion, exceptÃ© pour la plus petite, le Tessin, dont la taille Ã©tait fixÃ©e Ã©gale Ã  la plus petite des autres grandes rÃ©gions, la Suisse centrale. La date d'exÃ©cution de l'enquÃªte est d'avril Ã  juin et la pÃ©riodicitÃ© de "
+"l'enquÃªte est bisannuelle. Les personnes sont sÃ©lectionnÃ©es alÃ©atoirement dans le registre d'Ã©chantillonnage de l'OFS et la participation est facultative. DÃ¨s 2017, l'univers de base est la population rÃ©sidante permanente des mÃ©nages privÃ©s Ã¢gÃ©e de 15 Ã  "
+"88 ans. La comparaison avec les annÃ©es prÃ©cÃ©dentes, pour lesquelles la population de rÃ©fÃ©rence Ã©tait celle des personnes Ã¢gÃ©es de 15 ans et plus reste valable, sauf pour la classe d'Ã¢ge des personnes de 75 ans et plus.##Plus d'informations sur l'enquÃªte :"
+" #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: EnquÃªte sur l'utilisation d'internet</A>#";
+VALUENOTE("InternetnutzungsmodalitÃ¤ten und Kompetenzen","Hohe Internetkompetenzen (2014)")="Beim Index der Â«hohen InternetkompetenzenÂ» wird der Anteil jener Personen gemessen, die mindestens fÃ¼nf der folgenden sechs AktivitÃ¤ten durchgefÃ¼hrt haben:#1. "
+"Nutzung einer Suchmaschine#2. Versand von E-Mails mit angehÃ¤ngten Dateien#3. Chatten oder Verfassen von Nachrichten in sozialen Netzwerken, Blogs usw.#4. Telefonieren oder Videokonferenzen veranstalten#5. Nutzung Peer-to-Peer-Netzwerken zum Herunterladen "
 "von Musik, Filmen usw.#6. Erstellung und Pflege einer Website";
-VALUENOTE[fr]("Modalités d'utilisation d'internet et compétences","Avoir des compétences internet élevées (2014)")="Cet indice des « compétences internet élevées » est obtenu en considérant, parmi les six activités suivantes, les personnes qui en ont au "
-"moins effectuées cinq :#1. utiliser un moteur de recherche,#2. envoyer des mails avec fichiers attachés,#3. chatter ou poster des messages sur des réseaux sociaux, blogs, etc.,#4. téléphoner ou faire des vidéoconférences,#5. utiliser des réseaux "
-"d'échange 'pair-à-pair' pour télécharger de la musique, films, etc.,#6. créer et mettre à jour un site.";
-VALUENOTE("Internetnutzungsmodalitäten und Kompetenzen"," Erweiterte digitale Kompetenzen (ab 2017)")="Internationaler Index, berechnet anhand verschiedener in den 12 letzten Monaten ausgeführter oder nicht ausgeführter Tätigkeiten in den vier "
-"Kompetenzbereichen Informationsbeschaffung, Kommunikation, Problemlösung und Beherrschen von Software für die Bearbeitung von Inhalten (Texte, Bilder, Tabellen usw.). Als Personen mit erweiterten digitalen Kompetenzen gelten jene, die in allen vier "
-"Bereichen über mehr als nur ein Grundwissen verfügen.#Bruch in der Zeitreihe im Jahr 2021 aufgrund von Änderungen bei den Variablen, die zur Berechnung des Index verwendet werden (siehe Hinweis zur Verwendung von erweiterten Excel-Funktionen).";
-VALUENOTE[fr]("Modalités d'utilisation d'internet et compétences"," Avoir des compétences numériques développées (dès 2017)")="Indice international calculé sur la base de différentes activités effectuées ou non au cours des 12 derniers mois, dans 4 "
-"domaines de compétences : la collecte d'information, la communication, la résolution de problème et la maitrise de logiciels pour la manipulation des contenus (textes, images, tableaux, etc). Sont considérées comme ayant des compétences numériques "
-"développées les personnes d'un niveau plus avancé que le niveau basique dans les 4 domaines.#Rupture de série temporelle en 2021 en raison de changements dans les variables utilisées dans le calcul de l'indice (cf. note sur la variable d'utilisation des "
-"fonctions avancées d'Excel).";
-VALUENOTE("Internetnutzungsmodalitäten und Kompetenzen"," Fortgeschrittene Funktionen eines Tabellenkalkulationsprogramms verwenden (ab 2017)")="Zeitreihenbruch im Jahr 2021 aufgrund einer Änderung des Wortlauts der Frage. Im Jahr 2021 werden die "
-"Beispiele für erweiterte Funktionen 'Sortieren, Filtern, Formeln einfügen, Diagramme erstellen' nicht mehr wie in den Vorjahren angezeigt.";
-VALUENOTE[fr]("Modalités d'utilisation d'internet et compétences"," Utiliser des fonctions avancées des feuilles de calcul (dès 2017)")="Rupture de série temporelle en 2021 en raison d'un changement du libellé de la question. En 2021, les exemples de "
-"fonctions avancées 'trier, filtrer, insérer des formules, créer des graphiques' ne sont plus explicitement indiqués comme les années précédentes.";
+VALUENOTE[fr]("ModalitÃ©s d'utilisation d'internet et compÃ©tences","Avoir des compÃ©tences internet Ã©levÃ©es (2014)")="Cet indice des Â« compÃ©tences internet Ã©levÃ©es Â» est obtenu en considÃ©rant, parmi les six activitÃ©s suivantes, les personnes qui en ont au "
+"moins effectuÃ©es cinq :#1. utiliser un moteur de recherche,#2. envoyer des mails avec fichiers attachÃ©s,#3. chatter ou poster des messages sur des rÃ©seaux sociaux, blogs, etc.,#4. tÃ©lÃ©phoner ou faire des vidÃ©oconfÃ©rences,#5. utiliser des rÃ©seaux "
+"d'Ã©change 'pair-Ã -pair' pour tÃ©lÃ©charger de la musique, films, etc.,#6. crÃ©er et mettre Ã  jour un site.";
+VALUENOTE("InternetnutzungsmodalitÃ¤ten und Kompetenzen"," Erweiterte digitale Kompetenzen (ab 2017)")="Internationaler Index, berechnet anhand verschiedener in den 12 letzten Monaten ausgefÃ¼hrter oder nicht ausgefÃ¼hrter TÃ¤tigkeiten in den vier "
+"Kompetenzbereichen Informationsbeschaffung, Kommunikation, ProblemlÃ¶sung und Beherrschen von Software fÃ¼r die Bearbeitung von Inhalten (Texte, Bilder, Tabellen usw.). Als Personen mit erweiterten digitalen Kompetenzen gelten jene, die in allen vier "
+"Bereichen Ã¼ber mehr als nur ein Grundwissen verfÃ¼gen.#Bruch in der Zeitreihe im Jahr 2021 aufgrund von Ã„nderungen bei den Variablen, die zur Berechnung des Index verwendet werden (siehe Hinweis zur Verwendung von erweiterten Excel-Funktionen).";
+VALUENOTE[fr]("ModalitÃ©s d'utilisation d'internet et compÃ©tences"," Avoir des compÃ©tences numÃ©riques dÃ©veloppÃ©es (dÃ¨s 2017)")="Indice international calculÃ© sur la base de diffÃ©rentes activitÃ©s effectuÃ©es ou non au cours des 12 derniers mois, dans 4 "
+"domaines de compÃ©tences : la collecte d'information, la communication, la rÃ©solution de problÃ¨me et la maitrise de logiciels pour la manipulation des contenus (textes, images, tableaux, etc). Sont considÃ©rÃ©es comme ayant des compÃ©tences numÃ©riques "
+"dÃ©veloppÃ©es les personnes d'un niveau plus avancÃ© que le niveau basique dans les 4 domaines.#Rupture de sÃ©rie temporelle en 2021 en raison de changements dans les variables utilisÃ©es dans le calcul de l'indice (cf. note sur la variable d'utilisation des "
+"fonctions avancÃ©es d'Excel).";
+VALUENOTE("InternetnutzungsmodalitÃ¤ten und Kompetenzen"," Fortgeschrittene Funktionen eines Tabellenkalkulationsprogramms verwenden (ab 2017)")="Zeitreihenbruch im Jahr 2021 aufgrund einer Ã„nderung des Wortlauts der Frage. Im Jahr 2021 werden die "
+"Beispiele fÃ¼r erweiterte Funktionen 'Sortieren, Filtern, Formeln einfÃ¼gen, Diagramme erstellen' nicht mehr wie in den Vorjahren angezeigt.";
+VALUENOTE[fr]("ModalitÃ©s d'utilisation d'internet et compÃ©tences"," Utiliser des fonctions avancÃ©es des feuilles de calcul (dÃ¨s 2017)")="Rupture de sÃ©rie temporelle en 2021 en raison d'un changement du libellÃ© de la question. En 2021, les exemples de "
+"fonctions avancÃ©es 'trier, filtrer, insÃ©rer des formules, crÃ©er des graphiques' ne sont plus explicitement indiquÃ©s comme les annÃ©es prÃ©cÃ©dentes.";
 DATASYMBOL1="-";
 DATASYMBOL1[fr]="-";
 DATASYMBOL4="*";

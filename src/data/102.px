@@ -9,26 +9,26 @@ SHOWDECIMALS=0;
 MATRIX="px-x-1604000000_102";
 SUBJECT-CODE="16";
 SUBJECT-AREA="16 - Kultur, Medien, Informationsgesellschaft, Sport";
-SUBJECT-AREA[fr]="16 - Culture, médias, société de l'information, sport";
-DESCRIPTION="Einzelpersonen und Online-Aktivitäten";
-DESCRIPTION[fr]="Usages privés d'internet: activités en ligne";
-TITLE="Einzelpersonen und Online-Aktivitäten";
-TITLE[fr]="Usages privés d'internet: activités en ligne";
+SUBJECT-AREA[fr]="16 - Culture, mÃ©dias, sociÃ©tÃ© de l'information, sport";
+DESCRIPTION="Einzelpersonen und Online-AktivitÃ¤ten";
+DESCRIPTION[fr]="Usages privÃ©s d'internet: activitÃ©s en ligne";
+TITLE="Einzelpersonen und Online-AktivitÃ¤ten";
+TITLE[fr]="Usages privÃ©s d'internet: activitÃ©s en ligne";
 DESCRIPTIONDEFAULT=YES;
-CONTENTS="Einzelpersonen und Online-Aktivitäten";
-CONTENTS[fr]="Usages privés d'internet: activités en ligne";
+CONTENTS="Einzelpersonen und Online-AktivitÃ¤ten";
+CONTENTS[fr]="Usages privÃ©s d'internet: activitÃ©s en ligne";
 UNITS="Person";
 UNITS[fr]="Personne";
-STUB="Online-Aktivität","Geschlecht","Altersklasse","Bildungsstand";
-STUB[fr]="Activité en ligne","Sexe","Classe d'âge","Niveau de formation";
+STUB="Online-AktivitÃ¤t","Geschlecht","Altersklasse","Bildungsstand";
+STUB[fr]="ActivitÃ© en ligne","Sexe","Classe d'Ã¢ge","Niveau de formation";
 HEADING="Jahr","Absolut / relativ","Resultat";
-HEADING[fr]="Année","Absolu / relatif","Résultat";
-VALUES("Online-Aktivität")="E-Mails senden und empfangen",
+HEADING[fr]="AnnÃ©e","Absolu / relatif","RÃ©sultat";
+VALUES("Online-AktivitÃ¤t")="E-Mails senden und empfangen",
 "Telefonieren oder Videokonferenzen abhalten","Sich an einem sozialen Netzwerk beteiligen",
 "Nach Informationen zu Waren oder Dienstleistungen suchen",
-"Dienstleistungen im Bereich Reisen und Unterkunft nutzen","Radio hören oder fernsehen",
-"Musik hören oder herunterladen","Filme oder Videos anschauen oder herunterladen",
-"Herunterladen über Peer-to-Peer-Netzwerke (Musik oder Filme)",
+"Dienstleistungen im Bereich Reisen und Unterkunft nutzen","Radio hÃ¶ren oder fernsehen",
+"Musik hÃ¶ren oder herunterladen","Filme oder Videos anschauen oder herunterladen",
+"Herunterladen Ã¼ber Peer-to-Peer-Netzwerke (Musik oder Filme)",
 "Selbst erstellte Inhalte auf Websites oder Blogs hochladen (bis 2017)",
 "Selber erstellte Inhalte aufschalten, um sie mit anderen Leuten zu teilen  (ab 2019)",
 "Video- oder Computerspiele spielen oder herunterladen",
@@ -36,143 +36,143 @@ VALUES("Online-Aktivität")="E-Mails senden und empfangen",
 "Gesundheitsrelevante Informationen suchen",
 "Internet nutzen mit der Absicht, etwas zu lernen (2014)",
 "Seiten wie Wikipedia benutzen, um etwas zu lernen (ab 2017)",
-"Im Internet Applikationen zum Musikhören oder zum Anschauen von Videos nutzen (bis 2017)",
+"Im Internet Applikationen zum MusikhÃ¶ren oder zum Anschauen von Videos nutzen (bis 2017)",
 "Speicherplatz im Internet nutzen, um Dateien zu speichern oder zu sichern (Dokumente, Bilder, Musik, Videos oder andere Datentypen)",
 "Online-Programme benutzen, um Dokumente zu erstellen und zu beartbeiten",
 "An online-Befragungen oder -Abstimmungen teilnehmen (ab 2017)",
 "Seine Meinung zu politischen oder zivilgesellschaftlichen Fragen posten (ab 2017)",
-"Über die Websites/App eines Spitals/Arztpraxis einen Termin mit einem Doktor vereinbaren (ab 2017)",
+"Ãœber die Websites/App eines Spitals/Arztpraxis einen Termin mit einem Doktor vereinbaren (ab 2017)",
 "Instant Messaging verwenden; z.B. WhatsApp, Messenger, usw. (ab 2019)",
 "Einem Online-Kurs folgen (ab 2017)",
 "Mit anderem Lernmaterial als mit einem kompletten Online-Kurs lernen (ab 2017)",
-"Mit Lehrkräften oder Lernenden über Schul- oder Bildungsplattformen kommunizieren (ab 2017)",
+"Mit LehrkrÃ¤ften oder Lernenden Ã¼ber Schul- oder Bildungsplattformen kommunizieren (ab 2017)",
 "Unterkunft suchen bei Privatpersonen mittels einer Internetseite oder App, z.B. AirBnb (2019)",
-"Transportmöglichkeiten bei Privatpersonen suchen mit einer Internetseite oder App (2019)",
+"TransportmÃ¶glichkeiten bei Privatpersonen suchen mit einer Internetseite oder App (2019)",
 "Crowdworking-Plattform verwenden (2019)";
-VALUES[fr]("Activité en ligne")="Envoyer ou recevoir des courriels (e-mail)",
-"Téléphoner ou faire des vidéoconférences","Participer à un réseau social",
+VALUES[fr]("ActivitÃ© en ligne")="Envoyer ou recevoir des courriels (e-mail)",
+"TÃ©lÃ©phoner ou faire des vidÃ©oconfÃ©rences","Participer Ã  un rÃ©seau social",
 "Rechercher des informations sur des produits, biens, services",
-"Utiliser des services en relation avec des voyages ou des hébergements",
-"Ecouter la radio ou regarder la télévision","Télécharger ou écouter de la musique",
-"Télécharger ou regarder des films, vidéos","Télécharger en pair-à-pair (films ou musique)",
+"Utiliser des services en relation avec des voyages ou des hÃ©bergements",
+"Ecouter la radio ou regarder la tÃ©lÃ©vision","TÃ©lÃ©charger ou Ã©couter de la musique",
+"TÃ©lÃ©charger ou regarder des films, vidÃ©os","TÃ©lÃ©charger en pair-Ã -pair (films ou musique)",
 "Mettre en ligne son propre contenu sur des sites ou blogs (jusqu'en 2017)",
-"Mettre en ligne du contenu créé personnellement pour le partager (dès 2019)",
-"Jouer ou télécharger des jeux vidéos ou d'ordinateur",
+"Mettre en ligne du contenu crÃ©Ã© personnellement pour le partager (dÃ¨s 2019)",
+"Jouer ou tÃ©lÃ©charger des jeux vidÃ©os ou d'ordinateur",
 "Lire les nouvelles ou consulter des journaux ou magazines d'information",
-"Rechercher des informations en relation avec la santé",
+"Rechercher des informations en relation avec la santÃ©",
 "Consulter internet avec l'objectif d'apprendre quelque chose (2014)",
-"Consulter un site comme Wikipedia pour apprendre quelque chose (dès 2017)",
-"Utiliser des applications sur internet pour écouter de la musique ou voir des vidéos (jusqu'en 2017)",
+"Consulter un site comme Wikipedia pour apprendre quelque chose (dÃ¨s 2017)",
+"Utiliser des applications sur internet pour Ã©couter de la musique ou voir des vidÃ©os (jusqu'en 2017)",
 "Utiliser de l'espace en ligne pour stocker ou sauvegarder des fichiers (documents, images, musique, videos, autres)",
-"Utiliser des programmes en ligne pour créer ou modifier des documents",
-"Participer à des consultations ou votations en ligne (dès 2017)",
-"Poster son opinion sur des questions politiques ou citoyennes (dès 2017)",
-"Prendre un rendez-vous avec un médecin via le site de l'hôpital ou du cabinet (dès 2017)",
-"Utiliser une messagerie instantanée, p. ex. WhatsApp, Messenger, etc. (dès 2019)",
-"Suivre un cours en ligne (dès 2017)",
-"Utliser du matériel d'apprentissage autre qu’un cours en ligne complet (dès 2017)",
-"Communiquer avec des enseignants/étudiants sur des portails scolaires ou éducatifs (dès 2017)",
-"Utiliser un site ou application pour services d'hébergement chez des particuliers, type AirBnB (2019)",
-"Utiliser un site ou application spécialisée dans le transport par des particuliers, ex. Uber (2019)",
+"Utiliser des programmes en ligne pour crÃ©er ou modifier des documents",
+"Participer Ã  des consultations ou votations en ligne (dÃ¨s 2017)",
+"Poster son opinion sur des questions politiques ou citoyennes (dÃ¨s 2017)",
+"Prendre un rendez-vous avec un mÃ©decin via le site de l'hÃ´pital ou du cabinet (dÃ¨s 2017)",
+"Utiliser une messagerie instantanÃ©e, p. ex. WhatsApp, Messenger, etc. (dÃ¨s 2019)",
+"Suivre un cours en ligne (dÃ¨s 2017)",
+"Utliser du matÃ©riel d'apprentissage autre quâ€™un cours en ligne complet (dÃ¨s 2017)",
+"Communiquer avec des enseignants/Ã©tudiants sur des portails scolaires ou Ã©ducatifs (dÃ¨s 2017)",
+"Utiliser un site ou application pour services d'hÃ©bergement chez des particuliers, type AirBnB (2019)",
+"Utiliser un site ou application spÃ©cialisÃ©e dans le transport par des particuliers, ex. Uber (2019)",
 "Utiliser une plateforme de crowdworking (2019)";
 VALUES("Geschlecht")="Geschlecht - Total","Mann","Frau";
 VALUES[fr]("Sexe")="Sexe - total","Homme","Femme";
 VALUES("Altersklasse")="Altersklasse - Total","15 bis 29 Jahre","30 bis 59 Jahre",
-"60 Jahre und älter";
-VALUES[fr]("Classe d'âge")="Classe d'âge - total","15 à 29 ans","30 à 59 ans","60 ans et plus";
+"60 Jahre und Ã¤lter";
+VALUES[fr]("Classe d'Ã¢ge")="Classe d'Ã¢ge - total","15 Ã  29 ans","30 Ã  59 ans","60 ans et plus";
 VALUES("Bildungsstand")="Bildungsstand - Total",
-"Ohne nachobligatorische Ausbildung (25 Jahre und älter)","Sekundarstufe II (25 Jahre und älter)",
-"Tertiärstufe (25 Jahre und älter)","Unter 25 Jahren";
+"Ohne nachobligatorische Ausbildung (25 Jahre und Ã¤lter)","Sekundarstufe II (25 Jahre und Ã¤lter)",
+"TertiÃ¤rstufe (25 Jahre und Ã¤lter)","Unter 25 Jahren";
 VALUES[fr]("Niveau de formation")="Niveau de formation - total",
 "Sans formation post-obligatoire (25 ans et plus)","Niveau secondaire II (25 ans et plus)",
 "Niveau tertiaire (25 ans et plus)","Moins de 25 ans";
 VALUES("Jahr")="2021","2019","2017","2014";
-VALUES[fr]("Année")="2021","2019","2017","2014";
-VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der Gesamtbevölkerung)";
+VALUES[fr]("AnnÃ©e")="2021","2019","2017","2014";
+VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der GesamtbevÃ¶lkerung)";
 VALUES[fr]("Absolu / relatif")="Nombre de personnes","Part (en % de la population totale)";
 VALUES("Resultat")="Wert","Konfidenzintervall +/-";
-VALUES[fr]("Résultat")="Valeur","Intervalle de confiance +/-";
-CODES("Online-Aktivität")="IUEMCH","IUPH1CH","IUSNETCH","IUIFCH","IUHOLSCH","IUMFWEBCH","IULMUSCH",
+VALUES[fr]("RÃ©sultat")="Valeur","Intervalle de confiance +/-";
+CODES("Online-AktivitÃ¤t")="IUEMCH","IUPH1CH","IUSNETCH","IUIFCH","IUHOLSCH","IUMFWEBCH","IULMUSCH",
 "IUWMOVCH","IUP2PCH","IUUPLCH","IUUPL2CH","IUPGMCH","IUNW1CH","IUHEINFCH","IUCLRNCH","IUCLRN2CH",
 "CC_PMVCH","CCCH","CC_SOFTCH","IUVOTECH","IUPOL1CH","IUMAPPCH","IUCHATCH","IUOLCCH","IUOLMCH",
 "IUOCISCH","IUPPHRBCH","IUPPTUBCH","IUPCWKCH";
-CODES[fr]("Activité en ligne")="IUEMCH","IUPH1CH","IUSNETCH","IUIFCH","IUHOLSCH","IUMFWEBCH",
+CODES[fr]("ActivitÃ© en ligne")="IUEMCH","IUPH1CH","IUSNETCH","IUIFCH","IUHOLSCH","IUMFWEBCH",
 "IULMUSCH","IUWMOVCH","IUP2PCH","IUUPLCH","IUUPL2CH","IUPGMCH","IUNW1CH","IUHEINFCH","IUCLRNCH",
 "IUCLRN2CH","CC_PMVCH","CCCH","CC_SOFTCH","IUVOTECH","IUPOL1CH","IUMAPPCH","IUCHATCH","IUOLCCH",
 "IUOLMCH","IUOCISCH","IUPPHRBCH","IUPPTUBCH","IUPCWKCH";
 CODES("Geschlecht")="0","1","2";
 CODES[fr]("Sexe")="0","1","2";
 CODES("Altersklasse")="0","1","2","3";
-CODES[fr]("Classe d'âge")="0","1","2","3";
+CODES[fr]("Classe d'Ã¢ge")="0","1","2","3";
 CODES("Bildungsstand")="0","1","2","3","4";
 CODES[fr]("Niveau de formation")="0","1","2","3","4";
 CODES("Jahr")="2021","2019","2017","2014";
-CODES[fr]("Année")="2021","2019","2017","2014";
+CODES[fr]("AnnÃ©e")="2021","2019","2017","2014";
 ELIMINATION("Geschlecht")="Geschlecht - Total";
 ELIMINATION[fr]("Sexe")="Sexe - total";
 ELIMINATION("Altersklasse")="Altersklasse - Total";
-ELIMINATION[fr]("Classe d'âge")="Classe d'âge - total";
+ELIMINATION[fr]("Classe d'Ã¢ge")="Classe d'Ã¢ge - total";
 ELIMINATION("Bildungsstand")="Bildungsstand - Total";
 ELIMINATION[fr]("Niveau de formation")="Niveau de formation - total";
 LAST-UPDATED="20211215 08:30";
 CONTACT="Sektion Wirtschaftsstruktur und -analysen, +41 58 463 67 26, E-Mail: info.wsa@bfs.admin.ch";
-CONTACT[fr]="Section Structure et analyses économiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
+CONTACT[fr]="Section Structure et analyses Ã©conomiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
 REFPERIOD="2021,2019,2017,2014";
 REFPERIOD[fr]="2021,2019,2017,2014";
-DATABASE="BFS - STAT-TAB / Bundesamt für Statistik, 2010 Neuchâtel / Schweiz / © Bundesamt für Statistik";
-DATABASE[fr]="OFS - STAT-TAB / Office fédéral de la statistique, 2010 Neuchâtel / Suisse / © Office fédéral de la statistique";
-SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - © BFS";
-SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - © OFS";
+DATABASE="BFS - STAT-TAB / Bundesamt fÃ¼r Statistik, 2010 NeuchÃ¢tel / Schweiz / Â© Bundesamt fÃ¼r Statistik";
+DATABASE[fr]="OFS - STAT-TAB / Office fÃ©dÃ©ral de la statistique, 2010 NeuchÃ¢tel / Suisse / Â© Office fÃ©dÃ©ral de la statistique";
+SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© BFS";
+SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - Â© OFS";
 SURVEY="Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur Internetnut"
 "zung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Er"
-"nährung und zur Internetnutzung (OMN2014)";
-SURVEY[fr]="Omnibus 2021: Enquête sur l'utilisation d'internet (OMN2021), Omnibus 2019: Enquête sur "
-"l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), O"
-"mnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
+"nÃ¤hrung und zur Internetnutzung (OMN2014)";
+SURVEY[fr]="Omnibus 2021: EnquÃªte sur l'utilisation d'internet (OMN2021), Omnibus 2019: EnquÃªte sur "
+"l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), O"
+"mnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
 LINK="https://www.bfs.admin.ch/asset/de/px-x-1604000000_102";
 LINK[fr]="https://www.bfs.admin.ch/asset/fr/px-x-1604000000_102";
-NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewählt werden, um die Resultate richtig interpretieren zu können.#Die "
-"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht überschneiden.";
-NOTEX[fr]="<B>Résultat</B>:#Données indiquées avec un intervalle de confiance. L'intervalle de confiance (±) indique la précision du résultat dans le cas d'une enquête par échantillon, et doit toujours être sélectionné pour pouvoir interpréter "
-"correctement les résultats.#Les différences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
-NOTE="<B>Metainformation:</B>#Letzte Änderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur "
-"Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Ernährung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfällt weil statistisch nicht sicher genug (n<20 oder "
-"VK>30%)#' * ' : Zahl entfällt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom Bundesamt für "
-"Statistik durchgeführt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgeführt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestützter telefonischer "
+NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (Â±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewÃ¤hlt werden, um die Resultate richtig interpretieren zu kÃ¶nnen.#Die "
+"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht Ã¼berschneiden.";
+NOTEX[fr]="<B>RÃ©sultat</B>:#DonnÃ©es indiquÃ©es avec un intervalle de confiance. L'intervalle de confiance (Â±) indique la prÃ©cision du rÃ©sultat dans le cas d'une enquÃªte par Ã©chantillon, et doit toujours Ãªtre sÃ©lectionnÃ© pour pouvoir interprÃ©ter "
+"correctement les rÃ©sultats.#Les diffÃ©rences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
+NOTE="<B>Metainformation:</B>#Letzte Ã„nderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur "
+"Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur ErnÃ¤hrung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfÃ¤llt weil statistisch nicht sicher genug (n<20 oder "
+"VK>30%)#' * ' : Zahl entfÃ¤llt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom Bundesamt fÃ¼r "
+"Statistik durchgefÃ¼hrt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgefÃ¼hrt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestÃ¼tzter telefonischer "
 "Interviews (CATI) erhoben. Seit 2017 beruht die Erhebung auf einer Mixed-Mode-Methode, d.h. die Interviews erfolgten zum Teil via Online-Fragebogen (CAWI) und zum Teil per Telefon (CATI).#Die Stichprobe ist nach Grossregionen (NUTS 2) geschichtet, wobei "
-"die Zielpopulation jeder Grossregion anteilmässig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der übrigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die Erhebung wurde in "
-"den Monaten April, Mai und Junidurchgeführt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewählt. Die Teilnahme ist freiwillig. Seit 2017 ist die Grundgesamtheit "
-"die ständige Wohnbevölkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die Referenzbevölkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich für die Altersklasse der Personen ab 75 Jahren "
-"sind sie nicht möglich.##Weiterfürende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: Erhebung zur Internetnutzung</"
+"die Zielpopulation jeder Grossregion anteilmÃ¤ssig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der Ã¼brigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die Erhebung wurde in "
+"den Monaten April, Mai und JunidurchgefÃ¼hrt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewÃ¤hlt. Die Teilnahme ist freiwillig. Seit 2017 ist die Grundgesamtheit "
+"die stÃ¤ndige WohnbevÃ¶lkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die ReferenzbevÃ¶lkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich fÃ¼r die Altersklasse der Personen ab 75 Jahren "
+"sind sie nicht mÃ¶glich.##WeiterfÃ¼rende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: Erhebung zur Internetnutzung</"
 "A>#";
-NOTE[fr]="<B>Métainformation:</B>#Dernières modifications: nouvelles données 2021#Etat de la banque de données: décembre 2021#Période de référence: premier trimestre#Référence spatiale: Suisse#Source des données: Omnibus 2021: Enquête sur l'utilisation "
-"d'internet (OMN2021), Omnibus 2019: Enquête sur l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), Omnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)##<B>Signes utilisés</B>#"
-"'( )' : Chiffre non indiqué par manque de fiabilité statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiqué car évident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevé##<B>Méthodologie</B>#Les données proviennent des enquêtes Omnibus "
-"TIC 2014, 2017, 2019 et 2021 réalisées par l'Office fédéral de la statistique. Ce sont des enquêtes par échantillonnage auprès d'environ 3000 ménages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte était "
-"les interviews téléphoniques assistées par ordinateur (CATI). Dès 2017, les interviews ont été réalisés soit en ligne (CAWI) soit par téléphone (CATI).#L'échantillon est stratifié par grande région (NUTS 2), avec des tailles proportionnelles à la "
-"population cible de chaque grande région, excepté pour la plus petite, le Tessin, dont la taille était fixée égale à la plus petite des autres grandes régions, la Suisse centrale. La date d'exécution de l'enquête est d'avril à juin et la périodicité de "
-"l'enquête est bisannuelle. Les personnes sont sélectionnées aléatoirement dans le registre d'échantillonnage de l'OFS et la participation est facultative. Dès 2017, l'univers de base est la population résidante permanente des ménages privés âgée de 15 à "
-"88 ans. La comparaison avec les années précédentes, pour lesquelles la population de référence était celle des personnes âgées de 15 ans et plus reste valable, sauf pour la classe d'âge des personnes de 75 ans et plus.##Plus d'informations sur l'enquête :"
-" #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: Enquête sur l'utilisation d'internet</A>#";
-NOTE("Online-Aktivität")="Bei den genannten Aktivitäten handelt es sich um Aktivitäten, die die Zielperson in den drei Monaten vor der Erhebung zu privaten Zwecken ausgeführt hat.";
-NOTE[fr]("Activité en ligne")="Les activités énumérées ici sont des activités réalisées à titre privé par la personne cible au cours des trois mois précédant l'enquête.";
-VALUENOTE("Online-Aktivität","Sich an einem sozialen Netzwerk beteiligen")="Bruch der Zeitreihe im Jahr 2021. Eine zusätzliche Frage zur Nutzung von sozialen Netzwerken mit dem Smartphone impliziert die Berücksichtigung von mehr Nutzern sozialer "
+NOTE[fr]="<B>MÃ©tainformation:</B>#DerniÃ¨res modifications: nouvelles donnÃ©es 2021#Etat de la banque de donnÃ©es: dÃ©cembre 2021#PÃ©riode de rÃ©fÃ©rence: premier trimestre#RÃ©fÃ©rence spatiale: Suisse#Source des donnÃ©es: Omnibus 2021: EnquÃªte sur l'utilisation "
+"d'internet (OMN2021), Omnibus 2019: EnquÃªte sur l'utilisation d'internet (OMN2019), Omnibus 2017: EnquÃªte sur l'utilisation d'internet (OMN2017), Omnibus 2014: EnquÃªte sur l'alimentation et sur l'utilisation d'internet (OMN2014)##<B>Signes utilisÃ©s</B>#"
+"'( )' : Chiffre non indiquÃ© par manque de fiabilitÃ© statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiquÃ© car Ã©vident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevÃ©##<B>MÃ©thodologie</B>#Les donnÃ©es proviennent des enquÃªtes Omnibus "
+"TIC 2014, 2017, 2019 et 2021 rÃ©alisÃ©es par l'Office fÃ©dÃ©ral de la statistique. Ce sont des enquÃªtes par Ã©chantillonnage auprÃ¨s d'environ 3000 mÃ©nages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte Ã©tait "
+"les interviews tÃ©lÃ©phoniques assistÃ©es par ordinateur (CATI). DÃ¨s 2017, les interviews ont Ã©tÃ© rÃ©alisÃ©s soit en ligne (CAWI) soit par tÃ©lÃ©phone (CATI).#L'Ã©chantillon est stratifiÃ© par grande rÃ©gion (NUTS 2), avec des tailles proportionnelles Ã  la "
+"population cible de chaque grande rÃ©gion, exceptÃ© pour la plus petite, le Tessin, dont la taille Ã©tait fixÃ©e Ã©gale Ã  la plus petite des autres grandes rÃ©gions, la Suisse centrale. La date d'exÃ©cution de l'enquÃªte est d'avril Ã  juin et la pÃ©riodicitÃ© de "
+"l'enquÃªte est bisannuelle. Les personnes sont sÃ©lectionnÃ©es alÃ©atoirement dans le registre d'Ã©chantillonnage de l'OFS et la participation est facultative. DÃ¨s 2017, l'univers de base est la population rÃ©sidante permanente des mÃ©nages privÃ©s Ã¢gÃ©e de 15 Ã  "
+"88 ans. La comparaison avec les annÃ©es prÃ©cÃ©dentes, pour lesquelles la population de rÃ©fÃ©rence Ã©tait celle des personnes Ã¢gÃ©es de 15 ans et plus reste valable, sauf pour la classe d'Ã¢ge des personnes de 75 ans et plus.##Plus d'informations sur l'enquÃªte :"
+" #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: EnquÃªte sur l'utilisation d'internet</A>#";
+NOTE("Online-AktivitÃ¤t")="Bei den genannten AktivitÃ¤ten handelt es sich um AktivitÃ¤ten, die die Zielperson in den drei Monaten vor der Erhebung zu privaten Zwecken ausgefÃ¼hrt hat.";
+NOTE[fr]("ActivitÃ© en ligne")="Les activitÃ©s Ã©numÃ©rÃ©es ici sont des activitÃ©s rÃ©alisÃ©es Ã  titre privÃ© par la personne cible au cours des trois mois prÃ©cÃ©dant l'enquÃªte.";
+VALUENOTE("Online-AktivitÃ¤t","Sich an einem sozialen Netzwerk beteiligen")="Bruch der Zeitreihe im Jahr 2021. Eine zusÃ¤tzliche Frage zur Nutzung von sozialen Netzwerken mit dem Smartphone impliziert die BerÃ¼cksichtigung von mehr Nutzern sozialer "
 "Netzwerke.";
-VALUENOTE[fr]("Activité en ligne","Participer à un réseau social")="Rupture de série temporelle en 2021. Une question supplémentaire sur l'usage des réseaux sociaux avec le smartphone implique la prise en compte de plus d'utilisateurs de réseaux sociaux.";
-VALUENOTE("Online-Aktivität","Herunterladen über Peer-to-Peer-Netzwerke (Musik oder Filme)")="Mit Peer-to-Peer-Netzwerken können Dateien zwischen Computern ausgetauscht werden, die via Internet miteinander vernetzt sind, wobei jeder Nutzer als Server und "
-"Empfänger eines anderen Nutzers fungieren kann.";
-VALUENOTE[fr]("Activité en ligne","Télécharger en pair-à-pair (films ou musique)")="Un partage de fichiers en pair-à-pair est un réseau qui permet de partager des fichiers entre plusieurs ordinateurs connectés entre eux par internet, chaque utilisateur "
-"pouvant être serveur et receveur d'un autre utilisateur.";
-VALUENOTE("Online-Aktivität","Im Internet Applikationen zum Musikhören oder zum Anschauen von Videos nutzen (bis 2017)")="Im Internet finden sich beispielsweise folgende Applikationen zum Musikhören oder Videoschauen (streaming): Spotify, Amazon Cloud "
+VALUENOTE[fr]("ActivitÃ© en ligne","Participer Ã  un rÃ©seau social")="Rupture de sÃ©rie temporelle en 2021. Une question supplÃ©mentaire sur l'usage des rÃ©seaux sociaux avec le smartphone implique la prise en compte de plus d'utilisateurs de rÃ©seaux sociaux.";
+VALUENOTE("Online-AktivitÃ¤t","Herunterladen Ã¼ber Peer-to-Peer-Netzwerke (Musik oder Filme)")="Mit Peer-to-Peer-Netzwerken kÃ¶nnen Dateien zwischen Computern ausgetauscht werden, die via Internet miteinander vernetzt sind, wobei jeder Nutzer als Server und "
+"EmpfÃ¤nger eines anderen Nutzers fungieren kann.";
+VALUENOTE[fr]("ActivitÃ© en ligne","TÃ©lÃ©charger en pair-Ã -pair (films ou musique)")="Un partage de fichiers en pair-Ã -pair est un rÃ©seau qui permet de partager des fichiers entre plusieurs ordinateurs connectÃ©s entre eux par internet, chaque utilisateur "
+"pouvant Ãªtre serveur et receveur d'un autre utilisateur.";
+VALUENOTE("Online-AktivitÃ¤t","Im Internet Applikationen zum MusikhÃ¶ren oder zum Anschauen von Videos nutzen (bis 2017)")="Im Internet finden sich beispielsweise folgende Applikationen zum MusikhÃ¶ren oder Videoschauen (streaming): Spotify, Amazon Cloud "
 "Drive, Apple music, Google Play, Deezer.";
-VALUENOTE[fr]("Activité en ligne","Utiliser des applications sur internet pour écouter de la musique ou voir des vidéos (jusqu'en 2017)")="Les services ou applications sur internet qui permettent d'écouter de la musique ou de voir des vidéos à la demande "
+VALUENOTE[fr]("ActivitÃ© en ligne","Utiliser des applications sur internet pour Ã©couter de la musique ou voir des vidÃ©os (jusqu'en 2017)")="Les services ou applications sur internet qui permettent d'Ã©couter de la musique ou de voir des vidÃ©os Ã  la demande "
 "(streaming) sont par exemple Spotify, Amazon Cloud, Apple music, Google play, Deezer, etc.";
-VALUENOTE("Online-Aktivität","Speicherplatz im Internet nutzen, um Dateien zu speichern oder zu sichern (Dokumente, Bilder, Musik, Videos oder andere Datentypen)")="Zum Beispiel: Google Drive, Dropbox, iCloud, Windows OneDrive, Amazon Cloud Drive usw.";
-VALUENOTE[fr]("Activité en ligne","Utiliser de l'espace en ligne pour stocker ou sauvegarder des fichiers (documents, images, musique, videos, autres)")="Par exemple sur Google Drive, Dropbox, iCloud, Windows OneDrive, Amazon Cloud Drive, etc.";
-VALUENOTE("Online-Aktivität","Online-Programme benutzen, um Dokumente zu erstellen und zu beartbeiten")="Das Programm ist nicht auf dem Computer / Tablet installiert, aber ist online verfügbar; Dokumente und Dateien werden so behandelt, dass sie auch auf "
-"entfernten Servern (in der Cloud) und somit mit verschiedenen Geräten unabhängig vom Standort zugänglich sind. Zum Beispiel: GoogleDocs; Office365; Open365.";
-VALUENOTE[fr]("Activité en ligne","Utiliser des programmes en ligne pour créer ou modifier des documents")="Le programme n'est pas installé sur l'ordinateur/tablette mais est disponible en ligne; les documents et fichiers ainsi traités sont également "
-"enregistrés sur des serveurs lointains (dans le nuage) et ainsi disponibles avec différents appareils quel que soit le lieu. Exemples de programmes/applications : GoogleDocs ; Office365 ; Open365.";
+VALUENOTE("Online-AktivitÃ¤t","Speicherplatz im Internet nutzen, um Dateien zu speichern oder zu sichern (Dokumente, Bilder, Musik, Videos oder andere Datentypen)")="Zum Beispiel: Google Drive, Dropbox, iCloud, Windows OneDrive, Amazon Cloud Drive usw.";
+VALUENOTE[fr]("ActivitÃ© en ligne","Utiliser de l'espace en ligne pour stocker ou sauvegarder des fichiers (documents, images, musique, videos, autres)")="Par exemple sur Google Drive, Dropbox, iCloud, Windows OneDrive, Amazon Cloud Drive, etc.";
+VALUENOTE("Online-AktivitÃ¤t","Online-Programme benutzen, um Dokumente zu erstellen und zu beartbeiten")="Das Programm ist nicht auf dem Computer / Tablet installiert, aber ist online verfÃ¼gbar; Dokumente und Dateien werden so behandelt, dass sie auch auf "
+"entfernten Servern (in der Cloud) und somit mit verschiedenen GerÃ¤ten unabhÃ¤ngig vom Standort zugÃ¤nglich sind. Zum Beispiel: GoogleDocs; Office365; Open365.";
+VALUENOTE[fr]("ActivitÃ© en ligne","Utiliser des programmes en ligne pour crÃ©er ou modifier des documents")="Le programme n'est pas installÃ© sur l'ordinateur/tablette mais est disponible en ligne; les documents et fichiers ainsi traitÃ©s sont Ã©galement "
+"enregistrÃ©s sur des serveurs lointains (dans le nuage) et ainsi disponibles avec diffÃ©rents appareils quel que soit le lieu. Exemples de programmes/applications : GoogleDocs ; Office365 ; Open365.";
 DATASYMBOL1="-";
 DATASYMBOL1[fr]="-";
 DATASYMBOL4="*";
