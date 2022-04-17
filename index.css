@@ -1,35 +1,55 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-	--body-font: 'Noto Sans', sans-serif;
-	--primary: #ffffff;
-	--secondary: #bbbbbb;
-	--bg-primary: #000000;
-	--bg-secondary: #333333;
+  --body-font: "Noto Sans", sans-serif;
+  --primary: #ffffff;
+  --secondary: #bbbbbb;
+  --bg-primary: #000000;
+  --bg-secondary: #333333;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: var(--body-font);
+  font-family: var(--body-font);
 }
 
 .internet-access {
 }
 
 .internet-access .container {
+  max-width: 980px;
+  margin-inline: auto;
+}
+
+.button:hover,
+.button:focus {
+  background-color: lightblue;
+}
+
+.button--active {
+  background-color: lightblue;
 }
 
 .chart {
 }
 
 #chart1 {
-	max-width: 1000px;
+  max-width: 1000px;
 }
 
 #chart2 {
-	max-width: 1000px;
+  max-width: 1000px;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  pointer-events: none;
 }
