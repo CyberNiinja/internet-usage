@@ -17,16 +17,20 @@ const chartTwo = async () => {
 		.attr('transform', `translate(${margin.left},${margin.top})`);
 
 	// Load the data file
-	const data = await d3.csv('/src/data/107.csv', (d) => {
+	const data = await d3.csv('/src/data/104.csv', (d) => {
 		if (
 			d['Resultat'] == 'Wert' &&
 			d['Absolut / relativ'] == 'Anzahl Personen' &&
-			d['Altersklasse'] == 'Altersklasse - Total'
+			d['Altersklasse'] == 'Altersklasse - Total' &&
+			d['E-commerce und E-banking'] ==
+				' Einkäufe im Internet in den letzten zwölf Monaten' &&
+			d['Geschlecht'] == 'Geschlecht - Total' &&
+			d['Bildungsstand'] == 'Bildungsstand - Total'
 		) {
 			return {
 				value: d['num'],
 				year: d['Jahr'],
-				ecommerce: d['E-commerce: gekaufte Produkte'],
+				ecommerce: d['E-commerce und E-banking'],
 				gender: d['Geschlecht'],
 				age: d['Altersklasse'],
 				education: d['Bildungsstand'],
@@ -42,7 +46,8 @@ const chartTwo = async () => {
 	const x = d3
 		.scaleBand()
 		.range([0, width])
-		.domain(data.map((d) => d.Jahr));
+		.domain(data.map((d) => d.year))
+		.padding(0.2);
 	svg
 		.append('g')
 		.attr('transform', `translate(0, ${height})`)
@@ -57,15 +62,15 @@ const chartTwo = async () => {
 
 	//add bar
 	svg
-		.append('path')
-		.datum(data)
-		.attr('fill', 'none')
-		.attr('stroke', 'steelblue')
-		.attr('stroke-width', 1.5)
-		.attr(
-			'd',
-			d3.bar().x((d) => d.date)
-		);
+		.selectAll()
+		.data(data)
+		.enter()
+		.append('rect')
+		.attr('x', (d) => x(d.year))
+		.attr('y', (d) => y(d.value))
+		.attr('width', x.bandwidth())
+		.attr('height', (d) => height - y(d.value))
+		.attr('fill', '#695252');
 };
 
 export { chartTwo };
