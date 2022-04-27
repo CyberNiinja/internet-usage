@@ -42,7 +42,7 @@ export const chartOne = (toggle = true) => {
 
   //Read the data
   d3.csv(
-    "/src/data/101.csv",
+    "./src/data/101.csv",
 
     // When reading the csv, I must format variables:
     function (d) {
