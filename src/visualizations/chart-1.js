@@ -137,7 +137,7 @@ export const chart = (toggle = true) => {
         .append("path")
         .datum(filteredData)
         .attr("fill", "none")
-        .attr("stroke", "steelblue")
+        .attr("stroke", "hsl(214, 89%, 52%)")
         .attr("stroke-width", 1.5)
         .attr(
           "d",
@@ -156,7 +156,7 @@ export const chart = (toggle = true) => {
         .selectAll("circle")
         .data(filteredData)
         .join("circle")
-        .attr("fill", "steelblue")
+        .attr("fill", "hsl(214, 89%, 52%)")
         .attr("stroke", "none")
         .attr("cx", (d) => x(d.date))
         .attr("cy", (d) => y(d.value))

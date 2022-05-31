@@ -44,11 +44,16 @@ body {
 }
 
 h1 {
+  font-size: 4rem;
   color: var(--title-color);
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  line-height: 1.4;
 }
 
 button {
@@ -77,6 +82,29 @@ body.dark-theme {
   padding: 4.5rem 0 4.5rem;
 }
 
+.section--fullsize {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.section__title,
+.section__title-center {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.section__subtitle,
+.section__subtitle-center {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.1;
+  font-weight: medium;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
 .container {
   --width: 980px;
   --width-large: 1440px;
@@ -94,6 +122,7 @@ a {
   color: var(--text-color);
 }
 
+.link,
 .button {
   display: inline-block;
   background-color: var(--body-color);
@@ -103,6 +132,8 @@ a {
   transition: 0.3s;
 }
 
+.link:hover,
+.link:focus,
 .button:hover,
 .button:focus {
   background-color: var(--overlay-hover-color);
@@ -121,16 +152,20 @@ a {
   background-color: var(--overlay-active-color);
 }
 
+.text--center {
+  text-align: center;
+}
+
+.icon {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.icon i {
+  display: block;
+}
+
 /*=============== NAV ===============*/
-.container {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.section {
-  padding: 2rem 0;
-}
-
 @media screen and (max-width: 767px) {
   .nav__logo,
   .nav__toggle,
@@ -187,6 +222,51 @@ a {
   pointer-events: none;
 }
 
+/*=============== INTERNET-ACCESS ===============*/
+.home__container {
+  display: grid;
+}
+
+.home__data {
+  justify-self: center;
+  margin-top: 4.5rem;
+}
+
+.home__link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.home__icon {
+  margin-left: 0.5rem;
+}
+
+/*=============== INTERNET-ACCESS ===============*/
+.internet-access__data {
+  margin-bottom: 1rem;
+}
+
+.internet-access__chart {
+  margin-top: 2rem;
+}
+
+/*=============== INTERNET-PURCHASES ===============*/
+.internet-purchases__chart {
+  margin-top: 2rem;
+}
+
+/*=============== FOOTER ===============*/
+.footer__container {
+  display: grid;
+  border-top: 1px solid var(--overlay-hover-color);
+  padding-block: 2rem;
+  align-items: center;
+}
+
+.footer__copy {
+  text-align: center;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px) {
@@ -200,12 +280,15 @@ a {
 }
 
 @media screen and (min-width: 767px) {
-  .main {
+  .main,
+  .footer {
     margin-left: var(--header-width);
   }
+
   .container {
     margin: auto;
   }
+
   .nav {
     position: fixed;
     left: 0;

@@ -63,48 +63,81 @@
     <!--==================== MAIN ====================-->
     <main class="main" id="main">
       <!--=============== HOME ===============-->
-      <section class="home section" id="home">
-        <div class="container">
-          <h1>Internet usage in Switzerland</h1>
+      <section class="home section section--fullsize" id="home">
+        <div class="home__container container">
+          <h1 class="text--center">Internet usage in Switzerland</h1>
+
+          <div class="home__data">
+            <a href="#internet-access" class="home__link link">
+              Scroll down
+              <div class="home__icon icon">
+                <i class="bx bx-chevron-down-circle"></i>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
 
       <!--=============== INTERNET ACCESS ===============-->
       <section class="internet-access section" id="internet-access">
-        <div class="container">
-          <h3>
-            The internet has been around since 1989 (wikipedia link) now, but
-            widespread use of the internet has only begun in the late 90ies. The
-            swiss government has been tracking the amount of people with
-            internet access in switzerland since 2014.
-          </h3>
-          <div class="chart-filter">
+        <div class="section__container container">
+          <span class="section__subtitle">Section 1</span>
+          <h2 class="section__title">Internet access</h2>
+        </div>
+
+        <div class="internet-access__container container">
+          <div class="internet-access__data">
+            <p>
+              The internet has been around since 1989 (wikipedia link) now, but
+              widespread use of the internet has only begun in the late 90ies.
+              The swiss government has been tracking the amount of people with
+              internet access in switzerland since 2014.
+            </p>
+          </div>
+
+          <div class="internet-access__filter">
             <button class="button button--active" id="button-total">
               Total
             </button>
             <button class="button" id="button-percentage">Percentage</button>
           </div>
-          <div class="chart" id="chart-1"></div>
+
+          <div class="internet-access__chart chart" id="chart-1"></div>
         </div>
       </section>
 
       <!--=============== INTERNET PURCHASES ===============-->
       <section class="internet-purchases section" id="internet-purchases">
-        <div class="container">
-          <h3>
-            The following chart shows Purchases swiss people made in the last 12
-            months of at the moment of questioning. The x axis is the years in
-            which the questions were asked and the the y axis shows the amount
-            of people that stated they have made purchases in the last twelve
-            months
-          </h3>
-          <div class="chart" id="chart-2"></div>
+        <div class="section__container container">
+          <span class="section__subtitle">Section 2</span>
+          <h2 class="section__title">Internet purchases</h2>
+        </div>
+
+        <div class="internet-purchases__container container">
+          <div class="internet-access__data">
+            <p>
+              The following chart shows Purchases swiss people made in the last
+              12 months of at the moment of questioning. The x axis is the years
+              in which the questions were asked and the the y axis shows the
+              amount of people that stated they have made purchases in the last
+              twelve months
+            </p>
+          </div>
+
+          <div class="internet-purchases__chart chart" id="chart-2"></div>
         </div>
       </section>
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer" id="footer"></footer>
+    <footer class="footer" id="footer">
+      <div class="footer__container container">
+        <span class="footer__copy">
+          &#169; 2022 Joshua Schärer & Elias Mjoen. All rigths reserved.
+        </span>
+      </div>
+    </footer>
+
     <!--==================== D3 JS ===================-->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!--=============== INDEX JS ===============-->
