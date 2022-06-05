@@ -1,6 +1,6 @@
 import { responsivefy } from "./helper.js";
 
-export const chartThree = () => {
+export const chartFour = () => {
   chart();
 };
 
@@ -11,7 +11,7 @@ const margin = { top: 10, right: 30, bottom: 30, left: 60 },
 
 // append the svg object to the body of the page
 const svg = d3
-  .select("#chart-3")
+  .select("#chart-4")
   .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
@@ -20,17 +20,17 @@ const svg = d3
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
 export const chart = () => {
-  d3.selectAll("#chart-3 > svg > g > *").remove();
+  d3.selectAll("#chart-4 > svg > g > *").remove();
 
   //Read the data
   d3.csv(
-    "./src/data/105.csv",
+    "./src/data/106.csv",
 
     // When reading the csv, I must format variables:
     function (d) {
       return {
         value: d.num,
-        internetSecurity: d["Informatiksicherheit"],
+        internetUsage: d["Internetnutzungsmodalitäten und Kompetenzen"],
         gender: d["Geschlecht"],
         ageGroup: d["Altersklasse"],
         education: d["Bildungsstand"],
@@ -46,8 +46,7 @@ export const chart = () => {
       const filteredData = data.filter(
         (d) =>
           d.value !== '"....."' &&
-          d.internetSecurity ===
-            "Verwendung von Sicherheitssoftware zum Schutz Ihres Computers" &&
+          d.internetUsage === "Internetnutzung in den letzten drei Monaten" &&
           d.gender === "Geschlecht - Total" &&
           d.ageGroup === "Altersklasse - Total" &&
           d.education === "Bildungsstand - Total" &&
@@ -84,7 +83,7 @@ export const chart = () => {
       // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
       // Its opacity is set to 0: we don't see it by default.
       const tooltip = d3
-        .select("#chart-3")
+        .select("#chart-4")
         .append("div")
         .style("opacity", 0)
         .attr("class", "tooltip");

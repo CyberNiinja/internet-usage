@@ -1,10 +1,12 @@
 import { chartOne } from "./visualizations/chart-1.js";
 import { chartTwo } from "./visualizations/chart-2.js";
 import { chartThree } from "./visualizations/chart-3.js";
+import { chartFour } from "./visualizations/chart-4.js";
 
 chartOne();
 chartTwo();
 chartThree();
+chartFour();
 
 /*=============== SHOW HIDDEN MENU ===============*/
 const showMenu = (toggleId, navbarId) => {
