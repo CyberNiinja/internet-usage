@@ -226,7 +226,7 @@ a {
   pointer-events: none;
 }
 
-/*=============== INTERNET-ACCESS ===============*/
+/*=============== HOME ===============*/
 .home__container {
   display: grid;
 }
@@ -252,6 +252,36 @@ a {
 
 .internet-access__chart {
   margin-top: 2rem;
+}
+
+.internet-usage__legend ul {
+  display: flex;
+  justify-content: center;
+}
+
+.internet-usage__legend li {
+  display: inline-block;
+}
+
+.internet-usage__legend li:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.internet-usage__legend li:before {
+  content: "\00a0\2022\00a0\00a0";
+  font-size: 1.25rem;
+}
+
+.internet-usage__legend li:first-child:before {
+  color: hsl(42, 92%, 56%);
+}
+
+.internet-usage__legend li:nth-child(2):before {
+  color: var(--first-color);
+}
+
+.internet-usage__legend li:last-child:before {
+  color: hsl(350, 88%, 60%);
 }
 
 /*=============== INTERNET-PURCHASES ===============*/
