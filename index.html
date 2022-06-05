@@ -1,283 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Impact of Covid-19 on swiss internet usage</title>
-    <!--=============== BOXICONS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <!--=============== NAV ===============-->
-      <div class="nav" id="nav">
-        <nav class="nav__content">
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="bx bx-chevron-right"></i>
-          </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Impact of Covid-19 on swiss internet usage</title>
+		<!--=============== BOXICONS ===============-->
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+		/>
+		<!--=============== CSS ===============-->
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<!--==================== HEADER ====================-->
+		<header class="header" id="header">
+			<!--=============== NAV ===============-->
+			<div class="nav" id="nav">
+				<nav class="nav__content">
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="bx bx-chevron-right"></i>
+					</div>
 
-          <a href="#" class="nav__logo">
-            <i class="bx bx-wifi"></i>
-            <span class="nav__logo-name">Internet</span>
-          </a>
+					<a href="#" class="nav__logo">
+						<i class="bx bx-wifi"></i>
+						<span class="nav__logo-name">Internet</span>
+					</a>
 
-          <div class="nav__menu" id="nav-menu">
-            <div class="nav__list">
-              <a href="#home" class="nav__link link--active">
-                <i class="bx bx-home-alt"></i>
-                <span class="nav__name">Dashboard</span>
-              </a>
+					<div class="nav__menu" id="nav-menu">
+						<div class="nav__list">
+							<a href="#home" class="nav__link link--active">
+								<i class="bx bx-home-alt"></i>
+								<span class="nav__name">Dashboard</span>
+							</a>
 
-              <a href="#internet-access" class="nav__link">
-                <i class="bx bx-chart"></i>
-                <span class="nav__name">Internet access</span>
-              </a>
+							<a href="#internet-access" class="nav__link">
+								<i class="bx bx-chart"></i>
+								<span class="nav__name">Internet access</span>
+							</a>
 
-              <a href="#internet-usage" class="nav__link">
-                <i class="bx bx-bar-chart-square"></i>
-                <span class="nav__name">Internet usage</span>
-              </a>
+							<a href="#internet-usage" class="nav__link">
+								<i class="bx bx-bar-chart-square"></i>
+								<span class="nav__name">Internet usage</span>
+							</a>
 
-              <a href="#internet-activity" class="nav__link">
-                <i class="bx bx-pie-chart"></i>
-                <span class="nav__name">Internet activity</span>
-              </a>
+							<a href="#internet-activity" class="nav__link">
+								<i class="bx bx-pie-chart"></i>
+								<span class="nav__name">Internet activity</span>
+							</a>
 
-              <a href="#internet-purchases" class="nav__link">
-                <i class="bx bx-credit-card-alt"></i>
-                <span class="nav__name">Internet purchases</span>
-              </a>
+							<a href="#internet-purchases" class="nav__link">
+								<i class="bx bx-credit-card-alt"></i>
+								<span class="nav__name">Internet purchases</span>
+							</a>
 
-              <a href="#internet-security" class="nav__link">
-                <i class="bx bx-check-shield"></i>
-                <span class="nav__name">Internet security</span>
-              </a>
+							<a href="#internet-security" class="nav__link">
+								<i class="bx bx-check-shield"></i>
+								<span class="nav__name">Internet security</span>
+							</a>
 
-              <div class="nav__link" id="nav-theme">
-                <i class="bx bx-palette"></i>
-                <span class="nav__name">Theme</span>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
+							<div class="nav__link" id="nav-theme">
+								<i class="bx bx-palette"></i>
+								<span class="nav__name">Theme</span>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
 
-    <!--==================== MAIN ====================-->
-    <main class="main" id="main">
-      <!--=============== HOME ===============-->
-      <section class="home section section--fullsize" id="home">
-        <div class="home__container container">
-          <h1 class="text--center">Internet usage in Switzerland</h1>
+		<!--==================== MAIN ====================-->
+		<main class="main" id="main">
+			<!--=============== HOME ===============-->
+			<section class="home section section--fullsize" id="home">
+				<div class="home__container container">
+					<h1 class="text--center">Internet usage in Switzerland</h1>
 
-          <div class="home__data">
-            <a href="#internet-access" class="home__link link">
-              Scroll down
-              <div class="home__icon icon">
-                <i class="bx bx-chevron-down-circle"></i>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
+					<div class="home__data">
+						<a href="#internet-access" class="home__link link">
+							Scroll down
+							<div class="home__icon icon">
+								<i class="bx bx-chevron-down-circle"></i>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
 
-      <!--=============== INTERNET ACCESS ===============-->
-      <section class="internet-access section" id="internet-access">
-        <div class="section__container container">
-          <span class="section__subtitle">Section 1</span>
-          <h2 class="section__title">Internet access</h2>
-        </div>
+			<!--=============== INTERNET ACCESS ===============-->
+			<section class="internet-access section" id="internet-access">
+				<div class="section__container container">
+					<span class="section__subtitle">Section 1</span>
+					<h2 class="section__title">Internet access</h2>
+				</div>
 
-        <div class="internet-access__container container">
-          <div class="internet-access__data">
-            <p>
-              The internet has been around since 1989 (wikipedia link) now, but
-              widespread use of the internet has only begun in the late 90ies.
-              The swiss government has been tracking the amount of people with
-              internet access in switzerland since 2014.
-            </p>
-          </div>
+				<div class="internet-access__container container">
+					<div class="internet-access__data">
+						<p>
+							The internet has been around since 1989 (wikipedia link) now, but
+							widespread use of the internet has only begun in the late 90ies.
+							The swiss government has been tracking the amount of people with
+							internet access in switzerland since 2014.
+						</p>
+					</div>
 
-          <div class="internet-access__filter">
-            <select
-              name="internetAccess"
-              id="internet-access-dropdown"
-            ></select>
-            <select
-              name="internetAccess-language"
-              id="internet-access-language-dropdown"
-            ></select>
-            <select
-              name="internetAccess-homeSize"
-              id="internet-access-homeSize-dropdown"
-            ></select>
-            <select
-              name="internetAccess-financialSituation"
-              id="internet-access-financialSituation-dropdown"
-            ></select>
-            <select
-              name="internetAccess-absolute"
-              id="internet-access-absolute-dropdown"
-            ></select>
-          </div>
+					<div class="internet-access__filter">
+						<select
+							name="internetAccess"
+							id="internet-access-dropdown"
+						></select>
+						<select
+							name="internetAccess-language"
+							id="internet-access-language-dropdown"
+						></select>
+						<select
+							name="internetAccess-homeSize"
+							id="internet-access-homeSize-dropdown"
+						></select>
+						<select
+							name="internetAccess-financialSituation"
+							id="internet-access-financialSituation-dropdown"
+						></select>
+						<select
+							name="internetAccess-absolute"
+							id="internet-access-absolute-dropdown"
+						></select>
+					</div>
 
-          <div class="internet-access__chart chart" id="chart-1"></div>
-        </div>
-      </section>
+					<div class="internet-access__chart chart" id="chart-1"></div>
+				</div>
+			</section>
 
-      <!--=============== INTERNET USAGE ===============-->
-      <section class="internet-usage section" id="internet-usage">
-        <div class="section__container container">
-          <span class="section__subtitle">Section 2</span>
-          <h2 class="section__title">Internet usage</h2>
-        </div>
+			<!--=============== INTERNET USAGE ===============-->
+			<section class="internet-usage section" id="internet-usage">
+				<div class="section__container container">
+					<span class="section__subtitle">Section 2</span>
+					<h2 class="section__title">Internet usage</h2>
+				</div>
 
-        <div class="internet-usage__container container">
-          <div class="internet-usage__data">
-            <p>LOREM IPSUM</p>
-          </div>
+				<div class="internet-usage__container container">
+					<div class="internet-usage__data">
+						<p>LOREM IPSUM</p>
+					</div>
 
-          <div class="internet-usage__filter">
-            <select name="internetUsage" id="internet-usage-dropdown"></select>
-            <select
-              name="internetUsage-age"
-              id="internet-usage-age-dropdown"
-            ></select>
-            <select
-              name="internetUsage-education"
-              id="internet-usage-education-dropdown"
-            ></select>
-            <select
-              name="internetUsage-absolute"
-              id="internet-usage-absolute-dropdown"
-            ></select>
-          </div>
+					<div class="internet-usage__filter">
+						<select name="internetUsage" id="internet-usage-dropdown"></select>
+						<select
+							name="internetUsage-age"
+							id="internet-usage-age-dropdown"
+						></select>
+						<select
+							name="internetUsage-education"
+							id="internet-usage-education-dropdown"
+						></select>
+						<select
+							name="internetUsage-absolute"
+							id="internet-usage-absolute-dropdown"
+						></select>
+					</div>
 
-          <div class="internet-usage__chart chart" id="chart-4"></div>
-        </div>
-      </section>
+					<div class="internet-usage__chart chart" id="chart-4"></div>
+				</div>
+			</section>
 
-      <!--=============== INTERNET ACTIVITY ===============-->
-      <section class="internet-activity section" id="internet-activity">
-        <div class="section__container container">
-          <span class="section__subtitle">Section 3</span>
-          <h2 class="section__title">Internet activity</h2>
-        </div>
+			<!--=============== INTERNET ACTIVITY ===============-->
+			<section class="internet-activity section" id="internet-activity">
+				<div class="section__container container">
+					<span class="section__subtitle">Section 3</span>
+					<h2 class="section__title">Internet activity</h2>
+				</div>
 
-        <div class="internet-activity__container container">
-          <div class="internet-activity__data">
-            <p>LOREM IPSUM</p>
-          </div>
+				<div class="internet-activity__container container">
+					<div class="internet-activity__data">
+						<p>LOREM IPSUM</p>
+					</div>
 
-          <div class="internet-activity__chart chart" id="chart-5"></div>
-        </div>
-      </section>
+					<div class="internet-activity__chart chart" id="chart-5"></div>
+				</div>
+			</section>
 
-      <!--=============== INTERNET PURCHASES ===============-->
-      <section class="internet-purchases section" id="internet-purchases">
-        <div class="section__container container">
-          <span class="section__subtitle">Section 4</span>
-          <h2 class="section__title">Internet purchases</h2>
-        </div>
+			<!--=============== INTERNET PURCHASES ===============-->
+			<section class="internet-purchases section" id="internet-purchases">
+				<div class="section__container container">
+					<span class="section__subtitle">Section 4</span>
+					<h2 class="section__title">Internet purchases</h2>
+				</div>
 
-        <div class="internet-purchases__container container">
-          <div class="internet-access__data">
-            <p>
-              Swiss People are making more purchases on the internet as time
-              goes by. It looks like covid-19 did not have too big of an impact
-              on spending habits of swiss people though. The Data is being
-              collected bi-annually since 2017 (irregularly before that) by the
-              swiss federal statistical office (link)
-            </p>
-          </div>
-          <div class="internet-purchases__filter">
-            <div class="select">
-              <p class="select-header">Result type</p>
-              <select
-                title="Filter for result type"
-                id="internet-purchases__filter__result"
-                class="button select-content"
-              >
-                <option value="Anzahl Personen">Absolute</option>
-                <option value="Anteil (in % der Gesamtbevölkerung)">
-                  Percentage
-                </option>
-              </select>
-            </div>
+				<div class="internet-purchases__container container">
+					<div class="internet-access__data">
+						<p>
+							Swiss People are making more purchases on the internet as time
+							goes by. It looks like covid-19 did not have too big of an impact
+							on spending habits of swiss people though. The Data is being
+							collected bi-annually since 2017 (irregularly before that) by the
+							swiss federal statistical office (link)
+						</p>
+					</div>
+					<div class="internet-purchases__filter">
+						<div class="select">
+							<p class="select header">Age</p>
+							<select
+								title="Filter for age"
+								id="internet-purchases__filter__age"
+								class="button select-content"
+							>
+								<option value="Altersklasse - Total">All</option>
+								<option value="15 bis 29 Jahre">15 - 29</option>
+								<option value="30 bis 59 Jahre">30 - 59</option>
+								<option value="60 Jahre und älter">60+</option>
+							</select>
+						</div>
 
-            <div class="select">
-              <p class="select header">Age</p>
-              <select
-                title="Filter for age"
-                id="internet-purchases__filter__age"
-                class="button select-content"
-              >
-                <option value="Altersklasse - Total">All</option>
-                <option value="15 bis 29 Jahre">15 - 29</option>
-                <option value="30 bis 59 Jahre">30 - 59</option>
-                <option value="60 Jahre und älter">60+</option>
-              </select>
-            </div>
+						<div class="select">
+							<p class="select header">Gender</p>
+							<select
+								title="Filter for gender"
+								id="internet-purchases__filter__gender"
+								class="button select-content"
+							>
+								<option value="Geschlecht - Total">All</option>
+								<option value="Mann">Male</option>
+								<option value="Frau">Female</option>
+							</select>
+						</div>
+					</div>
 
-            <div class="select">
-              <p class="select header">Gender</p>
-              <select
-                title="Filter for gender"
-                id="internet-purchases__filter__gender"
-                class="button select-content"
-              >
-                <option value="Geschlecht - Total">All</option>
-                <option value="Mann">Male</option>
-                <option value="Frau">Female</option>
-              </select>
-            </div>
-          </div>
+					<div class="internet-purchases__charts">
+						<div class="internet-purchases__chart chart" id="chart-2-1"></div>
+						<div class="internet-purchases__chart chart" id="chart-2-2"></div>
+						<div class="internet-purchases__chart chart" id="chart-2-3"></div>
+						<div class="internet-purchases__chart chart" id="chart-2-4"></div>
+					</div>
+				</div>
+			</section>
 
-          <div class="internet-purchases__charts">
-            <div class="internet-purchases__chart chart" id="chart-2-1"></div>
-            <div class="internet-purchases__chart chart" id="chart-2-2"></div>
-            <div class="internet-purchases__chart chart" id="chart-2-3"></div>
-            <div class="internet-purchases__chart chart" id="chart-2-4"></div>
-          </div>
-        </div>
-      </section>
+			<!--=============== INTERNET SECURITY ===============-->
+			<section class="internet-security section" id="internet-security">
+				<div class="section__container container">
+					<span class="section__subtitle">Section 5</span>
+					<h2 class="section__title">Internet security</h2>
+				</div>
 
-      <!--=============== INTERNET SECURITY ===============-->
-      <section class="internet-security section" id="internet-security">
-        <div class="section__container container">
-          <span class="section__subtitle">Section 5</span>
-          <h2 class="section__title">Internet security</h2>
-        </div>
+				<div class="internet-security__container container">
+					<div class="internet-security__data">
+						<p>LOREM IPSUM</p>
+					</div>
 
-        <div class="internet-security__container container">
-          <div class="internet-security__data">
-            <p>LOREM IPSUM</p>
-          </div>
+					<div class="internet-security__chart chart" id="chart-3"></div>
+				</div>
+			</section>
+		</main>
 
-          <div class="internet-security__chart chart" id="chart-3"></div>
-        </div>
-      </section>
-    </main>
+		<!--==================== FOOTER ====================-->
+		<footer class="footer" id="footer">
+			<div class="footer__container container">
+				<span class="footer__copy">
+					&#169; 2022 Joshua Schärer & Elias Mjoen. All rigths reserved.
+				</span>
+			</div>
+		</footer>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer" id="footer">
-      <div class="footer__container container">
-        <span class="footer__copy">
-          &#169; 2022 Joshua Schärer & Elias Mjoen. All rigths reserved.
-        </span>
-      </div>
-    </footer>
-
-    <!--==================== D3 JS ===================-->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <!--=============== INDEX JS ===============-->
-    <script src="./src/index.js" type="module"></script>
-  </body>
+		<!--==================== D3 JS ===================-->
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<!--=============== INDEX JS ===============-->
+		<script src="./src/index.js" type="module"></script>
+	</body>
 </html>
