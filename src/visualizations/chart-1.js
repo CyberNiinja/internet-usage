@@ -294,7 +294,8 @@ export const chart = (
       };
 
       // Add the line
-      svg
+      var line = svg
+        .append("g")
         .append("path")
         .datum(filteredData)
         .attr("fill", "none")
@@ -313,7 +314,7 @@ export const chart = (
         );
 
       // Add the circles
-      svg
+      var circles = svg
         .selectAll("circle")
         .data(filteredData)
         .join("circle")

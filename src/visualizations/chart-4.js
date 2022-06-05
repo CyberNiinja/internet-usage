@@ -1,7 +1,138 @@
-import { responsivefy } from "./helper.js";
+import { createDropDown, responsivefy } from "./helper.js";
 
 export const chartFour = () => {
-  chart();
+  var internetUsageDropDown = document.getElementById(
+    "internet-usage-dropdown"
+  );
+  var internetUsageArray = [
+    {
+      de: "Internetnutzung in den letzten drei Monaten",
+      en: "Internet usage in the last three months",
+    },
+    {
+      de: " Tägliche oder fast tägliche Internetnutzung",
+      en: "Daily or almost daily internet usage",
+    },
+    {
+      de: " Internetnutzung fünf Stunden oder mehr pro Woche",
+      en: "Internet use five hours or more per week",
+    },
+  ];
+
+  createDropDown(
+    internetUsageDropDown,
+    "internet-usage-dropdown",
+    internetUsageArray,
+    () =>
+      chart(
+        internetUsageDropDown.value,
+        ageDropDown.value,
+        educationDropDown.value,
+        absoluteDropDown.value
+      )
+  );
+
+  var ageDropDown = document.getElementById("internet-usage-age-dropdown");
+  var ageArray = [
+    {
+      de: "Altersklasse - Total",
+      en: "Age group - Total",
+    },
+    {
+      de: "15 bis 29 Jahre",
+      en: "15 to 29 years",
+    },
+    {
+      de: "30 bis 59 Jahre",
+      en: "30 to 59 years",
+    },
+    {
+      de: "60 Jahre und älter",
+      en: "60 years and older",
+    },
+  ];
+
+  createDropDown(ageDropDown, "internet-usage-age-dropdown", ageArray, () =>
+    chart(
+      internetUsageDropDown.value,
+      ageDropDown.value,
+      educationDropDown.value,
+      absoluteDropDown.value
+    )
+  );
+
+  var educationDropDown = document.getElementById(
+    "internet-usage-education-dropdown"
+  );
+  var educationArray = [
+    {
+      de: "Bildungsstand - Total",
+      en: "Education level - Total",
+    },
+    {
+      de: "Ohne nachobligatorische Ausbildung (25 Jahre und älter)",
+      en: "Without post-compulsory education (25 years and older)",
+    },
+    {
+      de: "Sekundarstufe II (25 Jahre und älter)",
+      en: "Upper secondary education (25 years and older)",
+    },
+    {
+      de: "Tertiärstufe (25 Jahre und älter)",
+      en: "Tertiary level (25 years and older)",
+    },
+    {
+      de: "Unter 25 Jahren",
+      en: "Under 25 years old",
+    },
+  ];
+
+  createDropDown(
+    educationDropDown,
+    "internet-usage-education-dropdown",
+    educationArray,
+    () =>
+      chart(
+        internetUsageDropDown.value,
+        ageDropDown.value,
+        educationDropDown.value,
+        absoluteDropDown.value
+      )
+  );
+
+  var absoluteDropDown = document.getElementById(
+    "internet-usage-absolute-dropdown"
+  );
+  var absoluteArray = [
+    {
+      de: "Anzahl Personen",
+      en: "Number of people",
+    },
+    {
+      de: "Anteil (in % der Gesamtbevölkerung)",
+      en: "Share (in % of total population)",
+    },
+  ];
+
+  createDropDown(
+    absoluteDropDown,
+    "internet-usage-absolute-dropdown",
+    absoluteArray,
+    () =>
+      chart(
+        internetUsageDropDown.value,
+        ageDropDown.value,
+        educationDropDown.value,
+        absoluteDropDown.value
+      )
+  );
+
+  chart(
+    internetUsageDropDown.value,
+    ageDropDown.value,
+    educationDropDown.value,
+    absoluteDropDown.value
+  );
 };
 
 // set the dimensions and margins of the graph
@@ -19,7 +150,7 @@ const svg = d3
   .append("g")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
-export const chart = () => {
+export const chart = (internetUsage, age, education, absolute) => {
   d3.selectAll("#chart-4 > svg > g > *").remove();
 
   //Read the data
@@ -46,13 +177,14 @@ export const chart = () => {
       const filteredData = data.filter(
         (d) =>
           d.value !== '"....."' &&
-          d.internetUsage === "Internetnutzung in den letzten drei Monaten" &&
-          d.gender === "Geschlecht - Total" &&
-          d.ageGroup === "Altersklasse - Total" &&
-          d.education === "Bildungsstand - Total" &&
-          d.absolute === "Anzahl Personen" &&
+          d.internetUsage === internetUsage &&
+          d.ageGroup === age &&
+          d.education === education &&
+          d.absolute === absolute &&
           d.result === "Wert"
       );
+      const sumstat = d3.group(filteredData, (d) => d.gender);
+      console.log(sumstat);
 
       // Add X axis --> it is a date format
       const x = d3
@@ -105,31 +237,38 @@ export const chart = () => {
         d3.select(this).style("stroke", "none");
       };
 
+      // color palette
+      const res = Array.from(sumstat.keys());
+      const color = d3
+        .scaleOrdinal()
+        .domain(res)
+        .range([
+          "hsl(42, 92%, 56%)",
+          "hsl(214, 89%, 52%)",
+          "hsl(350, 88%, 60%)",
+        ]);
+
       // Add the line
       svg
-        .append("path")
-        .datum(filteredData)
+        .selectAll("path")
+        .data(sumstat)
+        .join("path")
         .attr("fill", "none")
-        .attr("stroke", "hsl(214, 89%, 52%)")
+        .attr("stroke", (d) => color(d[0]))
         .attr("stroke-width", 1.5)
-        .attr(
-          "d",
-          d3
+        .attr("d", (d) => {
+          return d3
             .line()
-            .x(function (d) {
-              return x(d.date);
-            })
-            .y(function (d) {
-              return y(d.value);
-            })
-        );
+            .x((d) => x(d.date))
+            .y((d) => y(d.value))(d[1]);
+        });
 
       // Add the circles
-      svg
+      var circles = svg
         .selectAll("circle")
         .data(filteredData)
         .join("circle")
-        .attr("fill", "hsl(214, 89%, 52%)")
+        .attr("fill", (d) => color(d.gender))
         .attr("stroke", "none")
         .attr("cx", (d) => x(d.date))
         .attr("cy", (d) => y(d.value))
