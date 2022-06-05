@@ -1,7 +1,53 @@
-import { responsivefy } from "./helper.js";
+import { createDropDown, responsivefy } from "./helper.js";
 
 export const chartFive = () => {
-  chart();
+  var internetActivityDropDown = document.getElementById(
+    "internet-activity-dropdown"
+  );
+  var internetActivityArray = [
+    {
+      de: "E-Mails senden und empfangen",
+      en: "Send and receive emails",
+    },
+    {
+      de: "Haushalte mit festem Breitbandanschluss",
+      en: "Households with fixed broadband access",
+    },
+    {
+      de: "Haushalte mit mobilem Breitbandanschluss",
+      en: "Households with mobile broadband access",
+    },
+  ];
+
+  createDropDown(
+    internetActivityDropDown,
+    "internet-activity-dropdown",
+    internetActivityArray,
+    () => chart(internetActivityDropDown.value, absoluteDropDown.value)
+  );
+
+  var absoluteDropDown = document.getElementById(
+    "internet-activity-absolute-dropdown"
+  );
+  var absoluteArray = [
+    {
+      de: "Anzahl Personen",
+      en: "Number of people",
+    },
+    {
+      de: "Anteil (in % der Gesamtbevölkerung)",
+      en: "Share (in % of total population)",
+    },
+  ];
+
+  createDropDown(
+    absoluteDropDown,
+    "internet-activity-absolute-dropdown",
+    absoluteArray,
+    () => chart(internetActivityDropDown.value, absoluteDropDown.value)
+  );
+
+  chart(internetActivityDropDown.value, absoluteDropDown.value);
 };
 
 // set the dimensions and margins of the graph
@@ -19,7 +65,7 @@ const svg = d3
   .append("g")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
-export const chart = () => {
+export const chart = (internetActivity, absolute) => {
   d3.selectAll("#chart-5 > svg > g > *").remove();
 
   //Read the data
@@ -46,11 +92,11 @@ export const chart = () => {
       const filteredData = data.filter(
         (d) =>
           d.value !== '"....."' &&
-          d.internetActivity === "E-Mails senden und empfangen" &&
+          d.internetActivity === internetActivity &&
           d.gender === "Geschlecht - Total" &&
           d.ageGroup === "Altersklasse - Total" &&
           d.education === "Bildungsstand - Total" &&
-          d.absolute === "Anzahl Personen" &&
+          d.absolute === absolute &&
           d.result === "Wert"
       );
 

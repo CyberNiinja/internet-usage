@@ -184,7 +184,6 @@ export const chart = (internetUsage, age, education, absolute) => {
           d.result === "Wert"
       );
       const sumstat = d3.group(filteredData, (d) => d.gender);
-      console.log(sumstat);
 
       // Add X axis --> it is a date format
       const x = d3
