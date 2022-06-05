@@ -1,27 +1,7 @@
 import { responsivefy } from "./helper.js";
 
-export const chartOne = () => {
-  // Toggle data sets
-  const totalBtn = document.getElementById("button-total");
-  const percentageBtn = document.getElementById("button-percentage");
-
-  if (totalBtn) {
-    totalBtn.addEventListener("click", () => {
-      totalBtn.classList.add("button--active");
-      percentageBtn.classList.remove("button--active");
-      chart(true);
-    });
-  }
-
-  if (percentageBtn) {
-    percentageBtn.addEventListener("click", () => {
-      percentageBtn.classList.add("button--active");
-      totalBtn.classList.remove("button--active");
-
-      chart(false);
-    });
-  }
-  chart(true);
+export const chartThree = () => {
+  chart();
 };
 
 // set the dimensions and margins of the graph
@@ -31,7 +11,7 @@ const margin = { top: 10, right: 30, bottom: 30, left: 60 },
 
 // append the svg object to the body of the page
 const svg = d3
-  .select("#chart-1")
+  .select("#chart-3")
   .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
@@ -39,21 +19,21 @@ const svg = d3
   .append("g")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
-export const chart = (toggle = true) => {
-  d3.selectAll("#chart-1 > svg > g > *").remove();
+export const chart = () => {
+  d3.selectAll("#chart-3 > svg > g > *").remove();
 
   //Read the data
   d3.csv(
-    "./src/data/101.csv",
+    "./src/data/105.csv",
 
     // When reading the csv, I must format variables:
     function (d) {
       return {
         value: d.num,
-        internetAccess: d["Internetzugang"],
-        languageArea: d["Sprachgebiet"],
-        homeSize: d["Haushaltsgrösse"],
-        financialSituation: d["Subjektive finanzielle Situation des Haushalts"],
+        internetSecurity: d["Informatiksicherheit"],
+        gender: d["Geschlecht"],
+        ageGroup: d["Altersklasse"],
+        education: d["Bildungsstand"],
         absolute: d["Absolut / relativ"],
         date: d3.timeParse("%Y")(d["Jahr"]),
         result: d["Resultat"],
@@ -62,24 +42,19 @@ export const chart = (toggle = true) => {
   ).then(
     // Now I can use this dataset:
     function (data) {
-      var home = "";
-      if (toggle) {
-        home = "Anzahl Haushalte";
-      } else {
-        home = "Anteil (in % aller Haushalte)";
-      }
-
       // Filter data
       const filteredData = data.filter(
         (d) =>
-          d.value !== '"..."' &&
-          d.internetAccess === "Haushalte mit Internetzugang" &&
-          d.languageArea === "Schweiz" &&
-          d.homeSize === "Haushaltsgrösse - Total" &&
-          d.financialSituation === "Finanzielle Situation  - Total" &&
-          d.absolute === home &&
+          d.value !== '"....."' &&
+          d.internetSecurity ===
+            "Verwendung von Sicherheitssoftware zum Schutz Ihres Computers" &&
+          d.gender === "Geschlecht - Total" &&
+          d.ageGroup === "Altersklasse - Total" &&
+          d.education === "Bildungsstand - Total" &&
+          d.absolute === "Anzahl Personen" &&
           d.result === "Wert"
       );
+      console.log(filteredData);
 
       // Add X axis --> it is a date format
       const x = d3
@@ -110,7 +85,7 @@ export const chart = (toggle = true) => {
       // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
       // Its opacity is set to 0: we don't see it by default.
       const tooltip = d3
-        .select("#chart-1")
+        .select("#chart-3")
         .append("div")
         .style("opacity", 0)
         .attr("class", "tooltip");
