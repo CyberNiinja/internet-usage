@@ -213,6 +213,10 @@ a {
   color: var(--first-color);
 }
 
+#nav-theme {
+  cursor: pointer;
+}
+
 .tooltip {
   position: absolute;
   background-color: white;

@@ -49,7 +49,7 @@ function scrollActive() {
 window.addEventListener("scroll", scrollActive);
 
 /*=============== DARK LIGHT THEME ===============*/
-const themeButton = document.getElementById("nav-theme").firstElementChild;
+const themeButton = document.getElementById("nav-theme");
 const darkTheme = "dark-theme";
 
 // Activate / deactivate the theme manually with the button
