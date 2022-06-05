@@ -1,27 +1,189 @@
-import { responsivefy } from "./helper.js";
+import { createDropDown, responsivefy } from "./helper.js";
 
 export const chartOne = () => {
-  // Toggle data sets
-  const totalBtn = document.getElementById("button-total");
-  const percentageBtn = document.getElementById("button-percentage");
+  var internetAccessDropDown = document.getElementById(
+    "internet-access-dropdown"
+  );
+  var internetAccessArray = [
+    {
+      de: "Haushalte mit Internetzugang",
+      en: "Households with internet access",
+    },
+    {
+      de: "Haushalte mit festem Breitbandanschluss",
+      en: "Households with fixed broadband access",
+    },
+    {
+      de: "Haushalte mit mobilem Breitbandanschluss",
+      en: "Households with mobile broadband access",
+    },
+  ];
 
-  if (totalBtn) {
-    totalBtn.addEventListener("click", () => {
-      totalBtn.classList.add("button--active");
-      percentageBtn.classList.remove("button--active");
-      chart(true);
-    });
-  }
+  createDropDown(
+    internetAccessDropDown,
+    "internet-access-dropdown",
+    internetAccessArray,
+    () =>
+      chart(
+        internetAccessDropDown.value,
+        languageDropDown.value,
+        homeSizeDropDown.value,
+        financialSituationDropDown.value,
+        absoluteDropDown.value
+      )
+  );
 
-  if (percentageBtn) {
-    percentageBtn.addEventListener("click", () => {
-      percentageBtn.classList.add("button--active");
-      totalBtn.classList.remove("button--active");
+  var languageDropDown = document.getElementById(
+    "internet-access-language-dropdown"
+  );
+  var languageArray = [
+    {
+      de: "Schweiz",
+      en: "Switzerland",
+    },
+    {
+      de: "Deutsche Schweiz",
+      en: "German Switzerland",
+    },
+    {
+      de: "Französische Schweiz",
+      en: "French Switzerland",
+    },
+    {
+      de: "Italienische Schweiz",
+      en: "Italian Switzerland",
+    },
+  ];
 
-      chart(false);
-    });
-  }
-  chart(true);
+  createDropDown(
+    languageDropDown,
+    "internet-access-language-dropdown",
+    languageArray,
+    () =>
+      chart(
+        internetAccessDropDown.value,
+        languageDropDown.value,
+        homeSizeDropDown.value,
+        financialSituationDropDown.value,
+        absoluteDropDown.value
+      )
+  );
+
+  var absoluteDropDown = document.getElementById(
+    "internet-access-absolute-dropdown"
+  );
+  var absoluteArray = [
+    {
+      de: "Anzahl Haushalte",
+      en: "Number of households",
+    },
+    {
+      de: "Anteil (in % aller Haushalte)",
+      en: "Share (in % of all households)",
+    },
+  ];
+
+  createDropDown(
+    absoluteDropDown,
+    "internet-access-absolute-dropdown",
+    absoluteArray,
+    () =>
+      chart(
+        internetAccessDropDown.value,
+        languageDropDown.value,
+        homeSizeDropDown.value,
+        financialSituationDropDown.value,
+        absoluteDropDown.value
+      )
+  );
+
+  var homeSizeDropDown = document.getElementById(
+    "internet-access-homeSize-dropdown"
+  );
+  var homeSizeArray = [
+    {
+      de: "Haushaltsgrösse - Total",
+      en: "Household size - Total",
+    },
+    {
+      de: "1-Personenhaushalt",
+      en: "1-person household",
+    },
+    {
+      de: "2-Personenhaushalt",
+      en: "2-person household",
+    },
+    {
+      de: "3-Personenhaushalt",
+      en: "3-person household",
+    },
+    {
+      de: "4+-Personenhaushalt",
+      en: "4+-person household",
+    },
+  ];
+
+  createDropDown(
+    homeSizeDropDown,
+    "internet-access-homeSize-dropdown",
+    homeSizeArray,
+    () =>
+      chart(
+        internetAccessDropDown.value,
+        languageDropDown.value,
+        homeSizeDropDown.value,
+        financialSituationDropDown.value,
+        absoluteDropDown.value
+      )
+  );
+
+  var financialSituationDropDown = document.getElementById(
+    "internet-access-financialSituation-dropdown"
+  );
+  var financialSituationArray = [
+    {
+      de: "Finanzielle Situation  - Total",
+      en: "Financial situation - Total",
+    },
+    {
+      de: "Finanzielle Situation sehr einfach",
+      en: "Financial situation very simple",
+    },
+    {
+      de: "Finanzielle Situation eher einfach",
+      en: "Financial situation rather simple",
+    },
+    {
+      de: "Finanzielle Situation eher schwierig",
+      en: "Financial situation rather difficult",
+    },
+    {
+      de: "Finanzielle Situation sehr schwierig",
+      en: "Financial situation very difficult",
+    },
+  ];
+
+  createDropDown(
+    financialSituationDropDown,
+    "internet-access-financialSituation-dropdown",
+    financialSituationArray,
+    () =>
+      chart(
+        internetAccessDropDown.value,
+        languageDropDown.value,
+        homeSizeDropDown.value,
+        financialSituationDropDown.value,
+        absoluteDropDown.value
+      )
+  );
+
+  chart(
+    internetAccessDropDown.value,
+    languageDropDown.value,
+    homeSizeDropDown.value,
+    financialSituationDropDown.value,
+    absoluteDropDown.value
+  );
 };
 
 // set the dimensions and margins of the graph
@@ -39,7 +201,13 @@ const svg = d3
   .append("g")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
-export const chart = (toggle = true) => {
+export const chart = (
+  internetAccess,
+  language,
+  homeSize,
+  financialSituation,
+  absolute
+) => {
   d3.selectAll("#chart-1 > svg > g > *").remove();
 
   //Read the data
@@ -62,22 +230,15 @@ export const chart = (toggle = true) => {
   ).then(
     // Now I can use this dataset:
     function (data) {
-      var home = "";
-      if (toggle) {
-        home = "Anzahl Haushalte";
-      } else {
-        home = "Anteil (in % aller Haushalte)";
-      }
-
       // Filter data
       const filteredData = data.filter(
         (d) =>
           d.value !== '"..."' &&
-          d.internetAccess === "Haushalte mit Internetzugang" &&
-          d.languageArea === "Schweiz" &&
-          d.homeSize === "Haushaltsgrösse - Total" &&
-          d.financialSituation === "Finanzielle Situation  - Total" &&
-          d.absolute === home &&
+          d.internetAccess === internetAccess &&
+          d.languageArea === language &&
+          d.homeSize === homeSize &&
+          d.financialSituation === financialSituation &&
+          d.absolute === absolute &&
           d.result === "Wert"
       );
 
