@@ -214,7 +214,7 @@ a {
 }
 
 #nav-theme {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .tooltip {
@@ -269,7 +269,7 @@ a {
 
 .internet-purchases__charts {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 }
 
 /*=============== FOOTER ===============*/

@@ -83,16 +83,7 @@ const chart = async (abs, age, gender) => {
 	});
 	// sort data
 	data.sort((a, b) => a.year - b.year);
-	const dat = d3
-		.nest()
-		.key((d) => d.ecommerce)
-		.entries(
-			data.filter(
-				(d) =>
-					d.ecommerce == 'Einkäufe im Internet in den letzten drei Monaten' ||
-					d.ecommerce == ' Einkäufe im Internet in den letzten zwölf Monaten'
-			)
-		);
+	const dat = d3.group(data, (d) => d.ecommerce);
 
 	// SETTING UP Chart 2
 	// Add X axis
@@ -113,29 +104,35 @@ const chart = async (abs, age, gender) => {
 	svg1.append('g').call(d3.axisLeft(y));
 
 	//colors
-	const res = dat.map((d) => d.key);
-
-	// https://d3-graph-gallery.com/graph/line_several_group.html
-	// Add the line
+	const res = Array.from(dat.keys());
+	const color = d3
+		.scaleOrdinal()
+		.domain(res)
+		.range([
+			'#e41a1c',
+			'#377eb8',
+			'#4daf4a',
+			'#984ea3',
+			'#ff7f00',
+			'#ffff33',
+			'#a65628',
+			'#f781bf',
+			'#999999',
+		]);
+	// https://observablehq.com/@bjedwards/multi-line-chart-d3-v6
+	// Add the line+
 	svg1
-		.selectAll('.line')
-		.data(sumstat)
-		.enter()
-		.append('path')
+		.selectAll('path')
+		.data(dat)
+		.join('path')
 		.attr('fill', 'none')
-		.attr('stroke', function (d) {
-			return color(d.key);
-		})
 		.attr('stroke-width', 1.5)
-		.attr('d', function (d) {
+		.attr('stroke', (d) => color(d[0]))
+		.attr('d', (d) => {
 			return d3
 				.line()
-				.x(function (d) {
-					return x(d.year);
-				})
-				.y(function (d) {
-					return y(+d.n);
-				})(d.values);
+				.x((d) => x(d.year))
+				.y((d) => y(+d.value))(d[1]);
 		});
 };
 
