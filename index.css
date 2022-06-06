@@ -288,6 +288,9 @@ a {
 .internet-purchases__chart {
 	margin-top: 2rem;
 }
+.internet-access__filter,
+.internet-usage__filter,
+.internet-activity__filter,
 .internet-purchases__filter {
 	display: inline-flex;
 	flex-wrap: wrap;

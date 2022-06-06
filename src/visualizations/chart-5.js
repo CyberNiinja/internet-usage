@@ -1,187 +1,133 @@
-import { createDropDown, responsivefy } from "./helper.js";
+import { createDropDown, responsivefy } from './helper.js';
 
 export const chartFive = () => {
-  var internetActivityDropDown = document.getElementById(
-    "internet-activity-dropdown"
-  );
-  var internetActivityArray = [
-    {
-      de: "E-Mails senden und empfangen",
-      en: "Send and receive emails",
-    },
-    {
-      de: "Haushalte mit festem Breitbandanschluss",
-      en: "Households with fixed broadband access",
-    },
-    {
-      de: "Haushalte mit mobilem Breitbandanschluss",
-      en: "Households with mobile broadband access",
-    },
-  ];
+	var dateDropDown = document.getElementById('internet-activity-date-dropdown');
+	var dateArray = [
+		{
+			de: '2021',
+			en: '2021',
+		},
+		{
+			de: '2019',
+			en: '2019',
+		},
+		{
+			de: '2017',
+			en: '2017',
+		},
+		{
+			de: '2014',
+			en: '2014',
+		},
+	];
+	createDropDown(
+		dateDropDown,
+		'internet-activity-date-dropdown',
+		dateArray,
+		() => chart(dateDropDown.value)
+	);
 
-  createDropDown(
-    internetActivityDropDown,
-    "internet-activity-dropdown",
-    internetActivityArray,
-    () => chart(internetActivityDropDown.value, absoluteDropDown.value)
-  );
-
-  var absoluteDropDown = document.getElementById(
-    "internet-activity-absolute-dropdown"
-  );
-  var absoluteArray = [
-    {
-      de: "Anzahl Personen",
-      en: "Number of people",
-    },
-    {
-      de: "Anteil (in % der Gesamtbevölkerung)",
-      en: "Share (in % of total population)",
-    },
-  ];
-
-  createDropDown(
-    absoluteDropDown,
-    "internet-activity-absolute-dropdown",
-    absoluteArray,
-    () => chart(internetActivityDropDown.value, absoluteDropDown.value)
-  );
-
-  chart(internetActivityDropDown.value, absoluteDropDown.value);
+	chart(dateDropDown.value);
 };
 
 // set the dimensions and margins of the graph
-const margin = { top: 10, right: 30, bottom: 30, left: 60 },
-  width = 460 - margin.left - margin.right,
-  height = 200 - margin.top - margin.bottom;
+const margin = { top: 30, right: 30, bottom: 30, left: 30 },
+	width = 500 - margin.left - margin.right,
+	height = 430 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3
-  .select("#chart-5")
-  .append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
-  .call(responsivefy)
-  .append("g")
-  .attr("transform", `translate(${margin.left},${margin.top})`);
+	.select('#chart-5')
+	.append('svg')
+	.attr('width', width + margin.left + margin.right)
+	.attr('height', height + margin.top + margin.bottom)
+	.call(responsivefy)
+	.append('g')
+	.attr(
+		'transform',
+		`translate(${width / 2 + margin.left},${height / 2 + margin.top})`
+	);
 
-export const chart = (internetActivity, absolute) => {
-  d3.selectAll("#chart-5 > svg > g > *").remove();
+export const chart = (date) => {
+	d3.selectAll('#chart-5 > svg > g > *').remove();
 
-  //Read the data
-  d3.csv(
-    "./src/data/102.csv",
+	//Read the data
+	d3.csv(
+		'./src/data/102.csv',
 
-    // When reading the csv, I must format variables:
-    function (d) {
-      return {
-        value: d.num,
-        internetActivity: d["Online-Aktivität"],
-        gender: d["Geschlecht"],
-        ageGroup: d["Altersklasse"],
-        education: d["Bildungsstand"],
-        absolute: d["Absolut / relativ"],
-        date: d3.timeParse("%Y")(d["Jahr"]),
-        result: d["Resultat"],
-      };
-    }
-  ).then(
-    // Now I can use this dataset:
-    function (data) {
-      // Filter data
-      const filteredData = data.filter(
-        (d) =>
-          d.value !== '"....."' &&
-          d.internetActivity === internetActivity &&
-          d.gender === "Geschlecht - Total" &&
-          d.ageGroup === "Altersklasse - Total" &&
-          d.education === "Bildungsstand - Total" &&
-          d.absolute === absolute &&
-          d.result === "Wert"
-      );
+		// When reading the csv, I must format variables:
+		function (d) {
+			if (
+				d['num'] !== '"....."' &&
+				d['Geschlecht'] === 'Geschlecht - Total' &&
+				d['Bildungsstand'] === 'Bildungsstand - Total' &&
+				d['Altersklasse'] === 'Altersklasse - Total' &&
+				d['Absolut / relativ'] === 'Anzahl Personen' &&
+				d['Jahr'] === date &&
+				d['Resultat'] === 'Wert'
+			) {
+				return {
+					value: d.num,
+					internetActivity: d['Online-Aktivität'],
+					gender: d['Geschlecht'],
+					ageGroup: d['Altersklasse'],
+					education: d['Bildungsstand'],
+					absolute: d['Absolut / relativ'],
+					date: d3.timeParse('%Y')(d['Jahr']),
+					result: d['Resultat'],
+				};
+			}
+		}
+	).then((data) => {
+		// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+		const radius = Math.min(width, height) / 2 - 10;
 
-      // Add X axis --> it is a date format
-      const x = d3
-        .scaleTime()
-        .domain(
-          d3.extent(filteredData, function (d) {
-            return d.date;
-          })
-        )
-        .range([0, width]);
-      svg
-        .append("g")
-        .attr("transform", `translate(0, ${height})`)
-        .call(d3.axisBottom(x));
+		// set the color scale
+		const datatemp = { a: 2, b: 3, c: 5 };
+		// Compute the position of each group on the pie:
+		const pie = d3
+			.pie()
+			.sort((a, b) => b[1].value - a[1].value)
+			.value((d) => d[1].value);
 
-      // Add Y axis
-      const y = d3
-        .scaleLinear()
-        .domain([
-          0,
-          d3.max(filteredData, function (d) {
-            return +d.value;
-          }),
-        ])
-        .range([height, 0]);
-      svg.append("g").call(d3.axisLeft(y));
+		const data_ready = pie(Object.entries(data));
 
-      // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
-      // Its opacity is set to 0: we don't see it by default.
-      const tooltip = d3
-        .select("#chart-5")
-        .append("div")
-        .style("opacity", 0)
-        .attr("class", "tooltip");
-
-      // A function that change this tooltip when the user hover a point.
-      // Its opacity is set to 1: we can now see it. Plus it set the text and position of tooltip depending on the datapoint (d)
-      const mouseover = function (event, d) {
-        tooltip
-          .html(d3.timeFormat("%Y")(d.date) + ": " + d.value)
-          .style("opacity", 1)
-          .style("left", event.pageX - 60 + "px")
-          .style("top", event.pageY - 60 + "px");
-        d3.select(this).style("stroke", "black");
-      };
-
-      // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
-      const mouseleave = function (d) {
-        tooltip.transition().duration(200).style("opacity", 0);
-        d3.select(this).style("stroke", "none");
-      };
-
-      // Add the line
-      svg
-        .append("path")
-        .datum(filteredData)
-        .attr("fill", "none")
-        .attr("stroke", "hsl(214, 89%, 52%)")
-        .attr("stroke-width", 1.5)
-        .attr(
-          "d",
-          d3
-            .line()
-            .x(function (d) {
-              return x(d.date);
-            })
-            .y(function (d) {
-              return y(d.value);
-            })
-        );
-
-      // Add the circles
-      svg
-        .selectAll("circle")
-        .data(filteredData)
-        .join("circle")
-        .attr("fill", "hsl(214, 89%, 52%)")
-        .attr("stroke", "none")
-        .attr("cx", (d) => x(d.date))
-        .attr("cy", (d) => y(d.value))
-        .attr("r", 3)
-        .on("mouseover", mouseover)
-        .on("mouseleave", mouseleave);
-    }
-  );
+		const mid = svg
+			.append('text')
+			.attr('text-anchor', 'middle')
+			.attr('transform', `translate(0,10)`)
+			.attr('font-size', '40px');
+		const total = d3.sum(data, (d) => d.value);
+		const top = svg
+			.append('text')
+			.attr('text-anchor', 'middle')
+			.style('font-size', '12px')
+			.attr('transform', `translate(0,-${radius})`);
+		// Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+		svg
+			.selectAll('whatever')
+			.data(data_ready)
+			.join('path')
+			.attr(
+				'd',
+				d3
+					.arc()
+					.innerRadius(radius * 0.5) // This is the size of the donut hole
+					.outerRadius(radius * 0.8)
+			)
+			.style('fill', 'white')
+			.style('stroke', 'black')
+			.style('stroke-width', '1px')
+			.style('opacity', 0.5);
+		svg
+			.selectAll('path')
+			.on('mouseover', function (e, d) {
+				mid.text(`${d3.format('.1%')(d.data[1].value / total)}`);
+				top.text(d.data[1].internetActivity);
+				d3.select(this).style('fill', 'black');
+			})
+			.on('mouseout', function (e, d) {
+				d3.select(this).style('fill', 'white');
+			});
+	});
 };
