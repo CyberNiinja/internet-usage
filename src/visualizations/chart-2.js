@@ -12,7 +12,7 @@ const chartTwo = () => {
 	chart(age.value, gender.value);
 };
 // set the dimensions and margins of the graph
-const margin = { top: 10, right: 30, bottom: 30, left: 30 },
+const margin = { top: 10, right: 30, bottom: 40, left: 30 },
 	width = 460 - margin.left - margin.right,
 	height = 250 - margin.top - margin.bottom;
 
@@ -133,6 +133,15 @@ const chart = async (age, gender) => {
 		.attr('stroke', 'hsl(0,0,0)')
 		.call(d3.axisBottom(x));
 	svg1.append('g').attr('stroke', 'hsl(0,0,0)').call(d3.axisLeft(y));
+	svg1
+		.append('text')
+		.attr('x', 2)
+		.attr('y', height - 6)
+		.attr('stroke', 'hsl(0,0,0)')
+		.style('font-size', '6px')
+		.text(
+			'This data is collected during a bi-annual(since 2017) poll created by the swiss federal statistical office.'
+		);
 };
 
 export { chartTwo };
