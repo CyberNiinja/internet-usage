@@ -303,6 +303,11 @@ a {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+  margin-top: 4.5rem;
+  margin-bottom: 9rem;
+}
+
 .footer__container {
   display: grid;
   border-top: 1px solid var(--overlay-hover-color);
@@ -389,6 +394,11 @@ a {
     right: -10px;
     cursor: pointer;
     transition: 0.4s;
+  }
+
+  .footer {
+    margin-top: 6.5rem;
+    margin-bottom: 0;
   }
 }
 
