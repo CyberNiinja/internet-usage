@@ -81,23 +81,36 @@ export const chart = (date) => {
 	).then((data) => {
 		// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
 		const radius = Math.min(width, height) / 2 - 10;
+		const values = [];
+		const total = d3.sum(data, (d) => d.value);
+		data.sort((a, b) => b.value - a.value);
+		values.push(data[0]);
+		values.push(data[1]);
+		values.push(data[2]);
+		values.push(data[3]);
+		values.push({
+			internetActivity: 'Others',
+			value:
+				total -
+				values[0].value -
+				values[1].value -
+				values[2].value -
+				values[3].value,
+		});
 
-		// set the color scale
-		const datatemp = { a: 2, b: 3, c: 5 };
 		// Compute the position of each group on the pie:
 		const pie = d3
 			.pie()
-			.sort((a, b) => b[1].value - a[1].value)
+			.sort((a, b) => a[0].value - b[0].value)
 			.value((d) => d[1].value);
-
-		const data_ready = pie(Object.entries(data));
+		const data_ready = pie(Object.entries(values));
 
 		const mid = svg
 			.append('text')
 			.attr('text-anchor', 'middle')
 			.attr('transform', `translate(0,10)`)
 			.attr('font-size', '40px');
-		const total = d3.sum(data, (d) => d.value);
+
 		const top = svg
 			.append('text')
 			.attr('text-anchor', 'middle')
