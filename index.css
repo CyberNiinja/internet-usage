@@ -367,6 +367,7 @@ a {
 
 .footer__container {
   display: grid;
+  gap: 1rem;
   border-top: 1px solid var(--overlay-hover-color);
   padding-block: 2rem;
   align-items: center;
@@ -374,6 +375,17 @@ a {
 
 .footer__copy {
   text-align: center;
+}
+
+.footer__source {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-self: center;
+}
+
+.footer__icon {
+  display: flex;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -456,6 +468,15 @@ a {
   .footer {
     margin-top: 6.5rem;
     margin-bottom: 0;
+  }
+
+  .footer__container {
+    display: flex;
+  }
+
+  .footer__copy {
+    flex-grow: 1;
+    text-align: start;
   }
 }
 
