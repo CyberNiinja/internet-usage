@@ -56,4 +56,6 @@ const darkTheme = "dark-theme";
 themeButton.addEventListener("click", () => {
   // Add or remove the dark / icon theme
   document.body.classList.toggle(darkTheme);
+  // Reload pie chart
+  chartFive();
 });

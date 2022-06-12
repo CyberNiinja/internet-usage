@@ -48,4 +48,9 @@ function createDropDown(dropdown, name, array, callback) {
   }
 }
 
-export { responsivefy, createDropDown };
+// Custom function to remove dropdowns
+function removeDropDown(dropdown, name) {
+  d3.select(`#${name}`).selectAll("option").remove();
+}
+
+export { responsivefy, createDropDown, removeDropDown };
