@@ -194,6 +194,7 @@ a {
 
 .nav__logo {
   padding-inline: 0.5rem;
+  white-space: nowrap;
 }
 
 .nav__link {
@@ -355,6 +356,7 @@ a {
   font-size: smaller;
   font-weight: 600;
   color: var(--title-color);
+  margin-bottom: 0.25rem;
 }
 
 /*=============== FOOTER ===============*/
